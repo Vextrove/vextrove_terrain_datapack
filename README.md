@@ -2,25 +2,25 @@
 This datapack improves upon the default terrain by adding more variety to the types of stone you will find underground.
 It also adds several world types, in the form of new dimensions.
 Additionally, it adds some minor gameplay modifications, such as:
- - You can use [most stone types](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/items/stone_crafting_materials.json) as a substitute for cobblestone when crafting
- - You can climb [more blocks](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/climbable.json), such as fences and chains. You will be able to climb the fence, but you still won't be able to jump over!
- - Endermen can pick up [a wide variety of blocks](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/enderman_holdable.json)
- - [Deepslate blocks burn soulfire.](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/deepslate_soul_fire.png) Why? ~~Grimstone.~~ I don't know.
+ - You can use [most stone types](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/items/stone_crafting_materials.json) as a substitute for cobblestone when crafting
+ - You can climb [more blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/climbable.json), such as fences and chains. You will be able to climb the fence, but you still won't be able to jump over!
+ - Endermen can pick up [a wide variety of blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/enderman_holdable.json)
+ - [Deepslate blocks burn soulfire.](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_soul_fire.png) Why? ~~Grimstone.~~ I don't know.
 
-**[LEAVE SUGGESTIONS HERE](https://github.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
+**[LEAVE SUGGESTIONS HERE](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
 
 ## Terrain generation changes
 ### Overworld
 #### All biomes
-![A portal room made of Deepslate Bricks](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/deepslate_stronghold.png "A portal room made of Deepslate Bricks")
-![A Stronghold fountain made of Deepslate Bricks](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/deepslate_fountain.png "A Stronghold fountain made of Deepslate Bricks")
-![A Stronghold corridor made of Deepslate Bricks](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/deepslate_corridor.png "A Stronghold corridor made of Deepslate Bricks")
-![A monster dungeon made of Cobbled Deepslate](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/deepslate_dungeon.png "A monster dungeon made of Cobbled Deepslate")
+![A portal room made of Deepslate Bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_stronghold.png "A portal room made of Deepslate Bricks")
+![A Stronghold fountain made of Deepslate Bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_fountain.png "A Stronghold fountain made of Deepslate Bricks")
+![A Stronghold corridor made of Deepslate Bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_corridor.png "A Stronghold corridor made of Deepslate Bricks")
+![A monster dungeon made of Cobbled Deepslate](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_dungeon.png "A monster dungeon made of Cobbled Deepslate")
  - Deepslate strongholds below y: 0
  - Deeper ravines and crevices
 ##### Stone types
-![A generic cave](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/cave.png "A generic cave")
-![Various igneous rock types in a cave](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/cave_wall.png "Various igneous rock types in a cave")
+![A generic cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave.png "A generic cave")
+![Various igneous rock types in a cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave_wall.png "Various igneous rock types in a cave")
  - Andesite (in the Stone layer)
  - Granite (in the Stone layer)
  - Diorite in the Stone layer)
@@ -32,67 +32,67 @@ Additionally, it adds some minor gameplay modifications, such as:
  - Blackstone (at the bottom of the Deepslate layer)
  - Magma (just above the Bedrock floor)
 #### Jungle biomes
-![A more tropical Jungle](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/jungle_foliage.png "A more tropical Jungle")
-![The underground Jungle](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/jungle_cavern.png "The underground Jungle")
+![A more tropical Jungle](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/jungle_foliage.png "A more tropical Jungle")
+![The underground Jungle](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/jungle_cavern.png "The underground Jungle")
  - A more tropical color
  - Underground grass
 #### Swamps
-![Clay, Dripleaves and huge mushrooms in a Swamp](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/swamp.png "Clay, Dripleaves and huge mushrooms in a Swamp")
-![A dank Swamp cave tunnel](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/swamp_cave.png "A dank Swamp cave tunnel")
+![Clay, Dripleaves and huge mushrooms in a Swamp](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/swamp.png "Clay, Dripleaves and huge mushrooms in a Swamp")
+![A dank Swamp cave tunnel](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/swamp_cave.png "A dank Swamp cave tunnel")
  - Huge mushrooms
  - Clay
  - Dripleaves
 #### Mushroom islands
-![A variety of huge mushrooms](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/huge_mushrooms.png "A variety of huge mushrooms")
-![The underground of a Mushroom Island](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/mushroom_cavern.png "The underground of a Mushroom Island")
+![A variety of huge mushrooms](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/huge_mushrooms.png "A variety of huge mushrooms")
+![The underground of a Mushroom Island](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mushroom_cavern.png "The underground of a Mushroom Island")
  - Huge mushrooms underground
  - More variety in huge mushrooms
 #### Lush caves
-![Foliage in a Lush Cave](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/lush_foliage.png)
+![Foliage in a Lush Cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/lush_foliage.png)
  - Foliage (grass and leaves) color matches that of moss and dripleaves
  - Tropical water
 #### Dripstone caves
-![Murky water](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/murky_water.png "Murky water")
-![A dungeon that has been covered by dripstone](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/dripstone_dungeon.png "A dungeon that has been covered by dripstone")
+![Murky water](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/murky_water.png "Murky water")
+![A dungeon that has been covered by dripstone](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/dripstone_dungeon.png "A dungeon that has been covered by dripstone")
  - Murky water
 #### Cold biomes
-![An icy cavern](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/frozen_cavern.png "An icy cavern")
-![A frozen dungeon](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/frost_dungeon.png "A dungeon that has been frozen")
-![A bridge over lava](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/unfortunate_bridge.png)
+![An icy cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frozen_cavern.png "An icy cavern")
+![A frozen dungeon](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_dungeon.png "A dungeon that has been frozen")
+![A bridge over lava](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/unfortunate_bridge.png)
  - Ice caverns
  - Blue ice patches
  - Frozen water underground
 #### Desert biomes
-![A desert cavern](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/desert_cave.png "A desert cavern")
+![A desert cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png "A desert cavern")
  - Smooth Sandstone caverns
  - No Andesite or Diorite
  - Sand generates instead of Gravel
 #### Mesa biomes
-![A badlands cavern](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/mesa_cave.png "A badlands cavern")
+![A badlands cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mesa_cave.png "A badlands cavern")
  - Smooth Red Sandstone caverns
  - Red Sand generates instead of Gravel
 #### Ocean biomes
-![A Prismarine ocean cavern](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/prismarine_cavern.png "A Prismarine ocean cavern")
+![A Prismarine ocean cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/prismarine_cavern.png "A Prismarine ocean cavern")
  - Ocean water has transformed the stone into Prismarine
 #### Beach biomes
-![Dripstone in a beach cave](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/beach_cavern.png "Dripstone in a beach cave")
+![Dripstone in a beach cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/beach_cavern.png "Dripstone in a beach cave")
  - Dripstone (due to water from the oceans making the caves humid)
 #### Mountain biomes
  - Marble caves (Smooth Quartz)
 #### Hill biomes
-![A calcite cliffside](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/calcite.png "A calcite cliffside")
+![A calcite cliffside](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/calcite.png "A calcite cliffside")
  - Calcite (around surface height)
 ### The Nether
-![Magma at the bottom of the world](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/magmafication.png "Magma at the bottom of the world")
-![Blood](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/blood.png "Blood")
-![Foliage in a Warped Forest](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/warped_foliage.png)
-![Foliage in a Crimson Forest](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/crimson_foliage.png)
-![Foliage in a Basalt Delta](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/basalt_foliage.png)
-![Foliage in a Soul Sand Valley](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/soul_foliage.png)
-![Foliage in the Nether Wastes](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/nether_foliage.png)
-![Huge mushrooms in the Nether Wastes](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/nether_mushrooms.png "Huge mushrooms in the Nether Wastes")
-![A deteriorating Nether Fortress](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/deteriorating_fortress.png "A deteriorating Nether Fortress")
-![A Nether Fortress with cracked bricks](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/cracked_fortress.png "A Nether Fortress with cracked bricks")
+![Magma at the bottom of the world](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/magmafication.png "Magma at the bottom of the world")
+![Blood](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/blood.png "Blood")
+![Foliage in a Warped Forest](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/warped_foliage.png)
+![Foliage in a Crimson Forest](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/crimson_foliage.png)
+![Foliage in a Basalt Delta](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/basalt_foliage.png)
+![Foliage in a Soul Sand Valley](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/soul_foliage.png)
+![Foliage in the Nether Wastes](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/nether_foliage.png)
+![Huge mushrooms in the Nether Wastes](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/nether_mushrooms.png "Huge mushrooms in the Nether Wastes")
+![A deteriorating Nether Fortress](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deteriorating_fortress.png "A deteriorating Nether Fortress")
+![A Nether Fortress with cracked bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cracked_fortress.png "A Nether Fortress with cracked bricks")
  - Charred Netherrack (Blackstone) at the bottom of the world
  - Nether biomes have a matching foliage color
  - Blocks turn into magma above the lava ocean
@@ -100,42 +100,42 @@ Additionally, it adds some minor gameplay modifications, such as:
  - Nether bricks glow (Red Nether Bricks) in the hottest part of the Nether
  - The Nether has a day/night cycle, meaning that brightness increases and decreases slightly over time
 ### The End
-![Purple water in the End](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/end_water.png "Purple water in the End")
-![Foliage in the End](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/end_foliage.png)
+![Purple water in the End](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/end_water.png "Purple water in the End")
+![Foliage in the End](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/end_foliage.png)
  - Water is purple in the End
  - The outer islands have a custom foliage color
 
 ## Added dimensions
 Use /execute in vextrove:<dimension name> run tp ~ 96 ~ to access these.
 ### 1024
-![A colossal mountain](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/1024_mountain.png "A colossal mountain")
-![A colossal hill](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/1024_hill.png "A colossal hill")
-![A snowy mountain](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/snowy_mountain.png "A snowy mountain")
-![Water from a cave](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/water_tunnel.png)
+![A colossal mountain](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/1024_mountain.png "A colossal mountain")
+![A colossal hill](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/1024_hill.png "A colossal hill")
+![A snowy mountain](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/snowy_mountain.png "A snowy mountain")
+![Water from a cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/water_tunnel.png)
 A world 1024 blocks in height. Ranges from -256 to 768
 ### Max (laggy)
 A world 4064 blocks in height, the highest amount possible. Ranges from -2032 to 2032. I dare you to spelunk all the way to the bottom. Reaching -2000 counts as a win. Bonus points if you can do it without mining any deepslate! Either way, it will probably take you over an hour. How fast can it be done? 
 ### Beta (doesn't work yet)
 A recreation of Minecraft 1.7.3 terrain. Will likely range from -64 to 128
 ### The Aether
-![Forgotten Highlands](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/aether.png)
-![An Irradiated Forest](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/irradiated_forest.png)
+![Forgotten Highlands](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/aether.png)
+![An Irradiated Forest](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/irradiated_forest.png)
 A basic imitation of the classic Aether mod. Ranges from 0 to 128
 ### The Skylands
-![The bottom of the Skylands](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/skylands_deep.png "The bottom of the Skylands")
-![A Birch Forest](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/skylands_birch.png)
-![Overlooking a hole in a skyland](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/skylands_view.png)
-![A Spruce Forest](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/skylands_spruce.png)
+![The bottom of the Skylands](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_deep.png "The bottom of the Skylands")
+![A Birch Forest](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_birch.png)
+![Overlooking a hole in a skyland](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_view.png)
+![A Spruce Forest](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_spruce.png)
 A 1024 block tall floating islands world. Ranges from -256 to 768
 ### Caverns
 A 512 block tall cave world. Ranges from -128 to 384
 ### Dripstone Caverns
-![A colossal dripstone](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/giant_dripstone.png "A colossal dripstone")
-![A stalagmite that has fallen over](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/fallen_stalagmite.png "A stalagmite that has fallen over")
-![A dripstone cavern](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/dripstone_cavern.png "A dripstone cavern")
+![A colossal dripstone](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/giant_dripstone.png "A colossal dripstone")
+![A stalagmite that has fallen over](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/fallen_stalagmite.png "A stalagmite that has fallen over")
+![A dripstone cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/dripstone_cavern.png "A dripstone cavern")
 A 256 block tall dripstone cave world. Ranges from -192 to 64
 ### Lush Caverns
-![A lush cavern](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/lush_cavern.png "A lush cavern")
+![A lush cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/lush_cavern.png "A lush cavern")
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
@@ -273,4 +273,4 @@ Roughly ordered from greatest to worst
  - Bounces the player back up
  - Could be used in the Nether as a substitute for MLG water bucketing
 
-![A Mongus](https://github.com/Vextrove/vextrove_terrain_datapack/blob/master/img/mongus.png "A Mongus")
+![A Mongus](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mongus.png "A Mongus")

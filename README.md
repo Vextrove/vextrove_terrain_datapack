@@ -139,28 +139,36 @@ A 256 block tall dripstone cave world. Ranges from -192 to 64
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
- - Randomize giant speleothem parameters
- - Look into outer End island mob spawns
- - Underground trees
- - Underground Lilypads in Swamp
- - Look into increasing the maximal tree height
- - Look into getting structures to generate above y: 128 in the Nether
- - Look into adjusting the tool type and tier block tags
- - Learn more about structures/custom structures so I can use them to do cool things
- - Look into generating obsidian on top of blackstone near the bottom
+ - Check if there is still open bedrock at the bottom of the lava sea in the Nether
  - Get Soulsand Valley to generate rare Skeleton skulls on the floor again
+ - Implement more elegant way of generating fire in the Nether
+ - Modify giant speleothem parameters (start from scratch)
  - Generate Shroomlight on the underground Mushroom Island ceiling
- - Check if open bedrock at the bottom of the Nether
- - Generate large quartz crystals in the highest part of the Nether Wastes
- - Figure out if it is possible to get brown Mooshrooms to spawn on Mushroom Islands
- - Look into possibilities to optimize the Soulsand Valley/Basalt Delta ceiling configuration
- - Look into a more elegant way of increasing the amount of fire in the Nether
+ - Underground Lilypads in Swamp
+ - Look into optimizing the Soulsand Valley/Basalt Delta ceiling generation
+ - Look into increasing the maximal tree height
  - Get Beta terrain working as intended
- - Make better use of 4064 block tall world (colossal mountains?)
-### Add images
+ - Get structures to generate above y: 128 (particularly in the Nether) - Structures are hard-coded to generate at specific ranges of y levels (last checked 21w19a) 
+ - Look into altering the tool type and tier block tags
+ - Look into my customized End mob spawns
+ - Learn more about structures/custom structures so I can use them to do cool things
+### Website
+ - Add videos
+ - Create Github page
+ - Publish datapack on Curseforge
+ - Add features implemented in 
+#### Add images
  - Cavern world
  - Mountain quartz
  - Better badlands cave picture
+### On hold until new customization options become available
+ - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w19a)
+ - Adjust cloud height in the 1024 and 4064 block tall world types and the Aether dimension - Cloud height is hard-coded (last checked 21w19a)
+ - Underground trees - The game won't generate trees where there is no sunlight (last checked 21w19a)
+ - Make better use of 4064 block tall world (I have to put my ideal vision on hold due to a minor limitation I'll elaborate on later)
+ - Generate large quartz crystals (reskinned large dripstones) in the highest part of the Nether Wastes - Large dripstones are hard-coded to only generate below y: 0 (last checked 21w19a)
+ - Get [Chicken Jockey Towers](https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/51/Chicken_Jockey_Tower.png) to spawn - Can't configure mobs to spawn riding other mobs (last checked 21w19a)
+Please let me know if any of this has changed!
 
 ## Videos
  - 
@@ -171,53 +179,60 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - [SlicedLime's advancements datapack](https://github.com/slicedlime/LimesAdvancements)
  - [myuusubi's FabulousHDR resource pack](https://www.curseforge.com/minecraft/texture-packs/fabulous-hdr)
 
-## Minecraft suggestions
-This is my personal list of suggestions for Minecraft. Most of these are my own, however a couple of them came from other people.
-Roughly ordered from greatest to worst
+## Minecraft ideas
+This is my personal list of ideas of things to add to Minecraft. Most of these are my own, however a couple of them came from other people.
+Roughly ordered from best to worst, based on how good the concept is/how much I like it divided by how difficult I think it would be to implement. That being said, I am not a programmer...
+These are here so they may inspire me when adding features to this datapack. Bad ideas will be removed over time.
 
 ### Altitude-dependent biome generation
  - Different biomes generate at different heights
  - It appears this will be implemented in 1.18 with the new mountains, and hopefully the upcoming cave biomes as well
 ### Directional damage (Fix MC-26678)
 ### Ghast fireball charging animation (Fix MC-165038)
-### Skin customization depending on environment
+### [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
+ - Great steampunk vibes!
+### Water on top of lava forms tuff rather than Cobblestone
+### Environment-dependant skins
  - e.g. miner outfit when underground, diver outfit when underwater, warm outfit in cold biomes, beach outfit in beach biomes, etc.
-### Connected chains moving like slime/honey blocks when pushed
-### Sounds
- - Brick blocks with netherbrick sound
- - Unique sound for Cobblestone
- - Enchanting Table (magical sound)
- - Unique sound for Clay
-### Dynamic biomes
- - e.g. plant a lot of Jungle trees to create artificial Jungle biome, snow to create a cold biome, etc.
- - Special variations depending on the dimension the biome is in, e.g Hot Jungle Biome (Red foliage? Special mobs?)
 ### Hoes take time to till soil
- - Higher tiers are faster
-### Different mining 'crack' patterns depending on what block is being broken and/or what tool is being used
- - Logs + Axe: cutting pattern
+ - Higher tiers are faster, but tilling shouldn't take too long
+ - Different blocks take different times to till
 ### Different mining animations for different tools
  - Shovel: Digging motion
  - Pickaxe: Swinging motion
- - Axe: Chopping motion
- - Hoe
-### Lava + Sand = Glass
+ - Axe: Sideways chopping motion
+ - Hoe: Tilling motion
+ - Sword: Slashing motion
+#### Attacks require different animations (default one would suffice but isn't ideal)
+### Different mining cracking patterns depending on what block is being broken and/or what tool is being used
+ - Logs + Axe: cutting pattern
+ - It does not make sense for some blocks to appear to break like they currently do
 ### Vertical rails
 ### Elder Prismarine
  - Prismarine with the Elder Guardian color palette
- - Can be crafted into Elder Prismarine Brick blocks
+ - Can be crafted into Elder Prismarine Bricks
 ### Frosted glass
  - The opposite of tinted glass; an opaque block that lets through light.
  - Crafted by resmelting glass blocks
- - Comes in all colors
+ - Comes in "all 16 colors"
 ### Soul Sandstone?
- - Brown bricks
-### Hoes break crops/tall grass/leaves in a 3x3 area
- - Range might be increased with enchantments
-### Hoes only destroy fully grown crops
-### Infinity on water/lava buckets
+ + Various Soul Sandstone Brick blocks
 ### Boomerang
  - Makes a circular motion
  - With enchantments, it can hit more than one target without falling
+ - Fits with Minecraft's "medieval" aesthetic
+### Lava "melts" blocks it comes in contact with
+ - Cobblestone -> Stone
+ - Sand -> Sandstone
+### Make block sounds resource pack dependent (I have faith this will be added one day)
+### Enable datapacks to add custom blocks
+### Dynamic biomes
+ - e.g. plant a lot of Jungle trees to create artificial Jungle biome, snow to create a cold biome, etc.
+ - Special variations depending on the dimension the biome is in, e.g Hot Jungle Biome (Red foliage? Special mobs?)
+### Hoes break crops/tall grass/leaves in a 3x3 area
+ - Range might be increased with enchantments
+### Hoes only destroy fully grown crops
+### Infinity on water/lava buckets - Suggested by unknown
 ### Eye block
  - Activates by entities looking at it
  - Looking at the center causes a stronger Redstone signal output (like the Target block)
@@ -226,17 +241,23 @@ Roughly ordered from greatest to worst
  - Entities can stand on them without falling off
 ### Teleporters
  - Have to be synced up with each other
-### Stacked Dispenser crafting recipe: Bow recipe with Dropper in middle
+### Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
 ### Random block picker
  - Some builds use a palette of multiple blocks to create a textured surface - an example of this are the Nylium/Netherwart surfaces in Netherwart forests. This item would greatly help create such patterns.
-### Lighting
- - Lighting emitting entities
- - Colored light
-### Biome-dependent/altitude ambient noises
+### Echo sound filter
+ - Enable when skylight level is zero and current altitude is below y: 24
+### Better sound system
+ - Sound filtering
+ - Could possibly run on a seperate thread? Supposedly Minecraft 
+### Light emitting entities
+### Colored light
+### Biome and altitude dependent ambient noises
  - Birds
  - Wind
+ - Shore wave sounds
 ### Seasons
-  Can be implemented simply by cycling through four grass/leave color palettes over time
+ - Can be implemented simply by cycling through four grass/leave color palettes over time
+ - Could possibly affect mobs spawns, like how moon phases affect Slime spawns in Swamps
 ### Orange Autumn trees
 ### Pink Sakura (cherry blossom) trees
 ### Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
@@ -251,19 +272,20 @@ Roughly ordered from greatest to worst
 ### Mob texture variations (should be distinguishable, like red and brown Mooshrooms, but not like horses)
  - Black and white cows
  - Fully brown cows
- - 'Duck' Chickens
-### Inventory 'sort' button
+ - "Duck" Chickens
+### Inventory sort button
 ### Cave biomes
  - Slimy cave biome
 ### Speaker block
  - Plays sounds
-### Chorus 'grass' block
- - Grows on the bottom side of Endstone instead of on the top side
+### Chorus "grass" block
+ - Like Grass blocks, but the grass part grows on the bottom side of Endstone instead of on the top side
 ### Fence Post
  - A singular fence type that doesn't connect to surrounding blocks
 ### Wall Post
  - A singular wall type that doesn't connect to surrounding blocks
 ### Look through Nether portals
+ - I don't want to give up on the purple event horizon
 ### Vertical Slabs
  - I never liked slabs, but now that they are here you might as well add vertical slabs. Placement would be hell
 ### Dual-type slabs

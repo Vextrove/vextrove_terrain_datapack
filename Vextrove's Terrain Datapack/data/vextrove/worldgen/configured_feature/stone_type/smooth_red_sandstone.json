@@ -1,0 +1,75 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "tag": "minecraft:base_stone_overworld",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:smooth_red_sandstone"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:sand",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:red_sand"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:gravel",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:red_sand"
+                    }
+                  }
+                ],
+                "size": 64,
+                "discard_chance_on_air_exposure": 0.0
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "absolute": 8
+                  },
+                  "max_inclusive": {
+                    "absolute": 64
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 36
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

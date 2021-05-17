@@ -1,0 +1,13 @@
+{
+  "type": "vextrove:caves",
+  "generator": {
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "seed": 0,
+      "biome": "minecraft:lush_caves"
+    },
+    "seed": 0,
+    "settings": "vextrove:caves",
+    "type": "minecraft:noise"
+  }
+}

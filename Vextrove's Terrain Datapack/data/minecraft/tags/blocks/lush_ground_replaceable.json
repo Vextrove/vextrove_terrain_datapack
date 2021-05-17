@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:deepslate",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:calcite",
+    "minecraft:tuff",
+    "minecraft:dirt",
+    "#minecraft:sand",
+    "minecraft:clay",
+    "minecraft:gravel",
+    "#vextrove:overworld_ores",
+    "minecraft:blackstone",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:cobblestone",
+    "minecraft:cobbled_deepslate",
+    "minecraft:mossy_cobblestone",
+    "minecraft:terracotta",
+    "minecraft:prismarine",
+    "minecraft:dripstone_block",
+    "minecraft:end_stone",
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "#minecraft:flowers",
+    "minecraft:vine"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:nether_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:red_nether_bricks"
+                    }
+                  }
+                ],
+                "size": 33,
+                "discard_chance_on_air_exposure": 0.05
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 8
+                  },
+                  "max_inclusive": {
+                    "above_bottom": 56
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 64
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,93 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:oak_log",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:dark_prismarine"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:oak_planks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:copper_block"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:copper_block",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:exposed_copper"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:exposed_copper",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:weathered_copper"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:weathered_copper",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:oxidized_copper"
+                    }
+                  }
+                ],
+                "size": 64,
+                "discard_chance_on_air_exposure": 0.0
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 8
+                  },
+                  "max_inclusive": {
+                    "absolute": 56
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 127
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

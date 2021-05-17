@@ -1,0 +1,93 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:blackstone_bricks"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:cracked_stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:cracked_blackstone_bricks"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:mossy_stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:gilded_blackstone"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:chiseled_stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:chiseled_blackstone_bricks"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:cobblestone",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:blackstone"
+                    }
+                  }
+                ],
+                "size": 64,
+                "discard_chance_on_air_exposure": 0.0
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 6
+                  },
+                  "max_inclusive": {
+                    "absolute": 0
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 127
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

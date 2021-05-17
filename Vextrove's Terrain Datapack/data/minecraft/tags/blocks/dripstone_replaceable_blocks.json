@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#vextrove:stone_types",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:cobbled_deepslate",
+    "minecraft:oak_planks",
+    "minecraft:oak_log",
+    "#minecraft:stone_bricks",
+    "#vextrove:deepslate_bricks",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:gravel"
+  ]
+}

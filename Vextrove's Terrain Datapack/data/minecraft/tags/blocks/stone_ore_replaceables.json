@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:prismarine",
+    "minecraft:smooth_quartz",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:calcite"
+  ]
+}

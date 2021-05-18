@@ -49,7 +49,6 @@
       "vextrove:stone_type/smooth_basalt",
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
-      "vextrove:modifiers/wood_type/ocean",
       "minecraft:prototype_ore_coal_upper",
       "minecraft:prototype_ore_coal_lower",
       "minecraft:prototype_ore_iron_upper",
@@ -64,6 +63,7 @@
       "minecraft:prototype_ore_lapis_buried",
       "minecraft:prototype_ore_copper",
       "minecraft:prototype_underwater_magma",
+      "vextrove:modifiers/wood_type/ocean",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"

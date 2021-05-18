@@ -58,11 +58,13 @@
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
-                      "Name": "minecraft:lightning_rod",
+                      "Name": "minecraft:warped_fence",
                       "Properties": {
-                        "facing": "up",
-                        "powered": "false",
-                        "waterlogged": "false"
+                        "east": "false",
+                        "north": "false",
+                        "south": "false",
+                        "waterlogged": "false",
+                        "west": "false"
                       }
                     }
                   }

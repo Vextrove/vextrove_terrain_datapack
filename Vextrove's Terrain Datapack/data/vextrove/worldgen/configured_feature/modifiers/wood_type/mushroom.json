@@ -35,7 +35,7 @@
                   },
                   {
                     "target": {
-                      "tag": "minecraft:fences",
+                      "tag": "minecraft:wooden_fences",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {

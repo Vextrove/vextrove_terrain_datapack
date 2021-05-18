@@ -1,5 +1,6 @@
 # Vextrove's Terrain Datapack
 This datapack improves upon the default terrain by adding more variety to the types of stone you will find underground.
+The world is 384 blocks tall, ranging from y: -64 to y: 320.
 It also adds several world types, in the form of new dimensions.
 Additionally, it adds some minor gameplay modifications, such as:
  - You can use [most stone types](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/items/stone_crafting_materials.json) as a substitute for cobblestone when crafting
@@ -146,19 +147,22 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Get Soulsand Valley to generate rare Skeleton skulls on the floor again
  - Implement more elegant way of generating fire in the Nether
  - Modify giant speleothem parameters (start from scratch)
+ - Smoother surface noise in overworld
+ - Rougher surface noise in custom dimensions
+ - Generate Slime Blocks in Swamps
  - Generate Shroomlight on the underground Mushroom Island ceiling
  - Underground Lilypads in Swamp
  - Look into optimizing the Soulsand Valley/Basalt Delta ceiling generation
  - Look into increasing the maximal tree height
  - Look into generating different biomes at different vertical levels in the Nether
- - Get Beta terrain working as intended
  - Look into altering the tool type and tier block tags
  - Look into my customized End mob spawns
+ - Get Beta terrain working as intended
  - Learn more about structures/custom structures so I can use them to do cool things
  - Look into generating a giant tree (Yggdrasil)
 ### Website
- - Add videos
  - Customize discussions page
+ - Add videos
  - Create Github page
  - Add features implemented in this datapack to ideas list and add images
 #### Add images
@@ -188,7 +192,7 @@ Please let me know if any of this has changed!
  - 
 
 ## Resource pack/Datapack recommendations
- - [Lime's Advancements datapack](https://github.com/slicedlime/LimesAdvancements) or [Derec's Biome Advancements datapack](https://www.curseforge.com/minecraft/customization/derecs-biome-advancements)
+ - [Lime's Advancements datapack](https://github.com/slicedlime/LimesAdvancements)
  - [myuusubi's FabulousHDR resource pack](https://www.curseforge.com/minecraft/texture-packs/fabulous-hdr)
 
 ## Minecraft ideas
@@ -210,7 +214,7 @@ These ideas are here so they may inspire me when adding features to this datapac
  - One or two additional rows would be great
 #### ★★★☆☆ Inventory sort button
 ### ★★★☆☆ Enable datapacks to add custom blocks
-### ★★★☆☆ Lava "melts" blocks it comes in contact with
+### ★★☆☆☆ Lava "melts" blocks it comes in contact with
  - Cobblestone -> Stone
  - Sand -> Sandstone
  - Red Sand -> Red Sandstone
@@ -234,111 +238,106 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Range might be increased with enchantments
 ##### ★★☆☆☆ Hoes only destroy fully grown crops
  - Like how wielding a sword in creative mode prevents you from breaking anything
+#### ★★★☆☆ Random block picker
+ - Some builds use a palette of multiple blocks to create a textured surface - an example of this are the Nylium/Netherwart surfaces in Netherwart forests. This item would greatly help create such patterns.
 #### ★★★☆☆ Boomerang
  - Makes a circular motion
  - With enchantments, it can hit more than one target without falling
  - Fits with Minecraft's "medieval" aesthetic
-#### ★★★☆☆ Random block picker
- - Some builds use a palette of multiple blocks to create a textured surface - an example of this are the Nylium/Netherwart surfaces in Netherwart forests. This item would greatly help create such patterns.
 #### Infinity on water/lava buckets - Suggested by unknown
  - Great for building :)
- - Great for grieving :(
- - Creative mode already has it - in survival mode, it is just tedious to have to replenish from your 2x2 infinite water source
+ - Great for grieving >:)
+ - Creative mode already has it - in survival mode, you just have to tediously replenish from your 2x2 infinite water source
  - Renewable Lava
 ### Decorative blocks:
-#### ★★★★☆ Elder Prismarine
- - Prismarine with the Elder Guardian color palette
- - Can be crafted into Elder Prismarine Bricks
-#### ★★★★☆ Red Nether Bricks:
-##### Red Nether Brick Fence
-##### Cracked Red Nether Bricks
-##### Chiseled Red Nether Bricks
 #### ★★★★☆ Frosted glass
  - The opposite of tinted glass; an opaque block that lets through light.
  - Crafted by resmelting glass blocks
  - Comes in "all 16 colors"
+#### ★★★★☆ Elder Prismarine
+ - Prismarine with the Elder Guardian color palette
+ - Can be crafted into Elder Prismarine Bricks
 #### ★★★☆☆ Soul Sandstone?
- + Various Soul Sandstone Brick blocks
+ - Various Soul Sandstone Brick blocks
+#### ★★★★☆ Red Nether Bricks:
+##### Red Nether Brick Fence
+##### Cracked Red Nether Bricks
+##### Chiseled Red Nether Bricks
 #### ★★★★☆ [Cherry blossoms](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
  - Pink planks
  - Pink leaves
  - Dark grayish brown logs
 ### ★★☆☆☆ Fence Post
- - A singular fence type that doesn't connect to surrounding blocks
+ - A fence type that doesn't connect to surrounding blocks
 ### ★☆☆☆☆ Wall Post
- - A singular wall type that doesn't connect to surrounding blocks
-### ★☆☆☆☆ Vertical Slabs?
- - I never liked slabs, but now that they are here you might as well add vertical slabs. Slab placement would be even bigger hell than it already is
+ - A wall type that doesn't connect to surrounding blocks
 ### ★☆☆☆☆ Dual-type slabs??
-### Dual-type vertical slabs???
 ### Minecarts:
-#### Vertical rails
+#### ★★★☆☆ rails
  - A Minecart would require Powered Rails to go up
-#### Increase Furnace Minecart tensile strength
+#### ★★★☆☆ Increase Furnace Minecart tensile strength
  - Currently Minecarts split up when making a turn
 ### Biomes:
-#### Altitude-dependent biome generation
+#### ★★★☆☆ Altitude-dependent biome generation
  - Different biomes generate at different heights
  - It appears this will be implemented in 1.18 with the new mountains, and hopefully the upcoming cave biomes as well
 #### Caves:
-##### Stone types
- - [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frozen_cavern.png)
- - [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
- - Marble caves
+##### ★★★★★ Local stone types
+ - ★★★★☆ [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png)
+ - ★★★★☆ [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
+ - ★★★★☆ [Terracotta caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/terracotta_cave.png)
+ - ★★☆☆☆ Marble caves
 ##### Slimes:
- - Slimes should spawn more often in caves
- - Slimes should rarely spawn at bigger sizes
+ - ★★★★★ Slimes should occasionally spawn underground, especially in Lush Caves (not just in Slime chunks)
+ - ★★★★★ Slime size should either scale linearly or exponentially, not logarithmically like they currently do
+ - ★★★★☆ Slimes should rarely spawn at bigger sizes
 ###### Overhaul Slime chunks
  - Needs a visual cue, perhaps remove Slime chunks and replace them with a slimy cave biome
-#### Dynamic biomes
+#### ★★★☆☆ Dynamic biomes
  - e.g. plant a lot of Jungle trees to create artificial Jungle biome, snow to create a cold biome, etc.
  - Special variations depending on the dimension the biome is in, e.g Hot Jungle Biome (Red foliage? Special mobs?)
 ### Functional blocks:
-#### Moving platform block
+#### ★★☆☆☆ Moving platform block
  - Moves horizontally or vertically
  - Entities can stand on them without falling off
-#### Eye block
+#### ★★☆☆☆ Eye block
  - Activates by entities looking at it
  - Looking at the center causes a stronger Redstone signal output (like the Target block)
-#### Teleporters
+#### ★☆☆☆☆ Teleporters
  - Have to be synced up with each other
-#### Speaker block
+#### ★☆☆☆☆ Speaker block
  - Plays sounds
 ### Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
 ### Sound:
-#### Make block sounds .json dependent
+#### ★★★★☆ Make block sounds .json dependent
  - Could possibly run on a seperate thread? Supposedly Minecraft only employs one CPU core while most devices have at least two
-#### Sound filtering
+#### ★★★★☆ Sound filtering
  - Underwater - and even more so "underlava" - higher frequencies are filtered out, muffling the sound
-#### Echo sound filter
+#### ★★★☆☆ Echo sound filter
  - Either do a rudimentary calculation of cave size, or enable when skylight level is zero and current altitude is below y: 24
-#### Biome and altitude dependent ambient noises
+#### ★☆☆☆☆ Biome and altitude dependent ambient noises
  - Birds in forests and especially jungles
  - Wind high up in the mountains and perhaps in deserts
  - Shore wave sounds coming from the direction of ocean biomes in beach biomes
-### Lighting:
-#### Light emitting entities
-#### Colored light
- - Calculate on a separate thread?
-### Seasons
- - Can be implemented by cycling through four grass/leave color palettes over time
- - Could possibly affect mobs spawns, like how moon phases affect Slime spawns in Swamps
- - Orange Autumn trees
- - Unknown how this should interplay with biomes
-### Mob texture variations (should be distinguishable, like red and brown Mooshrooms, but not like horses)
+### The End:
+#### ★★☆☆☆ Chorus moss block
+ - ★★★★☆ Like Grass blocks, but the moss grows on the bottom face of Endstone instead of on the top
+ - ★★★☆☆ Let's call it Chorus/Ender/Purpur Moss, just to differentiate it from grass
+#### "Wood" types
+ - ★★☆☆☆ Purpur "wood" type [(Purple)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Nether_Portal_%28EW%29_BE.gif)
+ - ★★☆☆☆ Ender "wood" type [(Teal)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Ender_Pearl_JE3_BE2.png)
+### ★★☆☆☆ Mob texture variations (should be distinguishable and recognizable, like red and brown Mooshrooms, but not like horses)
  - Black and white cows
  - Fully brown cows
  - "Duck" Chickens
-### The End:
-#### Chorus moss block
- - Like Grass blocks, but the moss grows on the bottom face of Endstone instead of on the top
- - Let's call it moss, because grass is boring
-#### "Wood" types
- - Purpur "wood" type [(Purple)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Nether_Portal_%28EW%29_BE.gif)
- - Ender "wood" type [(Teal)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Ender_Pearl_JE3_BE2.png)
-### Slime fluid
- - Higher viscosity than lava, meaning it flows even slower than lava and stops flowing even 
- - Bounces the player back up
- - Could be used in the Nether as a substitute for MLG water bucketing
+### Lighting:
+#### ★★★☆☆ Light emitting entities
+#### ★★☆☆☆ Colored light
+ - Calculate on a separate thread?
+### ★★☆☆☆ Seasons
+ - ★★☆☆☆ Can be implemented by cycling through four grass/leave color palettes over time
+ - ★★★☆☆ Could possibly affect mobs spawns, like how moon phases affect Slime spawns in Swamps
+ - ★★★☆☆ Orange Autumn trees
+ - ★☆☆☆☆ Unknown how this should interplay with biomes, e.g. snowy biomes
 
 ![A Mongus](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mongus.png "A Mongus")

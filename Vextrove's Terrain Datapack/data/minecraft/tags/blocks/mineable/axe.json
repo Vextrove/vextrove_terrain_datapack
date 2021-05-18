@@ -1,41 +1,25 @@
 {
   "replace": false,
   "values": [
+    "#vextrove:huge_mushroom_blocks"
+    "#vextrove:pumpkins"
     "#vextrove:wooden_blocks"
     "minecraft:bamboo",
-    "minecraft:barrel",
     "minecraft:bee_nest",
     "minecraft:beehive",
     "minecraft:big_dripleaf",
-    "minecraft:bookshelf",
-    "minecraft:brown_mushroom_block",
     "minecraft:campfire",
-    "minecraft:cartography_table",
-    "minecraft:carved_pumpkin",
-    "minecraft:chest",
     "minecraft:chorus_flower",
     "minecraft:chorus_plant",
     "minecraft:cocoa",
-    "minecraft:composter",
-    "minecraft:crafting_table",
     "minecraft:daylight_detector",
-    "minecraft:fletching_table",
     "minecraft:glow_lichen",
-    "minecraft:jack_o_lantern",
-    "minecraft:jukebox",
-    "minecraft:ladder",
     "minecraft:lectern",
     "minecraft:lily_pad",
-    "minecraft:loom",
     "minecraft:melon",
-    "minecraft:mushroom_stem",
-    "minecraft:note_block",
-    "minecraft:pumpkin",
-    "minecraft:red_mushroom_block",
     "minecraft:scaffolding",
     "minecraft:smithing_table",
     "minecraft:soul_campfire",
-    "minecraft:trapped_chest",
     "minecraft:vine"
   ]
 }

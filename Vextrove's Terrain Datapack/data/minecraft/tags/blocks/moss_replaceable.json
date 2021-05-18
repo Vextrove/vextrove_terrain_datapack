@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "#minecraft:dirt",
     "#minecraft:flowers",
@@ -26,8 +26,10 @@
     "minecraft:gravel",
     "minecraft:mossy_cobblestone",
     "minecraft:prismarine",
+    "minecraft:dark_prismarine",
     "minecraft:stone",
     "minecraft:tall_grass",
-    "minecraft:tuff"
+    "minecraft:tuff",
+    "minecraft:vine"
   ]
 }

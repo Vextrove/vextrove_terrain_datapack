@@ -1,7 +1,14 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:cauldrons",
+    "#vextrove:basalt",
+    "#vextrove:blackstone",
+    "#vextrove:dark_prismarine",
     "#vextrove:deepslate",
+    "#vextrove:igneous",
+    "#vextrove:nether_bricks",
+    "#vextrove:red_nether_bricks",
     "minecraft:diamond_block",
     "minecraft:diamond_ore",
     "minecraft:emerald_block",

@@ -1,13 +1,12 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:beehives",
     "#minecraft:campfires",
     "#vextrove:huge_mushroom_blocks",
     "#vextrove:pumpkins",
     "#vextrove:wooden_blocks",
     "minecraft:bamboo",
-    "minecraft:bee_nest",
-    "minecraft:beehive",
     "minecraft:big_dripleaf",
     "minecraft:chorus_flower",
     "minecraft:chorus_plant",

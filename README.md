@@ -19,6 +19,7 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![A monster dungeon made of Cobbled Deepslate](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_dungeon.png "A monster dungeon made of Cobbled Deepslate")
  - Deepslate strongholds below y: 0
  - Deeper ravines and crevices
+ - Terrain is slightly smoother
 ##### Stone types
 ![A generic cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave.png "A generic cave")
 ![Various igneous rock types in a cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave_wall.png "Various igneous rock types in a cave")
@@ -143,7 +144,6 @@ A 256 block tall dripstone cave world. Ranges from -192 to 64
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
- - Smoother surface noise in overworld
  - Rougher surface noise in custom dimensions
  - Get Soulsand Valley to generate Skeleton skulls on the floor again
  - Implement more elegant way of generating fire in the Nether

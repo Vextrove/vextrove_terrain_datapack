@@ -9,11 +9,20 @@
                 "targets": [
                   {
                     "target": {
-                      "tag": "vextrove:expanded_base_stone_overworld",
+                      "tag": "vextrove:stone_ore_replacables",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:prismarine"
+                    }
+                  },
+                  {
+                    "target": {
+                      "tag": "vextrove:deepslate_ore_replacables",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:dark_prismarine"
                     }
                   }
                 ],
@@ -26,7 +35,7 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "absolute": 0
+                    "from": 0
                   },
                   "max_inclusive": {
                     "absolute": 56
@@ -48,7 +57,7 @@
     },
     "decorator": {
       "config": {
-        "count": 32
+        "count": 64
       },
       "type": "minecraft:count"
     }

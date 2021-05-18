@@ -150,6 +150,7 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Get Chorus Trees to generate underneath overhangs again
  - Implement more elegant way of generating fire in the Nether
  - Modify giant speleothem parameters (start from scratch)
+ - Investigate coral blocks
  - Generate Slime Blocks in Swamps
  - Figure out why Swamps are generating so damn many small Brown Mushrooms
  - Generate Shroomlight on the underground Mushroom Island ceiling

@@ -1,20 +1,17 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:dirt",
     "#minecraft:sand",
     "#vextrove:concrete_powder",
     "#vextrove:snow_blocks",
     "minecraft:bee_nest",
     "minecraft:clay",
-    "minecraft:coarse_dirt",
-    "minecraft:dirt",
+    "minecraft:big_dripleaf",
     "minecraft:dirt_path",
     "minecraft:farmland",
-    "minecraft:grass_block",
     "minecraft:gravel",
-    "minecraft:mycelium",
-    "minecraft:podzol",
-    "minecraft:rooted_dirt",
+    "minecraft:moss_carpet",
     "minecraft:turtle_egg"
   ]
 }

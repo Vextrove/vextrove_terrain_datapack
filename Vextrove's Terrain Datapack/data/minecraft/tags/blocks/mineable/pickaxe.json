@@ -11,6 +11,7 @@
     "#vextrove:corals",
     "#vextrove:deepslate",
     "#vextrove:igneous",
+    "#vextrove:infested",
     "#vextrove:ores",
     "minecraft:stone",
     "minecraft:dispenser",
@@ -185,13 +186,6 @@
     "minecraft:large_amethyst_bud",
     "minecraft:medium_amethyst_bud",
     "minecraft:small_amethyst_bud",
-    "minecraft:infested_chiseled_stone_bricks",
-    "minecraft:infested_cobblestone",
-    "minecraft:infested_cracked_stone_bricks",
-    "minecraft:infested_deepslate",
-    "minecraft:infested_mossy_stone_bricks",
-    "minecraft:infested_stone",
-    "minecraft:infested_stone_bricks",
     "minecraft:turtle_egg"
   ]
 }

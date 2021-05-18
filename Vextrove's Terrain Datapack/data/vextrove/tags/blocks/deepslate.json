@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#vextrove:deepslate_bricks",
+    "#vextrove:deepslate_ores",
+    "#vextrove:cobbled_deepslate",
+    "minecraft:deepslate",
+    "minecraft:deepslate_brick_slab",
+    "minecraft:deepslate_brick_stairs",
+    "minecraft:deepslate_brick_wall",
+    "minecraft:deepslate_tile_slab",
+    "minecraft:deepslate_tile_stairs",
+    "minecraft:deepslate_tile_wall",
+    "minecraft:polished_deepslate_slab",
+    "minecraft:polished_deepslate_stairs",
+    "minecraft:polished_deepslate_wall"
+  ]
+}

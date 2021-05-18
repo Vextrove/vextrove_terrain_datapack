@@ -143,13 +143,13 @@ A 256 block tall dripstone cave world. Ranges from -192 to 64
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
- - Check if there is still open bedrock at the bottom of the lava sea in the Nether
- - Get Soulsand Valley to generate rare Skeleton skulls on the floor again
- - Implement more elegant way of generating fire in the Nether
- - Modify giant speleothem parameters (start from scratch)
  - Smoother surface noise in overworld
  - Rougher surface noise in custom dimensions
+ - Get Soulsand Valley to generate Skeleton skulls on the floor again
+ - Implement more elegant way of generating fire in the Nether
+ - Modify giant speleothem parameters (start from scratch)
  - Generate Slime Blocks in Swamps
+ - Figure out why Swamps are generating so damn many small Brown Mushrooms
  - Generate Shroomlight on the underground Mushroom Island ceiling
  - Underground Lilypads in Swamp
  - Look into optimizing the Soulsand Valley/Basalt Delta ceiling generation
@@ -315,6 +315,11 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Underwater - and even more so "underlava" - higher frequencies are filtered out, muffling the sound
 #### ★★★☆☆ Echo sound filter
  - Either do a rudimentary calculation of cave size, or enable when skylight level is zero and current altitude is below y: 24
+#### Block sounds:
+ - Give all brick blocks Netherbrick sounds rather than the generic Stone block sound
+ - Unique sound for Cobblestone and Raw Metal blocks
+ - Enchanting Table (magical sound)
+ - Unique sound for Clay
 #### ★☆☆☆☆ Biome and altitude dependent ambient noises
  - Birds in forests and especially jungles
  - Wind high up in the mountains and perhaps in deserts

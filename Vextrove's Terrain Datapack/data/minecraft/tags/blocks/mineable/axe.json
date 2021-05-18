@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#vextrove:huge_mushroom_blocks"
-    "#vextrove:pumpkins"
-    "#vextrove:wooden_blocks"
+    "#vextrove:huge_mushroom_blocks",
+    "#vextrove:pumpkins",
+    "#vextrove:wooden_blocks",
     "minecraft:bamboo",
     "minecraft:bee_nest",
     "minecraft:beehive",

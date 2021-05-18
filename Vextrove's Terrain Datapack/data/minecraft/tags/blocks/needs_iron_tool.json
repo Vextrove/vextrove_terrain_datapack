@@ -15,7 +15,10 @@
     "minecraft:emerald_ore",
     "minecraft:gold_block",
     "minecraft:gold_ore",
+    "minecraft:heavy_weighted_pressure_plate",
     "minecraft:iron_bars",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
     "minecraft:light_weighted_pressure_plate",
     "minecraft:raw_gold_block",
     "minecraft:redstone_ore"

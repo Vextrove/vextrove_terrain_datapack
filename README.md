@@ -4,10 +4,11 @@ The world is 384 blocks tall, ranging from y: -64 to y: 320.
 It also adds several world types, in the form of new dimensions.
 Additionally, it adds some minor gameplay modifications, such as:
  - You can use [most stone types](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/items/stone_crafting_materials.json) as a substitute for cobblestone when crafting
- - You need an Iron Pickaxe or better to mine Deepslate blocks
  - You can climb [more blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/climbable.json), such as fences and chains. You will be able to climb the fence, but you still won't be able to jump over!
  - Endermen can pick up [a wide variety of blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/enderman_holdable.json)
  - [Deepslate blocks burn soulfire.](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_soul_fire.png) Why? It looks cool.
+ - You need Iron tools or better to mine Deepslate blocks
+ - You need Stone tools or better to mine Magma Blocks (wooden tools would burn)
 
 **[LEAVE SUGGESTIONS HERE](https://github.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
 
@@ -28,7 +29,7 @@ Additionally, it adds some minor gameplay modifications, such as:
  - Diorite (above y: 0)
  - Dirt (from y: 56 to y: 80)
  - Gravel (from y: 8 to y: 56)
- - Tuff (from 56 blocks above the bottom of the world to y: 56)
+ - Tuff (from y: 4 to y: 56)
  - Deepslate (from y: 0 to y: 16)
  - Smooth Basalt (from 8 above bottom to 56 above bottom)
  - Blackstone (up to 24 blocks above bottom)
@@ -210,6 +211,8 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### ★★★★☆ Water on top of lava forms tuff rather than Cobblestone
 ### ★★★★☆ Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
  - This will make it so that clouds will not go through solid terrain
+### ★★★★☆ Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
+
 ### Inventory:
 #### ★★★★☆ Increase amount of inventory slots
  - One or two additional rows would be great
@@ -219,9 +222,10 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Cobblestone -> Stone
  - Sand -> Sandstone
  - Red Sand -> Red Sandstone
+
 ### Tools:
 #### Tool animations:
-##### ★★★★☆ Different animations for different tools
+##### ★★★★★ Different animations for different tools
  - Shovel: Digging motion
  - Pickaxe: Swinging motion
  - Axe: Sideways chopping motion
@@ -231,6 +235,7 @@ These ideas are here so they may inspire me when adding features to this datapac
 #### ★★★☆☆ Different mining cracking patterns depending on what block is being broken and/or what tool is being used
  - Logs + Axe: cutting pattern
  - It does not make sense for some blocks to appear to break like they currently do
+
 #### Hoes:
 ##### ★★★★☆ Hoes take time to till soil
  - Higher tiers are faster, but tilling shouldn't take too long
@@ -239,32 +244,34 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Range might be increased with enchantments
 ##### ★★☆☆☆ Hoes only destroy fully grown crops
  - Like how wielding a sword in creative mode prevents you from breaking anything
-#### ★★★☆☆ Random block picker
+ 
+#### ★★★★☆ Random block picker
  - Some builds use a palette of multiple blocks to create a textured surface - an example of this are the Nylium/Netherwart surfaces in Netherwart forests. This item would greatly help create such patterns.
 #### ★★★☆☆ Boomerang
  - Makes a circular motion
  - With enchantments, it can hit more than one target without falling
  - Fits with Minecraft's "medieval" aesthetic
-#### Infinity on water/lava buckets - Suggested by unknown
+#### ★☆☆☆☆ Infinity on water/lava buckets - Suggested by unknown
  - Great for building :)
  - Great for grieving >:)
  - Creative mode already has it - in survival mode, you just have to tediously replenish from your 2x2 infinite water source
  - Renewable Lava
+
 ### Decorative blocks:
-#### ★★★★☆ Frosted glass
+#### ★★★★★ Frosted glass
  - The opposite of tinted glass; an opaque block that lets through light.
  - Crafted by resmelting glass blocks
  - Comes in "all 16 colors"
-#### ★★★★☆ Elder Prismarine
+#### ★★★★★ Elder Prismarine
  - Prismarine with the Elder Guardian color palette
  - Can be crafted into Elder Prismarine Bricks
-#### ★★★☆☆ Soul Sandstone?
+#### ★★★★☆ Soul Sandstone?
  - Various Soul Sandstone Brick blocks
-#### ★★★★☆ Red Nether Bricks:
+#### ★★★☆☆ Red Nether Bricks:
 ##### Red Nether Brick Fence
 ##### Cracked Red Nether Bricks
 ##### Chiseled Red Nether Bricks
-#### ★★★★☆ [Cherry blossoms](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
+#### ★★★☆☆ [Cherry blossoms](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
  - Pink planks
  - Pink leaves
  - Dark grayish brown logs
@@ -273,30 +280,36 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### ★☆☆☆☆ Wall Post
  - A wall type that doesn't connect to surrounding blocks
 ### ★☆☆☆☆ Dual-type slabs??
+
 ### Minecarts:
-#### ★★★☆☆ rails
+#### ★★★☆☆ Vertical rails
  - A Minecart would require Powered Rails to go up
 #### ★★★☆☆ Increase Furnace Minecart tensile strength
  - Currently Minecarts split up when making a turn
+
 ### Biomes:
 #### ★★★☆☆ Altitude-dependent biome generation
  - Different biomes generate at different heights
  - It appears this will be implemented in 1.18 with the new mountains, and hopefully the upcoming cave biomes as well
+ 
 #### Caves:
 ##### ★★★★★ Local stone types
  - ★★★★☆ [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png)
  - ★★★★☆ [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
  - ★★★★☆ [Terracotta caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/terracotta_cave.png)
  - ★★☆☆☆ Marble caves
+ 
 ##### Slimes:
  - ★★★★★ Slimes should occasionally spawn underground, especially in Lush Caves (not just in Slime chunks)
  - ★★★★★ Slime size should either scale linearly or exponentially, not logarithmically like they currently do
  - ★★★★☆ Slimes should rarely spawn at bigger sizes
 ###### Overhaul Slime chunks
  - Needs a visual cue, perhaps remove Slime chunks and replace them with a slimy cave biome
+
 #### ★★★☆☆ Dynamic biomes
  - e.g. plant a lot of Jungle trees to create artificial Jungle biome, snow to create a cold biome, etc.
  - Special variations depending on the dimension the biome is in, e.g Hot Jungle Biome (Red foliage? Special mobs?)
+
 ### Functional blocks:
 #### ★★☆☆☆ Moving platform block
  - Moves horizontally or vertically
@@ -308,7 +321,7 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Have to be synced up with each other
 #### ★☆☆☆☆ Speaker block
  - Plays sounds
-### Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
+
 ### Sound:
 #### ★★★★☆ Make block sounds .json dependent
  - Could possibly run on a seperate thread? Supposedly Minecraft only employs one CPU core while most devices have at least two
@@ -316,6 +329,7 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Underwater - and even more so "underlava" - higher frequencies are filtered out, muffling the sound
 #### ★★★☆☆ Echo sound filter
  - Either do a rudimentary calculation of cave size, or enable when skylight level is zero and current altitude is below y: 24
+ 
 #### Block sounds:
  - Give all brick blocks Netherbrick sounds rather than the generic Stone block sound
  - Unique sound for Cobblestone and Raw Metal blocks
@@ -325,6 +339,7 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Birds in forests and especially jungles
  - Wind high up in the mountains and perhaps in deserts
  - Shore wave sounds coming from the direction of ocean biomes in beach biomes
+ 
 ### The End:
 #### ★★☆☆☆ Chorus moss block
  - ★★★★☆ Like Grass blocks, but the moss grows on the bottom face of Endstone instead of on the top
@@ -332,10 +347,12 @@ These ideas are here so they may inspire me when adding features to this datapac
 #### "Wood" types
  - ★★☆☆☆ Purpur "wood" type [(Purple)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Nether_Portal_%28EW%29_BE.gif)
  - ★★☆☆☆ Ender "wood" type [(Teal)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Ender_Pearl_JE3_BE2.png)
+
 ### ★★☆☆☆ Mob texture variations (should be distinguishable and recognizable, like red and brown Mooshrooms, but not like horses)
  - Black and white cows
  - Fully brown cows
  - "Duck" Chickens
+ 
 ### Lighting:
 #### ★★★☆☆ Light emitting entities
 #### ★★☆☆☆ Colored light

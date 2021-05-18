@@ -9,23 +9,11 @@
                 "targets": [
                   {
                     "target": {
-                      "tag": "vextrove:expanded_base_stone_overworld",
+                      "tag": "minecraft:deepslate_ore_replacables",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:magma_block"
-                    }
-                  },
-                  {
-                    "target": {
-                      "block": "minecraft:water",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:lava",
-                      "Properties": {
-                        "level": "0"
-                      }
                     }
                   }
                 ],

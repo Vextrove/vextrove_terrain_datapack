@@ -2,19 +2,20 @@
   "replace": false,
   "values": [
     "minecraft:stone",
-    "minecraft:blackstone",
     "minecraft:deepslate",
-    "minecraft:andesite",
-    "minecraft:granite",
-    "minecraft:diorite",
-    "minecraft:tuff",
-    "minecraft:sandstone",
-    "minecraft:smooth_sandstone",
-    "minecraft:red_sandstone",
-    "minecraft:smooth_red_sandstone",
+    "minecraft:magma_block",
     "minecraft:smooth_basalt",
-    "minecraft:smooth_quartz",
-    "minecraft:terracotta",
-    "minecraft:calcite"
+    "minecraft:blackstone",
+    "#vextrove:igneous_rock",
+    "minecraft:tuff",
+    "minecraft:calcite",
+    "minecraft:smooth_sandstone",
+    "minecraft:sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:prismarine",
+    "minecraft:dark_prismarine",
+    "#vextrove:hardened_clay",
+    "minecraft:smooth_quartz"
   ]
 }

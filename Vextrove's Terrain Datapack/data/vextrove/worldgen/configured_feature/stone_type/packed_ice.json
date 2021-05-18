@@ -9,7 +9,7 @@
                 "targets": [
                   {
                     "target": {
-                      "tag": "vextrove:expanded_base_stone_overworld",
+                      "tag": "minecraft:base_stone_overworld",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {

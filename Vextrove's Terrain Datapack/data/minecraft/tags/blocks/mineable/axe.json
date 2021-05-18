@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:campfires",
     "#vextrove:huge_mushroom_blocks",
     "#vextrove:pumpkins",
     "#vextrove:wooden_blocks",
@@ -8,7 +9,6 @@
     "minecraft:bee_nest",
     "minecraft:beehive",
     "minecraft:big_dripleaf",
-    "minecraft:campfire",
     "minecraft:chorus_flower",
     "minecraft:chorus_plant",
     "minecraft:cocoa",
@@ -19,7 +19,6 @@
     "minecraft:melon",
     "minecraft:scaffolding",
     "minecraft:smithing_table",
-    "minecraft:soul_campfire",
     "minecraft:turtle_egg",
     "minecraft:vine"
   ]

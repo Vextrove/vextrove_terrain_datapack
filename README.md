@@ -4,6 +4,7 @@ The world is 384 blocks tall, ranging from y: -64 to y: 320.
 It also adds several world types, in the form of new dimensions.
 Additionally, it adds some minor gameplay modifications, such as:
  - You can use [most stone types](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/items/stone_crafting_materials.json) as a substitute for cobblestone when crafting
+ - You need an Iron Pickaxe or better to mine Deepslate blocks
  - You can climb [more blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/climbable.json), such as fences and chains. You will be able to climb the fence, but you still won't be able to jump over!
  - Endermen can pick up [a wide variety of blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/enderman_holdable.json)
  - [Deepslate blocks burn soulfire.](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_soul_fire.png) Why? It looks cool.

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:big_dripleaf",
+    "minecraft:cobweb",
+    "minecraft:glow_lichen",
+    "minecraft:hay_block",
+    "minecraft:lily_pad",
+    "minecraft:target",
+    "minecraft:vine"
+  ]
+}

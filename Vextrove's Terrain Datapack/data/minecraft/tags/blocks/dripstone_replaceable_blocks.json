@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#vextrove:stone_types",
+    "#minecraft:base_stone_overworld",
     "minecraft:cobblestone",
     "minecraft:mossy_cobblestone",
     "minecraft:cobbled_deepslate",

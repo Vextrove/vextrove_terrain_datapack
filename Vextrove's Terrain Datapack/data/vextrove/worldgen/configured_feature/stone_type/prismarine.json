@@ -9,7 +9,7 @@
                 "targets": [
                   {
                     "target": {
-                      "tag": "vextrove:stone_ore_replacables",
+                      "tag": "minecraft:stone_ore_replaceables",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
@@ -18,7 +18,7 @@
                   },
                   {
                     "target": {
-                      "tag": "vextrove:deepslate_ore_replacables",
+                      "tag": "minecraft:deepslate_ore_replaceables",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
@@ -35,7 +35,7 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "from": 0
+                    "above_bottom": 12
                   },
                   "max_inclusive": {
                     "absolute": 56

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#vextrove:stone_ores",
-    "#vextrove:deepslate_ores"
+    "#vextrove:deepslate_ores",
+    "#vextrove:stone_ores"
   ]
 }

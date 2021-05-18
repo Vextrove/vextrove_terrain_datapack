@@ -9,8 +9,8 @@
                 "targets": [
                   {
                     "target": {
-                      "block": "minecraft:oak_planks",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:planks",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:spruce_planks"
@@ -18,13 +18,29 @@
                   },
                   {
                     "target": {
-                      "block": "minecraft:oak_log",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:logs",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:spruce_log",
                       "Properties": {
                         "axis": "y"
+                      }
+                    }
+                  },
+                  {
+                    "target": {
+                      "tag": "minecraft:fences",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:spruce_fence",
+                      "Properties": {
+                        "east": "false",
+                        "north": "false",
+                        "south": "false",
+                        "waterlogged": "false",
+                        "west": "false"
                       }
                     }
                   }

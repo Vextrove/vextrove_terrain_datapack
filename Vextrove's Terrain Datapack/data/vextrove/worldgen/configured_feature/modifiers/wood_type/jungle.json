@@ -9,8 +9,8 @@
                 "targets": [
                   {
                     "target": {
-                      "block": "minecraft:oak_planks",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:planks",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:jungle_planks"
@@ -18,8 +18,8 @@
                   },
                   {
                     "target": {
-                      "block": "minecraft:oak_log",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:logs",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:jungle_log",
@@ -30,8 +30,8 @@
                   },
                   {
                     "target": {
-                      "block": "minecraft:oak_fence",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:fences",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:jungle_fence",

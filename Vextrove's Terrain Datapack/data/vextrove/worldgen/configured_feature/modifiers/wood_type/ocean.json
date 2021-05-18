@@ -9,8 +9,8 @@
                 "targets": [
                   {
                     "target": {
-                      "block": "minecraft:oak_log",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:planks",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:dark_prismarine"
@@ -18,8 +18,8 @@
                   },
                   {
                     "target": {
-                      "block": "minecraft:oak_planks",
-                      "predicate_type": "minecraft:block_match"
+                      "tag": "minecraft:logs",
+                      "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
                       "Name": "minecraft:copper_block"
@@ -50,6 +50,20 @@
                     },
                     "state": {
                       "Name": "minecraft:oxidized_copper"
+                    }
+                  },
+                  {
+                    "target": {
+                      "tag": "minecraft:fences",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:lightning_rod",
+                      "Properties": {
+                        "facing": "up",
+                        "powered": "false",
+                        "waterlogged": "false"
+                      }
                     }
                   }
                 ],

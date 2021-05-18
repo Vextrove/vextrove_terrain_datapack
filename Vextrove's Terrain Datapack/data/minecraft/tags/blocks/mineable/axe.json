@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:azalea",
+    "#vextrove:wooden_blocks"
     "minecraft:bamboo",
     "minecraft:barrel",
     "minecraft:bee_nest",
@@ -36,18 +37,6 @@
     "minecraft:smithing_table",
     "minecraft:soul_campfire",
     "minecraft:trapped_chest",
-    "#minecraft:banners",
-    "#minecraft:fence_gates",
-    "#minecraft:logs",
-    "#minecraft:planks",
-    "#minecraft:signs",
-    "#minecraft:wooden_buttons",
-    "#minecraft:wooden_doors",
-    "#minecraft:wooden_fences",
-    "#minecraft:wooden_pressure_plates",
-    "#minecraft:wooden_slabs",
-    "#minecraft:wooden_stairs",
-    "#minecraft:wooden_trapdoors"
     "minecraft:vine"
   ]
 }

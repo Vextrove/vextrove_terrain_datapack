@@ -277,7 +277,7 @@ These ideas are here so they may inspire me when adding features to this datapac
 #### Altitude-dependent biome generation
  - Different biomes generate at different heights
  - It appears this will be implemented in 1.18 with the new mountains, and hopefully the upcoming cave biomes as well
-#### - Caves:
+#### Caves:
 ##### Slimes:
  - Slimes should spawn more often in caves
  - Slimes should rarely spawn at bigger sizes

@@ -27,7 +27,7 @@
                   }
                 ],
                 "size": 32,
-                "discard_chance_on_air_exposure": 0.1
+                "discard_chance_on_air_exposure": 0.0
               },
               "type": "minecraft:ore"
             },
@@ -38,7 +38,7 @@
                     "above_bottom": 18
                   },
                   "max_inclusive": {
-                    "absolute": 24
+                    "absolute": 26
                   },
                   "type": "minecraft:uniform"
                 }

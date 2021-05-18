@@ -14,7 +14,7 @@
     "vegetation_feature": "minecraft:cave_vine_in_moss",
     "surface": "ceiling",
     "depth": 3,
-    "replaceable": "minecraft:base_stone_nether",
+    "replaceable": "vextrove:netherrack",
     "ground_state": {
       "state": {
         "Name": "minecraft:soul_soil"

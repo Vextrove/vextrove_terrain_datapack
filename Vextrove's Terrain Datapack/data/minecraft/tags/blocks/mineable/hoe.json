@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "#minecraft:carpets",
     "#minecraft:wart_blocks",

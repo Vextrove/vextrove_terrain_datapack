@@ -1,5 +1,5 @@
 {
-  "replace": false,
+  "replace": true,
   "values": [
     "#vextrove:netherrack",
     "minecraft:bamboo",

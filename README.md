@@ -157,7 +157,6 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Look into optimizing the Soulsand Valley/Basalt Delta ceiling generation
  - Look into increasing the maximal tree height
  - Look into generating different biomes at different vertical levels in the Nether
- - Look into altering the tool type and tier block tags
  - Look into my customized End mob spawns
  - Get Beta terrain working as intended
  - Learn more about structures/custom structures so I can use them to do cool things
@@ -199,9 +198,9 @@ Please let me know if any of this has changed!
 
 ## Minecraft ideas
 This is my personal list of ideas of things to add to Minecraft. Most of these are my own, however a couple of them came from other people.
-Roughly ordered from best to worst, based on how good the concept is/how much I like it divided by how difficult I think it would be to implement. That being said, I am not a programmer...
+Roughly ordered from best to worst, based on how good the concept is and how much I like it, divided by how difficult I think it would be to implement. That being said, I am not a programmer...
 Some of the worse ideas are higher up in the list than they should be, due to being grouped together with other ideas
-These ideas are here so they may inspire me when adding features to this datapack. Bad ideas will be removed over time.
+These ideas are here so they may inspire me when adding features to this datapack.
 
 ### ★★★★★ Directional damage (Fix MC-26678)
 ### ★★★★★ [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)

@@ -56,7 +56,7 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![A dungeon that has been covered by dripstone](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/dripstone_dungeon.png "A dungeon that has been covered by dripstone")
  - Murky water
 #### Cold biomes
-![An icy cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frozen_cavern.png "An icy cavern")
+![A cave that has been frozen](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png "A cave that has been frozen")
 ![A frozen dungeon](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_dungeon.png "A dungeon that has been frozen")
 ![A bridge over lava](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/unfortunate_bridge.png)
  - Ice caverns
@@ -161,7 +161,6 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Add videos
  - Customize discussions page
  - Create Github page
- - Publish datapack on Curseforge
  - Add features implemented in this datapack to ideas list and add images
 #### Add images
  - Cavern world

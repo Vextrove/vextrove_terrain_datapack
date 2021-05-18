@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#vextrove:volcanic_glass",
+    "minecraft:enchanting_table",
+    "minecraft:ender_chest",
+    "minecraft:respawn_anchor"
+  ]
+}

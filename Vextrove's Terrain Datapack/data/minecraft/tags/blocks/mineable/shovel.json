@@ -3,6 +3,7 @@
   "values": [
     "#minecraft:dirt",
     "#minecraft:sand",
+    "#vextrove:cobbled",
     "#vextrove:concrete_powder",
     "#vextrove:snow_blocks",
     "minecraft:bee_nest",

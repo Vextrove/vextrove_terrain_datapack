@@ -1,5 +1,5 @@
 {
-  "noise_caves_enabled": false,
+  "noise_caves_enabled": true,
   "deepslate_enabled": true,
   "min_surface_level": -64,
   "ore_veins_enabled": true,

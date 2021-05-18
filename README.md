@@ -303,7 +303,7 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Plays sounds
 ### Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
 ### Sound:
-#### Make block sounds resource pack dependent
+#### Make block sounds .json dependent
  - Could possibly run on a seperate thread? Supposedly Minecraft only employs one CPU core while most devices have at least two
 #### Sound filtering
  - Underwater - and even more so "underlava" - higher frequencies are filtered out, muffling the sound
@@ -326,8 +326,6 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Black and white cows
  - Fully brown cows
  - "Duck" Chickens
-### Cave biomes
- - Slimy cave biome
 ### The End:
 #### Chorus moss block
  - Like Grass blocks, but the moss grows on the bottom face of Endstone instead of on the top

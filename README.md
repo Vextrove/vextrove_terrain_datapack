@@ -5,7 +5,7 @@ Additionally, it adds some minor gameplay modifications, such as:
  - You can use [most stone types](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/items/stone_crafting_materials.json) as a substitute for cobblestone when crafting
  - You can climb [more blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/climbable.json), such as fences and chains. You will be able to climb the fence, but you still won't be able to jump over!
  - Endermen can pick up [a wide variety of blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/enderman_holdable.json)
- - [Deepslate blocks burn soulfire.](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_soul_fire.png) Why? ~~Grimstone.~~ I don't know.
+ - [Deepslate blocks burn soulfire.](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_soul_fire.png) Why? It looks cool.
 
 **[LEAVE SUGGESTIONS HERE](https://github.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
 
@@ -21,16 +21,16 @@ Additionally, it adds some minor gameplay modifications, such as:
 ##### Stone types
 ![A generic cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave.png "A generic cave")
 ![Various igneous rock types in a cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave_wall.png "Various igneous rock types in a cave")
- - Andesite (in the Stone layer)
- - Granite (in the Stone layer)
- - Diorite in the Stone layer)
- - Dirt (just under the surface)
- - Gravel (in the Stone layer)
- - Tuff (a little above y: 0)
- - Deepslate (around y: 0)
- - Smooth Basalt (in the Deepslate layer)
- - Blackstone (at the bottom of the Deepslate layer)
- - Magma (just above the Bedrock floor)
+ - Andesite (above y: 0)
+ - Granite (above y: 0)
+ - Diorite (above y: 0)
+ - Dirt (from y: 56 to y: 80)
+ - Gravel (from y: 8 to y: 56)
+ - Tuff (from 56 blocks above the bottom of the world to y: 56)
+ - Deepslate (from y: 0 to y: 16)
+ - Smooth Basalt (from 8 above bottom to 56 above bottom)
+ - Blackstone (up to 24 blocks above bottom)
+ - Magma (just under lava level)
 #### Jungle biomes
 ![A more tropical Jungle](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/jungle_foliage.png "A more tropical Jungle")
 ![The underground Jungle](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/jungle_cavern.png "The underground Jungle")
@@ -71,6 +71,7 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![A badlands cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mesa_cave.png "A badlands cavern")
  - Smooth Red Sandstone caverns
  - Red Sand generates instead of Gravel
+ - Terracotta instead of Stone
 #### Ocean biomes
 ![A Prismarine ocean cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/prismarine_cavern.png "A Prismarine ocean cavern")
  - Ocean water has transformed the stone into Prismarine
@@ -82,6 +83,8 @@ Additionally, it adds some minor gameplay modifications, such as:
 #### Hill biomes
 ![A calcite cliffside](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/calcite.png "A calcite cliffside")
  - Calcite (around surface height)
+#### Podzol biomes
+ - Coarse dirt
 ### The Nether
 ![Magma at the bottom of the world](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/magmafication.png "Magma at the bottom of the world")
 ![Blood](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/blood.png "Blood")
@@ -194,100 +197,101 @@ This is my personal list of ideas of things to add to Minecraft. Most of these a
 Roughly ordered from best to worst, based on how good the concept is/how much I like it divided by how difficult I think it would be to implement. That being said, I am not a programmer...
 Some of the worse ideas are higher up in the list than they should be, due to being grouped together with other ideas
 These ideas are here so they may inspire me when adding features to this datapack. Bad ideas will be removed over time.
+Star rating system: ★★⯨☆☆ = 2.5/5
 
-### Directional damage (Fix MC-26678)
-### Ghast fireball charging animation (Fix MC-165038)
-### [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
+### ★★★★★ Directional damage (Fix MC-26678)
+### ★★★★★ [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
  - Great steampunk vibes!
-### Water on top of lava forms tuff rather than Cobblestone
-### Ignore tall grass when attacking entities
-### Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
+### ★★★★★ Ignore tall grass when attacking entities
+### ★★★★☆ Ghast charging fireball animation (Fix MC-165038)
+### ★★★★☆ Water on top of lava forms tuff rather than Cobblestone
+### ★★★★☆ Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
  - This will make it so that clouds will not go through solid terrain
-### Minecarts:
-#### Vertical rails
- - A Minecart would require Powered Rails to go up
-#### Increase Furnace Minecart tensile strength
- - Currently Minecarts split up when making a turn
-### Decorative blocks:
-#### [Cherry blossoms 🌸](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
- - Pink planks
- - Pink leaves
- - Dark grayish brown logs
- - Sakura!
-#### Elder Prismarine
- - Prismarine with the Elder Guardian color palette
- - Can be crafted into Elder Prismarine Bricks
-#### Red Nether Bricks:
-##### Red Nether Brick Fence
-##### Cracked Red Nether Bricks
-##### Chiseled Red Nether Bricks
-#### Frosted glass
- - The opposite of tinted glass; an opaque block that lets through light.
- - Crafted by resmelting glass blocks
- - Comes in "all 16 colors"
-#### Soul Sandstone?
- + Various Soul Sandstone Brick blocks
-### Fence Post
- - A singular fence type that doesn't connect to surrounding blocks
-### Wall Post
- - A singular wall type that doesn't connect to surrounding blocks
-### Vertical Slabs?
- - I never liked slabs, but now that they are here you might as well add vertical slabs. Slab placement would be even bigger hell than it already is
-### Dual-type slabs??
-### Dual-type vertical slabs???
 ### Inventory:
-#### Increase amount of inventory slots
+#### ★★★★☆ Increase amount of inventory slots
  - One or two additional rows would be great
-#### Inventory sort button
+#### ★★★☆☆ Inventory sort button
+### ★★★☆☆ Enable datapacks to add custom blocks
+### ★★★☆☆ Lava "melts" blocks it comes in contact with
+ - Cobblestone -> Stone
+ - Sand -> Sandstone
+ - Red Sand -> Red Sandstone
 ### Tools:
-#### Hoes:
 #### Tool animations:
-##### Different animations for different tools
+##### ★★★★☆ Different animations for different tools
  - Shovel: Digging motion
  - Pickaxe: Swinging motion
  - Axe: Sideways chopping motion
  - Hoe: Tilling motion
  - Sword: Slashing motion
-###### Attacks require different animations (default one would suffice but isn't ideal)
-#### Different mining cracking patterns depending on what block is being broken and/or what tool is being used
+###### Attacks require different animations (their current one would suffice but isn't ideal)
+#### ★★★☆☆ Different mining cracking patterns depending on what block is being broken and/or what tool is being used
  - Logs + Axe: cutting pattern
  - It does not make sense for some blocks to appear to break like they currently do
-##### Hoes take time to till soil
+#### Hoes:
+##### ★★★★☆ Hoes take time to till soil
  - Higher tiers are faster, but tilling shouldn't take too long
  - Different blocks take different times to till
-##### Hoes break crops/tall grass/flowers in a 3x3 area
+##### ★★☆☆☆ Hoes break crops/tall grass/flowers in a 3x3 area
  - Range might be increased with enchantments
-##### Hoes only destroy fully grown crops
+##### ★★☆☆☆ Hoes only destroy fully grown crops
  - Like how wielding a sword in creative mode prevents you from breaking anything
-#### Boomerang
+#### ★★★☆☆ Boomerang
  - Makes a circular motion
  - With enchantments, it can hit more than one target without falling
  - Fits with Minecraft's "medieval" aesthetic
-#### Random block picker
+#### ★★★☆☆ Random block picker
  - Some builds use a palette of multiple blocks to create a textured surface - an example of this are the Nylium/Netherwart surfaces in Netherwart forests. This item would greatly help create such patterns.
 #### Infinity on water/lava buckets - Suggested by unknown
  - Great for building :)
  - Great for grieving :(
  - Creative mode already has it - in survival mode, it is just tedious to have to replenish from your 2x2 infinite water source
  - Renewable Lava
-### Lava "melts" blocks it comes in contact with
- - Cobblestone -> Stone
- - Sand -> Sandstone
-### Enable datapacks to add custom blocks
+### Decorative blocks:
+#### ★★★★☆ Elder Prismarine
+ - Prismarine with the Elder Guardian color palette
+ - Can be crafted into Elder Prismarine Bricks
+#### ★★★★☆ Red Nether Bricks:
+##### Red Nether Brick Fence
+##### Cracked Red Nether Bricks
+##### Chiseled Red Nether Bricks
+#### ★★★★☆ Frosted glass
+ - The opposite of tinted glass; an opaque block that lets through light.
+ - Crafted by resmelting glass blocks
+ - Comes in "all 16 colors"
+#### ★★★☆☆ Soul Sandstone?
+ + Various Soul Sandstone Brick blocks
+#### ★★★★☆ [Cherry blossoms](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
+ - Pink planks
+ - Pink leaves
+ - Dark grayish brown logs
+### ★★☆☆☆ Fence Post
+ - A singular fence type that doesn't connect to surrounding blocks
+### ★☆☆☆☆ Wall Post
+ - A singular wall type that doesn't connect to surrounding blocks
+### ★☆☆☆☆ Vertical Slabs?
+ - I never liked slabs, but now that they are here you might as well add vertical slabs. Slab placement would be even bigger hell than it already is
+### ★☆☆☆☆ Dual-type slabs??
+### Dual-type vertical slabs???
+### Minecarts:
+#### Vertical rails
+ - A Minecart would require Powered Rails to go up
+#### Increase Furnace Minecart tensile strength
+ - Currently Minecarts split up when making a turn
 ### Biomes:
 #### Altitude-dependent biome generation
  - Different biomes generate at different heights
  - It appears this will be implemented in 1.18 with the new mountains, and hopefully the upcoming cave biomes as well
 #### Caves:
+##### Stone types
+ - [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frozen_cavern.png)
+ - [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
+ - Marble caves
 ##### Slimes:
  - Slimes should spawn more often in caves
  - Slimes should rarely spawn at bigger sizes
-##### Overhaul Slime chunks
-#### Stone types
- - [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
- - Marble caves
- - Limestone caves
- - [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frozen_cavern.png)
+###### Overhaul Slime chunks
+ - Needs a visual cue, perhaps remove Slime chunks and replace them with a slimy cave biome
 #### Dynamic biomes
  - e.g. plant a lot of Jungle trees to create artificial Jungle biome, snow to create a cold biome, etc.
  - Special variations depending on the dimension the biome is in, e.g Hot Jungle Biome (Red foliage? Special mobs?)

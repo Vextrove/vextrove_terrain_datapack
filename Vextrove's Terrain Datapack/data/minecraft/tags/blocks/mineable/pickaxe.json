@@ -3,6 +3,7 @@
   "values": [
     "#minecraft:anvil",
     "#minecraft:cauldrons",
+    "#minecraft:ice",
     "#minecraft:rails",
     "#minecraft:shulker_boxes",
     "#minecraft:walls",
@@ -194,9 +195,6 @@
     "minecraft:polished_deepslate_slab",
     "minecraft:polished_deepslate_stairs",
     "minecraft:smooth_basalt",
-    "minecraft:blue_ice",
-    "minecraft:ice",
-    "minecraft:packed_ice",
     "minecraft:stone_button",
     "minecraft:observer",
     "minecraft:piston",

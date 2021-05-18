@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#vextrove:stained_glass",
+    "vextrove:glass",
+    "vextrove:glass_pane",
+    "vextrove:tinted_glass"
+  ]
+}

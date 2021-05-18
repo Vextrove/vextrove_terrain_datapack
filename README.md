@@ -176,7 +176,7 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Teal Chorus planks
 ### On hold until new customization options become available
  - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w19a)
- - Adjust cloud height in the 1024 and 4064 block tall world types and the Aether dimension - Cloud height is hard-coded (last checked 21w19a)
+ - Raise cloud height in the 1024 and 4064 block tall world types - Cloud height is hard-coded (last checked 21w19a)
  - Underground trees - The game won't generate trees where there is no sunlight (last checked 21w19a)
  - Make better use of 4064 block tall world (I have to put my ideal vision on hold due to a minor limitation I'll elaborate on later)
  - Generate large quartz crystals (reskinned large dripstones) in the highest part of the Nether Wastes - Large dripstones are hard-coded to only generate below y: 0 (last checked 21w19a)

@@ -15,11 +15,14 @@
     "#minecraft:wooden_trapdoors",
     "minecraft:barrel",
     "minecraft:bookshelf",
+    "minecraft:cartography_table",
     "minecraft:chest",
     "minecraft:composter",
     "minecraft:crafting_table",
+    "minecraft:fletching_table",
     "minecraft:jukebox",
     "minecraft:ladder",
+    "minecraft:loom",
     "minecraft:note_block",
     "minecraft:trapped_chest"
   ]

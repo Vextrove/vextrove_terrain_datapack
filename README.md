@@ -145,6 +145,7 @@ A 256 block tall lush cave world. Ranges from -192 to 64
 ## To-do List
  - Rougher surface noise in custom dimensions
  - Get Soulsand Valley to generate Skeleton skulls on the floor again
+ - Get Chorus Trees to generate underneath overhangs again
  - Implement more elegant way of generating fire in the Nether
  - Modify giant speleothem parameters (start from scratch)
  - Generate Slime Blocks in Swamps

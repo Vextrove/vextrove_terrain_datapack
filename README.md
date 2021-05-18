@@ -61,7 +61,7 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![A bridge over lava](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/unfortunate_bridge.png)
  - Ice caverns
  - Blue ice patches
- - Frozen water underground
+ - Frozen water underground, making for an interesting underground ice swimming experience!
 #### Desert biomes
 ![A desert cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png "A desert cavern")
  - Smooth Sandstone caverns

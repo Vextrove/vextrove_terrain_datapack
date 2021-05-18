@@ -134,7 +134,7 @@
     "min_y": -128,
     "height": 1024,
     "sampling": {
-      "xz_scale": 0.05,
+      "xz_scale": 0.125,
       "y_scale": 0.005,
       "xz_factor": 160.0,
       "y_factor": 160.0

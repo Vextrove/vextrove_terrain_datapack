@@ -1,11 +1,10 @@
 {
   "replace": false,
   "values": [
+    "#minecraft:dirt",
     "#minecraft:sand",
     "minecraft:bamboo",
     "minecraft:bamboo_sapling",
-    "minecraft:gravel",
-    "#minecraft:dirt",
-    "minecraft:mycelium"
+    "minecraft:gravel"
   ]
 }

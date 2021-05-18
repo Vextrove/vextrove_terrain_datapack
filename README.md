@@ -197,7 +197,6 @@ This is my personal list of ideas of things to add to Minecraft. Most of these a
 Roughly ordered from best to worst, based on how good the concept is/how much I like it divided by how difficult I think it would be to implement. That being said, I am not a programmer...
 Some of the worse ideas are higher up in the list than they should be, due to being grouped together with other ideas
 These ideas are here so they may inspire me when adding features to this datapack. Bad ideas will be removed over time.
-Star rating system: ★★⯨☆☆ = 2.5/5
 
 ### ★★★★★ Directional damage (Fix MC-26678)
 ### ★★★★★ [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)

@@ -5,12 +5,11 @@
     "minecraft:cobblestone",
     "minecraft:mossy_cobblestone",
     "minecraft:cobbled_deepslate",
-    "minecraft:oak_planks",
-    "minecraft:oak_log",
+    "#minecraft:planks",
+    "#minecraft:logs",
     "#minecraft:stone_bricks",
     "#vextrove:deepslate_bricks",
-    "minecraft:dirt",
-    "minecraft:coarse_dirt",
+    "#minecraft:dirt",
     "minecraft:gravel"
   ]
 }

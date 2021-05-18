@@ -7,7 +7,7 @@ Additionally, it adds some minor gameplay modifications, such as:
  - Endermen can pick up [a wide variety of blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/enderman_holdable.json)
  - [Deepslate blocks burn soulfire.](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_soul_fire.png) Why? ~~Grimstone.~~ I don't know.
 
-**[LEAVE SUGGESTIONS HERE](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
+**[LEAVE SUGGESTIONS HERE](https://github.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
 
 ## Terrain generation changes
 ### Overworld
@@ -156,6 +156,7 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Look into generating a giant tree (Yggdrasil)
 ### Website
  - Add videos
+ - Customize discussions page
  - Create Github page
  - Publish datapack on Curseforge
  - Add features implemented in this datapack to ideas list and add images

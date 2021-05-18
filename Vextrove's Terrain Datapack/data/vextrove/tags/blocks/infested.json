@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "minecraft:infested_stone",
+    "#vextrove:infested_stone_bricks",
     "minecraft:infested_cobblestone",
     "minecraft:infested_deepslate",
-    "#vextrove:infested_stone_bricks"
+    "minecraft:infested_stone"
   ]
 }

@@ -21,7 +21,6 @@
     "minecraft:dripstone_block",
     "#minecraft:planks",
     "#minecraft:logs",
-    "minecraft:end_stone",
     "minecraft:grass",
     "minecraft:tall_grass",
     "#minecraft:flowers"
@@ -30,5 +29,6 @@
     "#vextrove:blackstone_bricks",
     "#vextrove:crimson_nether_bricks",
     "#vextrove:red_nether_bricks",
+    "minecraft:end_stone"
   ]
 }

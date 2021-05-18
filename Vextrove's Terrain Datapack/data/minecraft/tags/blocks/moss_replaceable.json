@@ -28,5 +28,7 @@
     "#minecraft:stone_bricks",
     "#vextrove:deepslate_bricks",
     "#vextrove:blackstone_bricks",
+    "#vextrove:crimson_nether_bricks",
+    "#vextrove:red_nether_bricks",
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:chiseled_nether_bricks",
+    "minecraft:cracked_nether_bricks",
+    "minecraft:nether_brick_fence",
+    "minecraft:nether_brick_slab",
+    "minecraft:nether_brick_stairs",
+    "minecraft:nether_bricks"
+  ]
+}

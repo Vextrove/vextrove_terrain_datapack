@@ -12,14 +12,13 @@ Additionally, it adds some minor gameplay modifications, such as:
 
 ## Terrain generation changes
 ### Overworld
-#### All biomes
 ![A portal room made of Deepslate Bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_stronghold.png "A portal room made of Deepslate Bricks")
 ![A Stronghold fountain made of Deepslate Bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_fountain.png "A Stronghold fountain made of Deepslate Bricks")
 ![A Stronghold corridor made of Deepslate Bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_corridor.png "A Stronghold corridor made of Deepslate Bricks")
 ![A monster dungeon made of Cobbled Deepslate](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_dungeon.png "A monster dungeon made of Cobbled Deepslate")
  - Deepslate strongholds below y: 0
- - Deeper ravines and crevices
  - Terrain is slightly smoother
+ - Deeper ravines and crevices
 ##### Stone types
 ![A generic cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave.png "A generic cave")
 ![Various igneous rock types in a cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cave_wall.png "Various igneous rock types in a cave")

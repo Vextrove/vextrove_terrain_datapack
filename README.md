@@ -188,7 +188,7 @@ Please let me know if any of this has changed!
  - 
 
 ## Resource pack/Datapack recommendations
- - [SlicedLime's advancements datapack](https://github.com/slicedlime/LimesAdvancements)
+ - [Lime's Advancements datapack](https://github.com/slicedlime/LimesAdvancements) or [Derec's Biome Advancements datapack](https://www.curseforge.com/minecraft/customization/derecs-biome-advancements)
  - [myuusubi's FabulousHDR resource pack](https://www.curseforge.com/minecraft/texture-packs/fabulous-hdr)
 
 ## Minecraft ideas

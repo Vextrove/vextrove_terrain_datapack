@@ -170,6 +170,8 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Cavern world
  - Mountain quartz
  - Better badlands cave picture
+ - Elder Prismarine + Elder Prismarine Bricks
+ - Dark Prismarine Wall
  - Sakura planks
  - Sakura leaves
  - Sakura logs
@@ -264,6 +266,7 @@ These ideas are here so they may inspire me when adding features to this datapac
 #### ★★★★★ Elder Prismarine
  - Prismarine with the Elder Guardian color palette
  - Can be crafted into Elder Prismarine Bricks
+#### ★★★★★ Dark Prismarine Wall
 #### ★★★★☆ Soul Sandstone?
  - Various Soul Sandstone Brick blocks
 #### ★★★☆☆ Red Nether Bricks:

@@ -28,7 +28,6 @@
     "#vextrove:deepslate_bricks",
     "#vextrove:blackstone_bricks",
     "#vextrove:crimson_nether_bricks",
-    "#vextrove:red_nether_bricks",
-    "minecraft:end_stone"
+    "#vextrove:red_nether_bricks"
   ]
 }

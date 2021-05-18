@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#vextrove:cobbled_deepslate",
+    "#vextrove:cobbled_prismarine",
+    "#vextrove:cobblestone",
+    "#vextrove:mossy_cobblestone"
+  ]
+}

@@ -67,7 +67,10 @@
                       "predicate_type": "minecraft:block_match"
                     },
                     "state": {
-                      "Name": "minecraft:soul_wall_torch"
+                      "Name": "minecraft:soul_wall_torch",
+                      "Properties": {
+                        "facing": "north"
+                      }
                     }
                   }
                 ],

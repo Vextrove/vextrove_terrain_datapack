@@ -13,7 +13,7 @@
                 "outer_wall_distance": {
                   "type": "minecraft:uniform",
                   "value": {
-                    "min_inclusive": 3,
+                    "min_inclusive": 4,
                     "max_inclusive": 6
                   }
                 },

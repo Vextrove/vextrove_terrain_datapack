@@ -145,22 +145,15 @@ A 256 block tall dripstone cave world. Ranges from -192 to 64
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
- - Generate blood in the Nether
- - Block hardness -> progression system
- - Rougher surface noise in custom dimensions
  - Get Soulsand Valley to generate Skeleton skulls on the floor again
  - Get Chorus Trees to generate underneath overhangs again
- - Implement more elegant way of generating fire in the Nether
- - Modify giant speleothem parameters (start from scratch)
- - Investigate coral blocks
- - Generate Slime Blocks in Swamps
+ - Modify giant speleothem parameters from scratch
+ - Investigate Coral
  - Figure out why Swamps are generating so damn many small Brown Mushrooms
  - Generate Shroomlight on the underground Mushroom Island ceiling
  - Underground Lilypads in Swamp
- - Look into optimizing the Soulsand Valley/Basalt Delta ceiling generation
- - Look into increasing the maximal tree height
+ - Look into increasing variation in tree height
  - Look into generating different biomes at different vertical levels in the Nether
- - Look into my customized End mob spawns
  - Get Beta terrain working as intended
  - Learn more about structures/custom structures so I can use them to do cool things
  - Look into generating a giant tree (Yggdrasil)
@@ -168,7 +161,6 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Customize discussions page
  - Add videos
  - Create Github page
- - Add features implemented in this datapack to ideas list and add images
 #### Add images
  - Cavern world
  - Mountain quartz

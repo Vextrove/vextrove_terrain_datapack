@@ -51,6 +51,24 @@
                     "state": {
                       "Name": "minecraft:cobbled_deepslate"
                     }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:torch",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:soul_torch"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:wall_torch",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:soul_wall_torch"
+                    }
                   }
                 ],
                 "size": 64,

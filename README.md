@@ -8,7 +8,7 @@ Additionally, it adds some minor gameplay modifications, such as:
  - Endermen can pick up [a wide variety of blocks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/enderman_holdable.json)
  - [Deepslate blocks burn soulfire.](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deepslate_soul_fire.png) Why? It looks cool.
  - You need Iron tools or better to mine Deepslate blocks
- - You need Stone tools or better to mine Magma Blocks (wooden tools would burn)
+ - Some blocks require different tools than normal to be mined: [Pickaxe]() [Axe]() [Shovel]() [Hoe]() [Sword]()
 
 **[LEAVE SUGGESTIONS HERE](https://github.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
 
@@ -144,6 +144,7 @@ A 256 block tall dripstone cave world. Ranges from -192 to 64
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
+ - Optimize stone types
  - Get Soulsand Valley to generate Skeleton skulls on the floor again
  - Get Chorus Trees to generate underneath overhangs again
  - Modify giant speleothem parameters from scratch
@@ -278,6 +279,9 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### ★☆☆☆☆ Dual-type slabs??
 
 ### Minecarts:
+#### ★★★★☆ Rails don't need a supporting block
+ - We would need to be able to stand on rails as well for this to be any good
+#### ★★★☆☆ Vertical rails
 #### ★★★☆☆ Vertical rails
  - A Minecart would require Powered Rails to go up
 #### ★★★☆☆ Increase Furnace Minecart tensile strength

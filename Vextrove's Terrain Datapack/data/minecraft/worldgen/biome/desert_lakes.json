@@ -39,14 +39,13 @@
     [
       "vextrove:stone_type/smooth_sandstone",
       "vextrove:stone_type/sand",
-      "vextrove:stone_type/dripstone",
       "vextrove:stone_type/granite",
-      "vextrove:stone_type/diorite",
       "vextrove:stone_type/tuff",
       "vextrove:stone_type/deepslate",
       "vextrove:stone_type/blackstone",
       "vextrove:stone_type/smooth_basalt",
       "vextrove:stone_type/magma",
+      "vextrove:stone_type/dripstone",
       "vextrove:modifiers/deepslate_bricks",
       "minecraft:prototype_ore_coal_upper",
       "minecraft:prototype_ore_coal_lower",
@@ -71,6 +70,7 @@
       "minecraft:rare_small_dripstone"
     ],
     [
+      "vextrove:trees/underground/jungle",
       "minecraft:prototype_glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",

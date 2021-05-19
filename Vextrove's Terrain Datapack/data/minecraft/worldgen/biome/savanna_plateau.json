@@ -12,7 +12,7 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:grass",
+  "surface_builder": "minecraft:shattered_savanna",
   "carvers": {
     "air": [
       "minecraft:prototype_cave",

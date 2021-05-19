@@ -10,7 +10,7 @@
       "Name": "minecraft:coarse_dirt"
     },
     "underwater_material": {
-      "Name": "minecraft:gravel"
+      "Name": "minecraft:dirt"
     }
   },
   "type": "minecraft:shattered_savanna"

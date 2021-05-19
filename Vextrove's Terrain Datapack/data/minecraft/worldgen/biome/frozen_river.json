@@ -35,7 +35,6 @@
     [],
     [
       "vextrove:stone_type/packed_ice",
-      "vextrove:stone_type/ice",
       "vextrove:stone_type/andesite",
       "vextrove:stone_type/diorite",
       "vextrove:stone_type/dirt",
@@ -79,6 +78,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:prototype_spring_water",
+      "vextrove:stone_type/ice",
       "minecraft:spring_lava"
     ],
     [

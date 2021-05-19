@@ -16,15 +16,29 @@
   },
   "surface_builder": "minecraft:end",
   "carvers": {},
-  "features": [],
+  "features": [
+    [
+      "vextrove:lake_ender"
+    ],
+    [
+      "vextrove:end_vines"
+    ],
+    [],
+  ],
   "starts": [],
   "spawners": {
     "monster": [
       {
         "type": "minecraft:enderman",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:shulker",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [],

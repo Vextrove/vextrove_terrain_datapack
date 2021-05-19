@@ -10,7 +10,7 @@
                 "chance": 0.666
               },
               {
-                "feature": "minecraft:fancy_oak",
+                "feature": "vextrove:trees/fancy_spruce",
                 "chance": 0.1
               }
             ],

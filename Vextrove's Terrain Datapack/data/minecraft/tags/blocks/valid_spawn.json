@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#minecraft:dirt",
-    "#minecraft:dripstone_replaceable_blocks"
+    "#minecraft:dripstone_replaceable_blocks",
+    "#vextrove:netherrack"
   ]
 }

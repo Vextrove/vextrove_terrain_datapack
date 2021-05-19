@@ -19,7 +19,7 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "above_bottom": 96
+                    "above_bottom": 64
                   },
                   "max_inclusive": {
                     "below_top": 128
@@ -41,7 +41,7 @@
     },
     "decorator": {
       "config": {
-        "count": 5
+        "count": 7
       },
       "type": "minecraft:count"
     }

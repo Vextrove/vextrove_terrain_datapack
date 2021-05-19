@@ -13,13 +13,7 @@
     "vertical_range": 5,
     "vegetation_feature": "minecraft:cave_vine_in_moss",
     "surface": "ceiling",
-    "depth": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 1,
-        "max_inclusive": 4
-      }
-    },
+    "depth": 1,
     "replaceable": "minecraft:moss_replaceable",
     "ground_state": {
       "state": {

@@ -222,7 +222,7 @@ These ideas are here so they may inspire me when adding features to this datapac
  - One or two additional rows would be great
 #### ★★★☆☆ Inventory sort button
 ### ★★★☆☆ Enable datapacks to add custom blocks
-### ★★☆☆☆ Lava "melts" blocks it comes in contact with
+### ★★☆☆☆ Lava "melts" blocks it comes in contact with (like concrete powder)
  - Cobblestone -> Stone
  - Sand -> Sandstone
  - Red Sand -> Red Sandstone
@@ -307,7 +307,8 @@ These ideas are here so they may inspire me when adding features to this datapac
 ##### Slimes:
  - ★★★★★ Slimes should occasionally spawn underground, especially in Lush Caves (not just in Slime chunks)
  - ★★★★★ Slime size should either scale linearly or exponentially, not logarithmically like they currently do
- - ★★★★☆ Slimes should rarely spawn at bigger sizes
+ - ★★★★☆ Slimes should have an RGB data value either scale linearly or exponentially, not logarithmically like they currently do
+ - ★★★☆☆ Slimes should rarely spawn at bigger sizes
 ###### Overhaul Slime chunks
  - Needs a visual cue, perhaps remove Slime chunks and replace them with a slimy cave biome
 

@@ -15,8 +15,8 @@
             "decorator": {
               "config": {
                 "height": {
-                  "above_bottom": 36
                   "min_inclusive": {
+                    "above_bottom": 36
                   },
                   "max_inclusive": {
                     "absolute": 64

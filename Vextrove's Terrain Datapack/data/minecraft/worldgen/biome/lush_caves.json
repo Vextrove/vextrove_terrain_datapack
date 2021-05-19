@@ -68,6 +68,7 @@
       "minecraft:rare_small_dripstone"
     ],
     [
+      "vextrove:trees/underground/jungle",
       "minecraft:patch_tall_grass_2",
       "minecraft:prototype_glow_lichen",
       "minecraft:lush_caves_ceiling_vegetation",

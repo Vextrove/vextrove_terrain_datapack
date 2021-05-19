@@ -21,7 +21,9 @@
     [
       "vextrove:lake_ender"
     ],
-    [],
+    [
+      "vextrove:end_vines"
+    ],
     [],
     [
       "minecraft:end_gateway"
@@ -41,8 +43,8 @@
       {
         "type": "minecraft:enderman",
         "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 3,
+        "maxCount": 5
       }
     ],
     "creature": [],

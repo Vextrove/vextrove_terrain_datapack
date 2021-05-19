@@ -1,0 +1,64 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "rock_count": 4,
+                "hole_count": 1,
+                "valid_blocks": [
+                  "minecraft:basalt",
+                  "minecraft:blackstone",
+                  "minecraft:gravel",
+                  "minecraft:magma_block",
+                  "minecraft:nether_gold_ore",
+                  "minecraft:nether_quartz_ore",
+                  "minecraft:netherrack",
+                  "minecraft:polished_basalt",
+                  "minecraft:smooth_basalt"
+                ],
+                "state": {
+                  "Properties": {
+                    "falling": "true"
+                  },
+                  "Name": "minecraft:lava"
+                },
+                "requires_block_below": false
+              },
+              "type": "minecraft:spring_feature"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 4
+                  },
+                  "max_inclusive": {
+                    "below_top": 4
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 8
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

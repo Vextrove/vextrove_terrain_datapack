@@ -10,7 +10,7 @@
                 "decorator": {
                   "config": {
                     "surface": "ceiling",
-                    "floor_to_ceiling_search_range": 32
+                    "floor_to_ceiling_search_range": 16
                   },
                   "type": "minecraft:cave_surface"
                 }

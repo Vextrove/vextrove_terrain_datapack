@@ -3,27 +3,8 @@
     "feature": {
       "config": {
         "feature": {
-          "config": {
-            "feature": {
-              "config": {},
-              "type": "minecraft:vines"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "absolute": 64
-                  },
-                  "max_inclusive": {
-                    "below_top": 128
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
+          "config": {},
+          "type": "minecraft:vines"
         },
         "decorator": {
           "config": {},

@@ -31,7 +31,7 @@
       {
         "type": "minecraft:enderman",
         "weight": 10,
-        "minCount": 4,
+        "minCount": 2,
         "maxCount": 4
       }
     ],

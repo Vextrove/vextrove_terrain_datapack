@@ -15,10 +15,11 @@
             "decorator": {
               "config": {
                 "height": {
-                  "above_bottom": 60
+                  "min_inclusive": {
+                    "above_bottom": 60
                   },
                   "max_inclusive": {
-                    "absolute": 96
+                    "above_bottom": 68
                   },
                   "type": "minecraft:uniform"
                 }

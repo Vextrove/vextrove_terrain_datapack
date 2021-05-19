@@ -3,6 +3,8 @@
   "values": [
     "#minecraft:cauldrons",
     "#vextrove:deepslate",
+    "#vextrove:dark_prismarine",
+    "#vextrove:blackstone",
     "minecraft:diamond_block",
     "minecraft:diamond_ore",
     "minecraft:emerald_block",
@@ -12,6 +14,7 @@
     "minecraft:light_weighted_pressure_plate",
     "minecraft:raw_gold_block",
     "minecraft:redstone_block",
-    "minecraft:redstone_ore"
+    "minecraft:redstone_ore",
+    "minecraft:smooth_basalt"
   ]
 }

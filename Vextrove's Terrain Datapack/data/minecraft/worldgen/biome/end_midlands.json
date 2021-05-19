@@ -16,7 +16,15 @@
   },
   "surface_builder": "minecraft:end",
   "carvers": {},
-  "features": [],
+  "features": [
+    [
+      "vextrove:lake_ender"
+    ],
+    [
+      "vextrove:end_vines"
+    ],
+    [],
+  ],
   "starts": [
     "minecraft:end_city"
   ],
@@ -25,7 +33,7 @@
       {
         "type": "minecraft:enderman",
         "weight": 10,
-        "minCount": 4,
+        "minCount": 2,
         "maxCount": 4
       }
     ],

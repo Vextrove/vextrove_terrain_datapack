@@ -16,6 +16,7 @@
               "config": {
                 "height": {
                   "above_bottom": 36
+                  "min_inclusive": {
                   },
                   "max_inclusive": {
                     "absolute": 64

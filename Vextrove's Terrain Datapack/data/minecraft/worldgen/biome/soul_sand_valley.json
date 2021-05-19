@@ -39,7 +39,9 @@
   },
   "features": [
     [],
-    [],
+    [
+      "vextrove:lake_blood"
+    ],
     [
       "minecraft:basalt_pillar"
     ],

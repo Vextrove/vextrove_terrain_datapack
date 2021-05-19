@@ -2,8 +2,8 @@
   "replace": true,
   "values": [
     "minecraft:deepslate",
-    "minecraft:blackstone",
     "minecraft:smooth_basalt",
+    "minecraft:blackstone",
     "minecraft:magma_block",
     "minecraft:dark_prismarine"
   ]

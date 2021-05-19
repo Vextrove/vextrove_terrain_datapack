@@ -18,7 +18,9 @@
   "carvers": {},
   "features": [
     [],
-    [],
+    [
+      "vextrove:lake_ender"
+    ],
     [],
     [],
     [

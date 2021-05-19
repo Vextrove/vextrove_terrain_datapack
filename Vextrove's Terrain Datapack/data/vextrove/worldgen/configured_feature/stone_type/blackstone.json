@@ -26,10 +26,10 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "above_bottom": 3
+                    "above_bottom": 0
                   },
                   "max_inclusive": {
-                    "above_bottom": 21
+                    "above_bottom": 19
                   },
                   "type": "minecraft:uniform"
                 }

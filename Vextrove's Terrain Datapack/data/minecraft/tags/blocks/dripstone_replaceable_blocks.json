@@ -10,6 +10,7 @@
     "#minecraft:stone_bricks",
     "#vextrove:deepslate_bricks",
     "#minecraft:dirt",
+    "#vextrove:blackstone_bricks",
     "minecraft:gravel"
   ]
 }

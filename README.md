@@ -117,7 +117,6 @@ Use /execute in vextrove:<dimension name> run tp ~ 96 ~ to access these.
 ![A colossal mountain](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/1024_mountain.png "A colossal mountain")
 ![A colossal hill](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/1024_hill.png "A colossal hill")
 ![A snowy mountain](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/snowy_mountain.png "A snowy mountain")
-![Water from a cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/water_tunnel.png)
 A world 1024 blocks in height. Ranges from -256 to 768
 ### Max (laggy)
 A world 4064 blocks in height, the highest amount possible. Ranges from -2032 to 2032. I dare you to spelunk all the way to the bottom. Reaching -2000 counts as a win. Bonus points if you can do it without mining any deepslate! Either way, it will probably take you over an hour. How fast can it be done? 

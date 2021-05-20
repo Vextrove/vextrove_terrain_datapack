@@ -9,8 +9,8 @@
                 "targets": [
                   {
                     "target": {
-                      "tag": "minecraft:base_stone_overworld",
-                      "predicate_type": "minecraft:tag_match"
+                      "block": "minecraft:stone",
+                      "predicate_type": "minecraft:block_match"
                     },
                     "state": {
                       "Name": "minecraft:terracotta"
@@ -26,12 +26,12 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "above_bottom": 56
+                    "absolute": 24
                   },
                   "max_inclusive": {
                     "below_top": 0
                   },
-                  "type": "minecraft:uniform"
+                  "type": "minecraft:trapezoid"
                 }
               },
               "type": "minecraft:range"

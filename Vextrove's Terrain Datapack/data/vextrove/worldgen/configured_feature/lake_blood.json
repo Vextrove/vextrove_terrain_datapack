@@ -22,9 +22,9 @@
                     "above_bottom": 48
                   },
                   "max_inclusive": {
-                    "below_top": 128
+                    "below_top": 96
                   },
-                  "type": "minecraft:uniform"
+                  "type": "minecraft:trapezoid"
                 }
               },
               "type": "minecraft:range"

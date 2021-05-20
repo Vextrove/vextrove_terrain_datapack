@@ -29,7 +29,7 @@
                     "absolute": 32
                   },
                   "max_inclusive": {
-                    "below_top": 190
+                    "below_top": 0
                   },
                   "type": "minecraft:trapezoid"
                 }
@@ -48,7 +48,7 @@
     },
     "decorator": {
       "config": {
-        "count": 24
+        "count": 48
       },
       "type": "minecraft:count"
     }

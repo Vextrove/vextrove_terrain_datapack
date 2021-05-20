@@ -37,6 +37,7 @@
     [],
     [
       "vextrove:stone_type/terracotta",
+      "vextrove:stone_type/coarse_dirt",
       "vextrove:stone_type/smooth_red_sandstone",
       "vextrove:stone_type/red_sand",
       "vextrove:stone_type/granite",

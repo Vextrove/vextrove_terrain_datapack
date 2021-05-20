@@ -34,7 +34,7 @@
                   "max_inclusive": {
                     "absolute": 12
                   },
-                  "type": "minecraft:uniform"
+                  "type": "minecraft:trapezoid"
                 }
               },
               "type": "minecraft:range"

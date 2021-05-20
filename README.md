@@ -144,7 +144,7 @@ A 256 block tall dripstone cave world. Ranges from -192 to 64
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
- - Optimize order in which ores generate
+ - Snow underground in icy biomes except for oceans
  - Optimize stone types
  - Get Soulsand Valley to generate Skeleton skulls on the floor again
  - Get Chorus Trees to generate underneath overhangs again

@@ -37,7 +37,6 @@
     ],
     [],
     [
-      "vextrove:stone_type/packed_ice",
       "vextrove:stone_type/prismarine",
       "vextrove:stone_type/sand",
       "vextrove:stone_type/tuff",
@@ -80,6 +79,7 @@
       "minecraft:patch_pumpkin",
       "minecraft:prototype_spring_water",
       "vextrove:ocean_spring_water",
+      "vextrove:stone_type/packed_ice",
       "vextrove:stone_type/ice",
       "minecraft:spring_lava"
     ],

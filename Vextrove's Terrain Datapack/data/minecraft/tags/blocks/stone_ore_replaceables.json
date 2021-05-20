@@ -13,6 +13,7 @@
     "minecraft:red_sandstone",
     "minecraft:prismarine",
     "minecraft:terracotta",
-    "minecraft:smooth_quartz"
+    "minecraft:smooth_quartz",
+    "#vextrove:stone_ores"
   ]
 }

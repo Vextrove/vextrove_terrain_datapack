@@ -5,6 +5,7 @@
     "minecraft:smooth_basalt",
     "minecraft:blackstone",
     "minecraft:magma_block",
-    "minecraft:dark_prismarine"
+    "minecraft:dark_prismarine",
+    "#vextrove:deepslate_ores"
   ]
 }

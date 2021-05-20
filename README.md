@@ -160,21 +160,7 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Look into generating a giant tree (Yggdrasil)
 ### Website
  - Customize discussions page
- - Add videos
  - Create Github page
-#### Add images
- - Cavern world
- - Mountain quartz
- - Better badlands cave picture
- - Elder Prismarine + Elder Prismarine Bricks
- - Dark Prismarine Wall
- - Sakura planks
- - Sakura leaves
- - Sakura logs
- - Purpur Chorus log
- - Teal Chorus log
- - Purpur Chorus planks
- - Teal Chorus planks
 ### On hold until new customization options become available
  - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w19a)
  - Raise cloud height in the 1024 and 4064 block tall world types - Cloud height is hard-coded (last checked 21w19a)

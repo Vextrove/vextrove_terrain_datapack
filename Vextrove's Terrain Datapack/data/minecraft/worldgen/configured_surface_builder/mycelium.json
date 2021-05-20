@@ -7,7 +7,7 @@
       "Name": "minecraft:mycelium"
     },
     "under_material": {
-      "Name": "minecraft:rooted_dirt"
+      "Name": "minecraft:dirt"
     },
     "underwater_material": {
       "Name": "minecraft:clay"

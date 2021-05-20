@@ -83,10 +83,10 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "above_bottom": 8
+                    "above_bottom": 4
                   },
                   "max_inclusive": {
-                    "absolute": 0
+                    "absolute": -4
                   },
                   "type": "minecraft:uniform"
                 }

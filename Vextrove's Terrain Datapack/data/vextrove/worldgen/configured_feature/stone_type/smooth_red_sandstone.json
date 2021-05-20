@@ -44,12 +44,12 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "absolute": 8
+                    "absolute": 0
                   },
                   "max_inclusive": {
-                    "absolute": 64
+                    "absolute": 96
                   },
-                  "type": "minecraft:uniform"
+                  "type": "minecraft:trapezoid"
                 }
               },
               "type": "minecraft:range"

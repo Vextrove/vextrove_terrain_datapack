@@ -29,9 +29,9 @@
                     "absolute": 0
                   },
                   "max_inclusive": {
-                    "absolute": 60
+                    "absolute": 64
                   },
-                  "type": "minecraft:uniform"
+                  "type": "minecraft:trapezoid"
                 }
               },
               "type": "minecraft:range"

@@ -69,6 +69,7 @@
       "minecraft:rare_small_dripstone"
     ],
     [
+      "vextrove:trees/underground/jungle",
       "minecraft:prototype_glow_lichen",
       "minecraft:mushroom_field_vegetation",
       "vextrove:huge_mushrooms/caves",

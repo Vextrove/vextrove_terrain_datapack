@@ -26,12 +26,12 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "above_bottom": 0
+                    "above_bottom": -10
                   },
                   "max_inclusive": {
-                    "above_bottom": 6
+                    "above_bottom": 9
                   },
-                  "type": "minecraft:uniform"
+                  "type": "minecraft:trapezoid"
                 }
               },
               "type": "minecraft:range"
@@ -48,7 +48,7 @@
     },
     "decorator": {
       "config": {
-        "count": 7  
+        "count": 5
       },
       "type": "minecraft:count"
     }

@@ -165,7 +165,7 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Make better use of 4064 block tall world (I have to put my ideal vision on hold due to a minor limitation I'll elaborate on later)
  - Get structures to generate above y: 128 (particularly in the Nether) - Structures are hard-coded to generate at specific ranges of y levels (last checked 21w20a) 
  - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w20a)
- - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn in the Nether Wastes - They seem to *need* Mycelium in order to spawn (last checked 21w20a)
+ - Get Mooshrooms to spawn in the Nether Wastes - They seem to *need* Mycelium and a certain light level in order to spawn, and this can't be customized (last checked 21w20a)
  - Underground trees - The game won't generate trees where there is no light (last checked 21w20a)
  - Get [Chicken Jockey Towers](https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/51/Chicken_Jockey_Tower.png) to spawn - Can't configure mobs to spawn riding other mobs (last checked 21w20a)
 Please let me know if any of this has changed!
@@ -188,6 +188,8 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### ★★★★★ Directional damage (Fix MC-26678)
 ### ★★★★★ [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
  - Great steampunk vibes!
+### ★★★★★ More configurability for mob spawning in biomes
+ - Minimum light level should be configurable, as well as for which blocks mobs can spawn on (or in)
 ### ★★★★★ Ignore tall grass when attacking entities
 ### ★★★★☆ Ghast charging fireball animation (Fix MC-165038)
 ### ★★★★☆ Water on top of lava forms tuff rather than Cobblestone

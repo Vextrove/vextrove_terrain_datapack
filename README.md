@@ -155,6 +155,7 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Generate large quartz crystals in the highest part of the Nether Wastes
  - Get Chorus Trees to generate underneath overhangs again
  - Investigate Coral
+ - Investigate density_factor and density_offset
  - Figure out why Swamps are generating so damn many small Brown Mushrooms
  - Generate Shroomlight on the underground Mushroom Island ceiling
  - Underground Lilypads in Swamp

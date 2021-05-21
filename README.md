@@ -161,15 +161,14 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Look into generating a giant tree (Yggdrasil)
 ### Website
  - Customize discussions page
- - Create Github page
 ### On hold until new customization options become available
- - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w19a)
- - Raise cloud height in the 1024 and 4064 block tall world types - Cloud height is hard-coded (last checked 21w19a)
- - Underground trees - The game won't generate trees where there is no sunlight (last checked 21w19a)
+ - Raise cloud height in the 1024 and 4064 block tall world types - Cloud height is hard-coded (last checked 21w20a)
  - Make better use of 4064 block tall world (I have to put my ideal vision on hold due to a minor limitation I'll elaborate on later)
- - Get structures to generate above y: 128 (particularly in the Nether) - Structures are hard-coded to generate at specific ranges of y levels (last checked 21w19a) 
+ - Get structures to generate above y: 128 (particularly in the Nether) - Structures are hard-coded to generate at specific ranges of y levels (last checked 21w20a) 
+ - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w20a)
+ - Underground trees - The game won't generate trees where there is no light (last checked 21w20a)
  - Generate large quartz crystals (reskinned large dripstones) in the highest part of the Nether Wastes - Large dripstones are hard-coded to only generate below y: 0 (last checked 21w19a)
- - Get [Chicken Jockey Towers](https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/51/Chicken_Jockey_Tower.png) to spawn - Can't configure mobs to spawn riding other mobs (last checked 21w19a)
+ - Get [Chicken Jockey Towers](https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/51/Chicken_Jockey_Tower.png) to spawn - Can't configure mobs to spawn riding other mobs (last checked 21w20a)
 Please let me know if any of this has changed!
 
 ## Videos

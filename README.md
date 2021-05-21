@@ -98,6 +98,7 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![Huge mushrooms in the Nether Wastes](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/nether_mushrooms.png "Huge mushrooms in the Nether Wastes")
 ![A deteriorating Nether Fortress](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/deteriorating_fortress.png "A deteriorating Nether Fortress")
 ![A Nether Fortress with cracked bricks](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/cracked_fortress.png "A Nether Fortress with cracked bricks")
+![A Basalt stalactite](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/basalt_stalactite.png "A Basalt stalactite")
  - Charred Netherrack (Blackstone) at the bottom of the world
  - Nether biomes have a matching foliage color
  - Blocks turn into magma above the lava ocean
@@ -116,6 +117,7 @@ Use /execute in vextrove:<dimension name> run tp ~ 96 ~ to access these.
 ![A colossal mountain](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/1024_mountain.png "A colossal mountain")
 ![A colossal hill](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/1024_hill.png "A colossal hill")
 ![A snowy mountain](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/snowy_mountain.png "A snowy mountain")
+![A large river](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/river.png "A large river")
 A world 1024 blocks in height. Ranges from -256 to 768
 ### Max (laggy)
 A world 4064 blocks in height, the highest amount possible. Ranges from -2032 to 2032. I dare you to spelunk all the way to the bottom. Reaching -2000 counts as a win. Bonus points if you can do it without mining any deepslate! Either way, it will probably take you over an hour. How fast can it be done? 
@@ -127,9 +129,10 @@ A recreation of Minecraft 1.7.3 terrain. Will likely range from -64 to 128
 A basic imitation of the classic Aether mod. Ranges from 0 to 128
 ### The Skylands
 ![The bottom of the Skylands](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_deep.png "The bottom of the Skylands")
-![A Birch Forest](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_birch.png)
-![Overlooking a hole in a skyland](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_view.png)
-![A Spruce Forest](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_spruce.png)
+![A Birch forest in the Skylands](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_birch.png "A Birch forest in the Skylands")
+![Overlooking a gap in the Skylands](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_view.png)
+![A Spruce forest in the Skylands](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_spruce.png "A Spruce forest in the Skylands")
+![A forest in the Skylands](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/skylands_forest.png "A forest in the Skylands")
 A 1024 block tall floating islands world. Ranges from -256 to 768
 ### Caverns
 A 512 block tall cave world. Ranges from -128 to 384

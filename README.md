@@ -61,7 +61,6 @@ Additionally, it adds some minor gameplay modifications, such as:
 #### Cold biomes
 ![A cave that has been frozen](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png "A cave that has been frozen")
 ![A frozen dungeon](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_dungeon.png "A dungeon that has been frozen")
-![A bridge over lava](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/unfortunate_bridge.png)
  - Ice caverns
  - Blue ice patches
  - Frozen water underground, making for an interesting underground ice swimming experience!

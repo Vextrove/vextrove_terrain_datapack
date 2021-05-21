@@ -60,18 +60,23 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![A cave that has been frozen](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png "A cave that has been frozen")
 ![A frozen dungeon](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_dungeon.png "A dungeon that has been frozen")
  - Ice caverns
- - Blue ice patches
  - Frozen water underground, making for an interesting underground ice swimming experience!
+ - No Granite
 #### Desert biomes
 ![A desert cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png "A desert cavern")
- - Smooth Sandstone caverns
- - No Andesite or Diorite
+ - Sandstone caverns
+ - No Diorite or Andesite
  - Sand generates instead of Gravel
 #### Mesa biomes
 ![A badlands cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mesa_cave.png "A badlands cavern")
- - Smooth Red Sandstone caverns
+ - Red Sandstone caverns
+ - No Diorite or Andesite
  - Red Sand generates instead of Gravel
  - Terracotta instead of Stone
+#### Savanna
+![A Savanna](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/savanna.png "A Savanna")
+ - Custom grass/plant color
+ - No Diorite or Andesite
 #### Ocean biomes
 ![A Prismarine ocean cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/prismarine_cavern.png "A Prismarine ocean cavern")
  - Ocean water has transformed the stone into Prismarine
@@ -99,7 +104,7 @@ Additionally, it adds some minor gameplay modifications, such as:
  - Charred Netherrack (Blackstone) at the bottom of the world
  - Nether biomes have a matching foliage color
  - Blocks turn into magma above the lava ocean
- - Water turns into blood
+ - Blood puddles in the Nether
  - Nether bricks glow (Red Nether Bricks) in the hottest part of the Nether
  - The Nether has a day/night cycle, meaning that brightness increases and decreases slightly over time
 ### The End
@@ -160,7 +165,6 @@ A 256 block tall lush cave world. Ranges from -192 to 64
  - Customize discussions page
 ### On hold until new customization options become available
  - Raise cloud height in the 1024 and 4064 block tall world types - Cloud height is hard-coded (last checked 21w20a)
- - Make better use of 4064 block tall world (I have to put my ideal vision on hold due to a minor limitation I'll elaborate on later)
  - Get structures to generate above y: 128 (particularly in the Nether) - Structures are hard-coded to generate at specific ranges of y levels (last checked 21w20a) 
  - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w20a)
  - Get Mooshrooms to spawn in the Nether Wastes - They seem to *need* Mycelium and a certain light level in order to spawn, and this can't be customized (last checked 21w20a)
@@ -187,8 +191,10 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### ★★★★★ [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
  - Great steampunk vibes!
 ### ★★★★★ More configurability for mob spawning in biomes
+### ★★★★★ Let the size_horizontal parameter in noise_settings affect the biome noise map, so the terrain and biomes match up properly instead of getting out of sync
  - Minimum light level should be configurable, as well as for which blocks mobs can spawn on (or in)
 ### ★★★★★ Ignore tall grass when attacking entities
+### ★★★★★ An option to disable the warning when generating a world with custom settings
 ### ★★★★☆ Ghast charging fireball animation (Fix MC-165038)
 ### ★★★★☆ Water on top of lava forms tuff rather than Cobblestone
 ### ★★★★☆ Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)

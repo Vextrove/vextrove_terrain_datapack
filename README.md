@@ -79,7 +79,6 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![A Prismarine ocean cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/prismarine_cavern.png "A Prismarine ocean cavern")
  - Ocean water has transformed the stone into Prismarine
 #### Beach biomes
-![Dripstone in a beach cave](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/beach_cavern.png "Dripstone in a beach cave")
  - Dripstone (due to water from the oceans making the caves humid)
 #### Mountain biomes
  - Marble caves (Smooth Quartz)
@@ -87,7 +86,7 @@ Additionally, it adds some minor gameplay modifications, such as:
 ![A calcite cliffside](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/calcite.png "A calcite cliffside")
  - Calcite (around surface height)
 #### Podzol biomes
- - Coarse dirt
+ - Coarse dirt instead of dirt
 ### The Nether
 ![Magma at the bottom of the world](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/magmafication.png "Magma at the bottom of the world")
 ![Blood](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/blood.png "Blood")

@@ -9,7 +9,7 @@ Additionally, it adds some minor gameplay modifications, such as:
  - Some blocks require different tools than normal to be mined: [Pickaxe](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/mineable/pickaxe.json) [Axe](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/mineable/axe.json) [Shovel](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/mineable/shovel.json) [Hoe](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/mineable/hoe.json) [Sword](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/Vextrove's%20Terrain%20Datapack/data/minecraft/tags/blocks/mineable/sword.json)
 
 **[LEAVE SUGGESTIONS HERE](https://github.com/Vextrove/vextrove_terrain_datapack/discussions/new)**
-## **[CurseForge page](https://www.curseforge.com/minecraft/customization/vextrove-terrain-datapack)**
+**[CurseForge page](https://www.curseforge.com/minecraft/customization/vextrove-terrain-datapack)**
 
 ## Terrain generation changes
 ### Overworld

@@ -52,7 +52,7 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "above_bottom": 8
+                    "above_bottom": 0
                   },
                   "max_inclusive": {
                     "below_top": 8

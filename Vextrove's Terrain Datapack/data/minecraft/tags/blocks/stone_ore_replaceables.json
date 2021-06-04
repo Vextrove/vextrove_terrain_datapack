@@ -13,7 +13,12 @@
     "minecraft:red_sandstone",
     "minecraft:prismarine",
     "minecraft:terracotta",
-    "minecraft:smooth_quartz",
-    "#vextrove:stone_ores"
+    "minecraft:orange_terracotta",
+    "minecraft:brown_terracotta",
+    "minecraft:red_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:light_gray_terracotta",
+    "minecraft:white_terracotta",
+    "minecraft:smooth_quartz"
   ]
 }

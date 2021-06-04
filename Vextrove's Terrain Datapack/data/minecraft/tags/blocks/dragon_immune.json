@@ -3,6 +3,7 @@
   "values": [
     "minecraft:barrier",
     "minecraft:bedrock",
+    "minecraft:chest",
     "minecraft:end_portal",
     "minecraft:end_gateway",
     "minecraft:command_block",

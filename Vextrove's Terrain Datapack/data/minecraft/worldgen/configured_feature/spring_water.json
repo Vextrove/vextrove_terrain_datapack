@@ -18,14 +18,12 @@
                   "minecraft:andesite",
                   "minecraft:dripstone_block",
                   "minecraft:smooth_sandstone",
-                  "minecraft:sandstone",
                   "minecraft:smooth_red_sandstone",
-                  "minecraft:red_sandstone",
                   "minecraft:packed_ice",
                   "minecraft:prismarine",
                   "minecraft:dark_prismarine",
-                  "minecraft:moss_block",
-                  "minecraft:water"
+                  "minecraft:clay",
+                  "minecraft:moss_block"
                 ],
                 "state": {
                   "Properties": {

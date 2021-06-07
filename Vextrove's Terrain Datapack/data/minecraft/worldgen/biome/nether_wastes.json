@@ -107,7 +107,7 @@
       },
       {
         "type": "minecraft:zoglin",
-        "weight": 7,
+        "weight": 3,
         "minCount": 1,
         "maxCount": 3
       },

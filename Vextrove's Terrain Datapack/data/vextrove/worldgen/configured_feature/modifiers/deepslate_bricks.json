@@ -54,6 +54,15 @@
                   },
                   {
                     "target": {
+                      "block": "minecraft:mossy_cobblestone",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:cobbled_deepslate"
+                    }
+                  },
+                  {
+                    "target": {
                       "block": "minecraft:torch",
                       "predicate_type": "minecraft:block_match"
                     },

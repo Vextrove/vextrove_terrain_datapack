@@ -1,7 +1,4 @@
 {
-  "bedrock_roof_position": -2147483648,
-  "bedrock_floor_position": 0,
-  "min_surface_level": 50,
   "noise_caves_enabled": true,
   "deepslate_enabled": true,
   "ore_veins_enabled": true,
@@ -44,6 +41,8 @@
     }
     "Name": "minecraft:water"
   },
+  "bedrock_roof_position": -2147483648,
+  "bedrock_floor_position": 0,
   "structures": {
     "stronghold": {
       "distance": 32,

@@ -1,20 +1,48 @@
 {
-  "noise_caves_enabled": true,
-  "deepslate_enabled": true,
-  "ore_veins_enabled": true,
-  "noodle_caves_enabled": true,
-  "min_surface_level": 0,
-  "disable_mob_generation": false,
-  "aquifers_enabled": true,
-  "default_fluid": {
-    "Properties": {
-      "level": "0"
-    },
-    "Name": "minecraft:water"
-  },
   "bedrock_roof_position": 0,
   "bedrock_floor_position": 0,
   "sea_level": -96,
+  "min_surface_level": 0,
+  "disable_mob_generation": false,
+  "noise_caves_enabled": true,
+  "noodle_caves_enabled": true,
+  "aquifers_enabled": true,
+  "deepslate_enabled": true,
+  "ore_veins_enabled": true,
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:water",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "min_y": -128,
+    "height": 512,
+    "density_factor": 0,
+    "density_offset": 0.019921875,
+    "size_horizontal": 1,
+    "size_vertical": 4,
+    "simplex_surface_noise": false,
+    "sampling": {
+      "xz_scale": 1,
+      "y_scale": 3,
+      "xz_factor": 80,
+      "y_factor": 60
+    },
+    "bottom_slide": {
+      "target": 32,
+      "size": 4,
+      "offset": -1
+    },
+    "top_slide": {
+      "target": 30,
+      "size": 3,
+      "offset": 0
+    }
+  },
   "structures": {
     "stronghold": {
       "distance": 32,
@@ -113,33 +141,5 @@
         "salt": 0
       }
     }
-  },
-  "noise": {
-    "simplex_surface_noise": false,
-    "size_vertical": 4,
-    "density_factor": 0.0,
-    "density_offset": 0.019921875,
-    "top_slide": {
-      "target": 30,
-      "size": 3,
-      "offset": 0
-    },
-    "bottom_slide": {
-      "target": 32,
-      "size": 4,
-      "offset": -1
-    },
-    "size_horizontal": 1,
-    "min_y": -128,
-    "height": 512,
-    "sampling": {
-      "xz_scale": 1.0,
-      "y_scale": 3.0,
-      "xz_factor": 80.0,
-      "y_factor": 60.0
-    }
-  },
-  "default_block": {
-    "Name": "minecraft:stone"
   }
 }

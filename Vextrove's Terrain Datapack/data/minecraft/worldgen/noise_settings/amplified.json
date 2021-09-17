@@ -4,6 +4,7 @@
   "ore_veins_enabled": true,
   "noodle_caves_enabled": true,
   "min_surface_level": 50,
+  "sea_level": 63,
   "disable_mob_generation": false,
   "aquifers_enabled": true,
   "default_fluid": {
@@ -14,7 +15,6 @@
   },
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": 0,
-  "sea_level": 63,
   "structures": {
     "stronghold": {
       "distance": 32,

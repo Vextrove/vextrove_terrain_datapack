@@ -141,5 +141,98 @@
         "salt": 14357619
       }
     }
+  "noise": {
+    "random_density_offset": true,
+    "density_factor": 1.0,
+    "density_offset": -0.51875,
+    "simplex_surface_noise": true,
+    "top_slide": {
+      "target": -0.078125,
+      "size": 2,
+      "offset": 8
+    },
+    "bottom_slide": {
+      "target": 0.1171875,
+      "size": 3,
+      "offset": 0
+    },
+    "size_horizontal": 1,
+    "size_vertical": 2,
+    "min_y": -64,
+    "height": 384,
+    "sampling": {
+      "xz_scale": 0.9999999814507745,
+      "y_scale": 0.9999999814507745,
+      "xz_factor": 80.0,
+      "y_factor": 160.0
+    }
+  },
+  "octaves": {
+    "erosion": {
+      "firstOctave": -9,
+      "amplitudes": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    "weirdness": {
+      "firstOctave": -7,
+      "amplitudes": [
+        1.0,
+        2.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "shift": {
+      "firstOctave": -3,
+      "amplitudes": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "temperature": {
+      "firstOctave": -9,
+      "amplitudes": [
+        1.5,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "humidity": {
+      "firstOctave": -7,
+      "amplitudes": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "continentalness": {
+      "firstOctave": -9,
+      "amplitudes": [
+        1.0,
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
   }
 }

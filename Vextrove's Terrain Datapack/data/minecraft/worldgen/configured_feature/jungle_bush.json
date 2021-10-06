@@ -2,10 +2,10 @@
   "config": {
     "decorators": [],
     "ignore_vines": false,
-	"force_dirt": true,
+    "force_dirt": false,
     "dirt_provider": {
       "state": {
-        "Name": "minecraft:rooted_dirt"
+        "Name": "minecraft:dirt"
       },
       "type": "minecraft:simple_state_provider"
     },
@@ -14,6 +14,31 @@
       "lower_size": 0,
       "upper_size": 0,
       "type": "minecraft:two_layers_feature_size"
+    },
+    "foliage_provider": {
+      "state": {
+        "Properties": {
+          "persistent": "false",
+          "distance": "7"
+        },
+        "Name": "minecraft:oak_leaves"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "sapling_provider": {
+      "state": {
+        "Properties": {
+          "stage": "0"
+        },
+        "Name": "minecraft:oak_sapling"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "foliage_placer": {
+      "radius": 2,
+      "offset": 1,
+      "height": 2,
+      "type": "minecraft:bush_foliage_placer"
     },
     "trunk_provider": {
       "state": {
@@ -29,22 +54,6 @@
       "height_rand_a": 0,
       "height_rand_b": 0,
       "type": "minecraft:straight_trunk_placer"
-    },
-    "foliage_provider": {
-      "state": {
-        "Properties": {
-          "persistent": "false",
-          "distance": "7"
-        },
-        "Name": "minecraft:oak_leaves"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
-    "foliage_placer": {
-      "radius": 2,
-      "offset": 1,
-      "height": 2,
-      "type": "minecraft:bush_foliage_placer"
     }
   },
   "type": "minecraft:tree"

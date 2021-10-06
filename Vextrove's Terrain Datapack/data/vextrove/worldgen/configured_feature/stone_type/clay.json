@@ -9,7 +9,7 @@
                 "targets": [
                   {
                     "target": {
-                      "tag": "vextrove:dirt_replaceable",
+                      "tag": "minecraft:base_stone_overworld",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {

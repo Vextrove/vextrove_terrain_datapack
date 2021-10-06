@@ -15,13 +15,7 @@
     "minecraft:red_sandstone",
     "minecraft:prismarine",
     "minecraft:dark_prismarine",
-    "minecraft:terracotta",
-    "minecraft:orange_terracotta",
-    "minecraft:brown_terracotta",
-    "minecraft:red_terracotta",
-    "minecraft:yellow_terracotta",
-    "minecraft:light_gray_terracotta",
-    "minecraft:white_terracotta",
+    "#vextrove:hardened_clay",
     "minecraft:smooth_quartz"
   ]
 }

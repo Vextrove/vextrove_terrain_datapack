@@ -35,6 +35,12 @@
                 "use_alternate_layer0_chance": 0.083,
                 "placements_require_layer0_alternate": true,
                 "blocks": {
+                  "middle_layer_provider": {
+                    "state": {
+                      "Name": "minecraft:calcite"
+                    },
+                    "type": "minecraft:simple_state_provider"
+                  },
                   "outer_layer_provider": {
                     "state": {
                       "Name": "minecraft:tuff"
@@ -72,7 +78,6 @@
                     }
                   ],
                   "cannot_replace": "minecraft:features_cannot_replace",
-                  "invalid_blocks": "minecraft:geode_invalid_blocks",
                   "filling_provider": {
                     "state": {
                       "Name": "minecraft:air"
@@ -90,12 +95,6 @@
                       "Name": "minecraft:budding_amethyst"
                     },
                     "type": "minecraft:simple_state_provider"
-                  },
-                  "middle_layer_provider": {
-                    "state": {
-                      "Name": "minecraft:calcite"
-                    },
-                    "type": "minecraft:simple_state_provider"
                   }
                 },
                 "layers": {
@@ -105,7 +104,7 @@
                   "outer_layer": 4.2
                 },
                 "crack": {
-                  "generate_crack_chance": 0.55,
+                  "generate_crack_chance": 0.65,
                   "base_crack_size": 2.0,
                   "crack_point_offset": 2
                 }

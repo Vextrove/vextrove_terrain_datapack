@@ -107,9 +107,9 @@
       },
       {
         "type": "minecraft:zoglin",
-        "weight": 3,
-        "minCount": 1,
-        "maxCount": 3
+        "weight": 9,
+        "minCount": 3,
+        "maxCount": 4
       },
       {
         "type": "minecraft:piglin",
@@ -133,7 +133,7 @@
       },
       {
         "type": "minecraft:mooshroom",
-        "weight": 32,
+        "weight": 8,
         "minCount": 3,
         "maxCount": 7
       }

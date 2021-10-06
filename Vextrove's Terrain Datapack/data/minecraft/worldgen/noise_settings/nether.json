@@ -1,48 +1,20 @@
-{
+  {
+  "noise_caves_enabled": true,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false,
+  "noodle_caves_enabled": true,
+  "min_surface_level": 0,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:lava"
+  },
   "bedrock_roof_position": 0,
   "bedrock_floor_position": 0,
   "sea_level": 32,
-  "min_surface_level": 0,
-  "disable_mob_generation": false,
-  "noise_caves_enabled": true,
-  "noodle_caves_enabled": true,
-  "aquifers_enabled": false,
-  "deepslate_enabled": false,
-  "ore_veins_enabled": false,
-  "default_block": {
-    "Name": "minecraft:netherrack"
-  },
-  "default_fluid": {
-    "Name": "minecraft:lava",
-    "Properties": {
-      "level": "0"
-    }
-  },
-  "noise": {
-    "min_y": 0,
-    "height": 1024,
-    "density_factor": 0,
-    "density_offset": 0.019921875,
-    "size_horizontal": 2,
-    "size_vertical": 4,
-    "simplex_surface_noise": false,
-    "sampling": {
-      "xz_scale": 1,
-      "y_scale": 3,
-      "xz_factor": 40,
-      "y_factor": 40
-    },
-    "bottom_slide": {
-      "target": 24,
-      "size": 4,
-      "offset": -1
-    },
-    "top_slide": {
-      "target": 30,
-      "size": 3,
-      "offset": 0
-    }
-  },
   "structures": {
     "structures": {
       "minecraft:jungle_pyramid": {
@@ -136,5 +108,33 @@
         "salt": 0
       }
     }
+  },
+  "noise": {
+    "simplex_surface_noise": false,
+    "size_vertical": 4,
+    "density_factor": 0.0,
+    "density_offset": 0.019921875,
+    "top_slide": {
+      "target": 30,
+      "size": 3,
+      "offset": 0
+    },
+    "bottom_slide": {
+      "target": 24,
+      "size": 4,
+      "offset": -1
+    },
+    "size_horizontal": 2,
+    "min_y": 0,
+    "height": 1024,
+    "sampling": {
+      "xz_scale": 1.0,
+      "y_scale": 3.0,
+      "xz_factor": 40.0,
+      "y_factor": 40.0
+    }
+  },
+  "default_block": {
+    "Name": "minecraft:netherrack"
   }
 }

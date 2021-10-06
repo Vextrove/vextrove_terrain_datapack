@@ -1,50 +1,20 @@
 {
+  "noise_caves_enabled": true,
+  "deepslate_enabled": true,
+  "ore_veins_enabled": true,
+  "noodle_caves_enabled": true,
+  "min_surface_level": 50,
+  "disable_mob_generation": false,
+  "aquifers_enabled": true,
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:water"
+  },
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": 0,
   "sea_level": 63,
-  "min_surface_level": 50,
-  "disable_mob_generation": false,
-  "noise_caves_enabled": true,
-  "noodle_caves_enabled": true,
-  "aquifers_enabled": true,
-  "deepslate_enabled": true,
-  "ore_veins_enabled": true,
-  "default_block": {
-    "Name": "minecraft:stone"
-  },
-  "default_fluid": {
-    "Name": "minecraft:water",
-    "Properties": {
-      "level": "0"
-    }
-  },
-  "noise": {
-    "min_y": -64,
-    "height": 384,
-    "density_factor": 1,
-    "density_offset": -0.46875,
-    "size_horizontal": 1,
-    "size_vertical": 2,
-    "simplex_surface_noise": true,
-    "random_density_offset": true,
-    "amplified": true,
-    "sampling": {
-      "xz_scale": 0.5,
-      "y_scale": 0.9999999814507745,
-      "xz_factor": 80,
-      "y_factor": 160
-    },
-    "bottom_slide": {
-      "target": 15,
-      "size": 3,
-      "offset": 0
-    },
-    "top_slide": {
-      "target": -10,
-      "size": 3,
-      "offset": 0
-    }
-  },
   "structures": {
     "stronghold": {
       "distance": 32,
@@ -143,5 +113,35 @@
         "salt": 14357619
       }
     }
+  },
+  "noise": {
+    "simplex_surface_noise": true,
+    "random_density_offset": true,
+    "amplified": true,
+    "size_vertical": 2,
+    "density_factor": 1.0,
+    "density_offset": -0.46875,
+    "top_slide": {
+      "target": -10,
+      "size": 3,
+      "offset": 0
+    },
+    "bottom_slide": {
+      "target": 15,
+      "size": 3,
+      "offset": 0
+    },
+    "size_horizontal": 1,
+    "min_y": -64,
+    "height": 384,
+    "sampling": {
+      "xz_scale": 0.5,
+      "y_scale": 0.9999999814507745,
+      "xz_factor": 80.0,
+      "y_factor": 160.0
+    }
+  },
+  "default_block": {
+    "Name": "minecraft:stone"
   }
 }

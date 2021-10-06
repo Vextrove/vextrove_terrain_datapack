@@ -1,11 +1,15 @@
 {
   "config": {
-    "decorators": [],
+    "decorators": [
+      {
+        "type": "minecraft:leave_vine"
+      }
+    ],
     "ignore_vines": true,
-    "force_dirt": false,
+    "force_dirt": true,
     "dirt_provider": {
       "state": {
-        "Name": "minecraft:dirt"
+        "Name": "minecraft:rooted_dirt"
       },
       "type": "minecraft:simple_state_provider"
     },
@@ -15,31 +19,6 @@
       "upper_size": 0,
       "min_clipped_height": 4,
       "type": "minecraft:two_layers_feature_size"
-    },
-    "foliage_provider": {
-      "state": {
-        "Properties": {
-          "persistent": "false",
-          "distance": "7"
-        },
-        "Name": "minecraft:jungle_leaves"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
-    "sapling_provider": {
-      "state": {
-        "Properties": {
-          "stage": "0"
-        },
-        "Name": "minecraft:jungle_sapling"
-      },
-      "type": "minecraft:simple_state_provider"
-    },
-    "foliage_placer": {
-      "radius": 2,
-      "offset": 4,
-      "height": 4,
-      "type": "minecraft:fancy_foliage_placer"
     },
     "trunk_provider": {
       "state": {
@@ -55,6 +34,22 @@
       "height_rand_a": 11,
       "height_rand_b": 0,
       "type": "minecraft:fancy_trunk_placer"
+    },
+    "foliage_provider": {
+      "state": {
+        "Properties": {
+          "persistent": "false",
+          "distance": "7"
+        },
+        "Name": "minecraft:jungle_leaves"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "foliage_placer": {
+      "radius": 2,
+      "offset": 4,
+      "height": 4,
+      "type": "minecraft:fancy_foliage_placer"
     }
   },
   "type": "minecraft:tree"

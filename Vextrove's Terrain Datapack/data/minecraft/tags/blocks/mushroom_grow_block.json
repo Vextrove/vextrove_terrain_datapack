@@ -1,16 +1,25 @@
 {
   "replace": true,
   "values": [
+    "minecraft:mycelium",
     "minecraft:netherrack",
+    "minecraft:podzol",
+    "minecraft:grass_block",
+    "minecraft:crimson_nylium",
+    "minecraft:warped_nylium",
+    "minecraft:coarse_dirt",
+    "minecraft:dirt",
     "minecraft:stone",
-    "#vextrove:igneous_rock",
     "minecraft:deepslate",
-    "minecraft:smooth_basalt",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:tuff",
     "minecraft:blackstone",
-    "#minecraft:dirt",
-    "#minecraft:nylium",
-    "#minecraft:sand",
-    "minecraft:clay",
-    "minecraft:tuff"
+    "minecraft:terracotta",
+    "minecraft:calcite",
+    "minecraft:prismarine",
+    "minecraft:dripstone_block",
+    "minecraft:clay"
   ]
 }

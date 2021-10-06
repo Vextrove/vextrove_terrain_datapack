@@ -1,5 +1,5 @@
 {
-  "type": "vextrove:max",
+  "type": "vextrove:beta",
   "generator": {
     "biome_source": {
       "seed": 0,
@@ -7,7 +7,7 @@
       "type": "minecraft:vanilla_layered"
     },
     "seed": 0,
-    "settings": "vextrove:max",
+    "settings": "vextrove:beta",
     "type": "minecraft:noise"
   }
 }

@@ -11,6 +11,7 @@
                 "valid_blocks": [
                   "minecraft:basalt",
                   "minecraft:blackstone",
+                  "minecraft:gravel",
                   "minecraft:magma_block",
                   "minecraft:nether_gold_ore",
                   "minecraft:nether_quartz_ore",

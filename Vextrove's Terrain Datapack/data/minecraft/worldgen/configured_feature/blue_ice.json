@@ -5,33 +5,19 @@
         "feature": {
           "config": {
             "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "minecraft:base_stone_overworld",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:dirt"
-                    }
-                  }
-                ],
-                "size": 48,
-                "discard_chance_on_air_exposure": 0.05
-              },
-              "type": "minecraft:ore"
+              "config": {},
+              "type": "minecraft:blue_ice"
             },
             "decorator": {
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "absolute": 60
+                    "absolute": 30
                   },
                   "max_inclusive": {
-                    "absolute": 80
+                    "absolute": 61
                   },
-                  "type": "minecraft:trapezoid"
+                  "type": "minecraft:uniform"
                 }
               },
               "type": "minecraft:range"
@@ -48,7 +34,13 @@
     },
     "decorator": {
       "config": {
-        "count": 16
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 0,
+            "max_inclusive": 19
+          }
+        }
       },
       "type": "minecraft:count"
     }

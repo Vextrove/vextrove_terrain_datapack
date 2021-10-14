@@ -1,5 +1,4 @@
 {
-  "scale": 0.0,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -9,15 +8,14 @@
     },
     "sky_color": 8103167,
     "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4566514,
+    "water_fog_color": 267827
   },
-  "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [

@@ -1,5 +1,4 @@
 {
-  "scale": 0.45000002,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -12,12 +11,11 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:ice_spikes",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [

@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -14,7 +13,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:eroded_badlands",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -27,10 +25,12 @@
     [
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
@@ -64,11 +64,9 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
     ],
     [
-      "minecraft:prototype_glow_lichen",
+      "minecraft:glow_lichen",
       "minecraft:patch_grass_badlands",
       "minecraft:patch_dead_bush_badlands",
       "minecraft:brown_mushroom_normal",
@@ -82,11 +80,6 @@
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:mineshaft_mesa",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain"
   ],
   "spawners": {
     "monster": [
@@ -148,15 +141,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -171,6 +159,5 @@
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,
-  "category": "mesa",
-  "depth": 0.1
+  "category": "mesa"
 }

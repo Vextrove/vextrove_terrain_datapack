@@ -1,5 +1,6 @@
 {
   "config": {
+    "yScale": 4.0,
     "lava_level": {
       "above_bottom": 8
     },
@@ -37,7 +38,6 @@
       },
       "type": "minecraft:uniform"
     },
-    "yScale": 4.0,
     "vertical_rotation": {
       "type": "minecraft:uniform",
       "value": {

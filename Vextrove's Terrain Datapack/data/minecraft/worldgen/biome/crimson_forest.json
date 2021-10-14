@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.crimson_forest.mood",
@@ -31,7 +30,6 @@
     "grass_color": 13643567,
     "foliage_color": 15210263
   },
-  "surface_builder": "minecraft:crimson_forest",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -76,11 +74,6 @@
       "minecraft:crimson_forest_vegetation"
     ]
   ],
-  "starts": [
-    "minecraft:ruined_portal_nether",
-    "minecraft:fortress",
-    "minecraft:bastion_remnant"
-  ],
   "spawners": {
     "monster": [
       {
@@ -111,6 +104,7 @@
       }
     ],
     "ambient": [],
+    "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
@@ -121,6 +115,5 @@
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,
-  "category": "nether",
-  "depth": 0.1
+  "category": "nether"
 }

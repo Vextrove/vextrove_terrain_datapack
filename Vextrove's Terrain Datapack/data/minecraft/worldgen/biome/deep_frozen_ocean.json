@@ -65,34 +65,25 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
-      "minecraft:prototype_glow_lichen",
+      "minecraft:glow_lichen",
       "minecraft:trees_water",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
       "vextrove:ocean_spring_water",
       "vextrove:stone_type/packed_ice",
       "vextrove:stone_type/ice",
-      "minecraft:spring_lava"
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:ocean_ruin_cold",
-    "minecraft:monument",
-    "minecraft:mineshaft",
-    "minecraft:shipwreck",
-    "minecraft:ruined_portal_ocean"
   ],
   "spawners": {
     "monster": [
@@ -167,15 +158,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -205,6 +191,5 @@
   "temperature": 0.5,
   "temperature_modifier": "frozen",
   "downfall": 0.5,
-  "category": "ocean",
-  "depth": -1.8
+  "category": "ocean"
 }

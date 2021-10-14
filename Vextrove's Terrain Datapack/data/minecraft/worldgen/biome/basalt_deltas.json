@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.basalt_deltas.mood",
@@ -31,7 +30,6 @@
     "grass_color": 4539722,
     "foliage_color": 16743204
   },
-  "surface_builder": "minecraft:basalt_deltas",
   "carvers": {
     "air": [
       "minecraft:nether_cave"

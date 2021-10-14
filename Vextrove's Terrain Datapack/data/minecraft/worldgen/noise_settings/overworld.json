@@ -1858,10 +1858,10 @@
         "separation": 15,
         "salt": 34222645
       },
-      "minecraft:pillager_outpost": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 165745296
+      "minecraft:stronghold": {
+        "spacing": 1,
+        "separation": 0,
+        "salt": 0
       },
       "minecraft:bastion_remnant": {
         "spacing": 27,

@@ -11,6 +11,7 @@
   "coordinate_scale": 16.0,
   "piglin_safe": true,
   "bed_works": false,
+  "fixed_time": 18000,
   "has_skylight": false,
   "has_ceiling": true,
   "ultrawarm": true

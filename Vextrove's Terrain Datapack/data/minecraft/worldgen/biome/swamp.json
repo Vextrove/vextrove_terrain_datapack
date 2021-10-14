@@ -1,5 +1,4 @@
-  {
-  "scale": 0.1,
+{
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -14,27 +13,26 @@
     "water_color": 6388580,
     "water_fog_color": 2302743
   },
-  "surface_builder": "minecraft:swamp",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
-      "vextrove:lake_slime",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:prototype_fossil_upper",
-      "minecraft:prototype_fossil_lower",
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],

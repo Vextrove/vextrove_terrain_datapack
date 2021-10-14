@@ -1,5 +1,4 @@
 {
-  "scale": 0.025,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -12,7 +11,6 @@
     "water_color": 4566514,
     "water_fog_color": 267827
   },
-  "surface_builder": "minecraft:desert",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -23,13 +21,14 @@
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],

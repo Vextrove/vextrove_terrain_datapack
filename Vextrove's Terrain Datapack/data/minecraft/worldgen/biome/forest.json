@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -12,7 +11,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -23,7 +21,6 @@
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
     [],

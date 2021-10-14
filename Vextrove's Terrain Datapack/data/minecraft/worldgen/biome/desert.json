@@ -1,5 +1,4 @@
 {
-  "scale": 0.05,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -14,12 +13,11 @@
     "grass_color": 16771189,
     "foliage_color": 16771189
   },
-  "surface_builder": "minecraft:desert",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
@@ -27,12 +25,14 @@
     [
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:prototype_fossil_upper",
-      "minecraft:prototype_fossil_lower",
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [
       "minecraft:desert_well"
@@ -67,11 +67,9 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
     ],
     [
-      "minecraft:prototype_glow_lichen",
+      "minecraft:glow_lichen",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
       "minecraft:patch_dead_bush_2",

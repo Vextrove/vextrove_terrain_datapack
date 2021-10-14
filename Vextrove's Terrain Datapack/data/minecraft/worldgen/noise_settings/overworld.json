@@ -87,10 +87,15 @@
         "separation": 4,
         "salt": 30084232
       },
-      "minecraft:mineshaft": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
+      "minecraft:jungle_pyramid": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 14357619
+      },
+      "minecraft:endcity": {
+        "spacing": 20,
+        "separation": 11,
+        "salt": 10387313
       },
       "minecraft:buried_treasure": {
         "spacing": 1,

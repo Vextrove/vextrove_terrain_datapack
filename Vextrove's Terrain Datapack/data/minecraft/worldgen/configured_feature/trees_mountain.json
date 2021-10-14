@@ -6,7 +6,7 @@
           "config": {
             "features": [
               {
-                "feature": "minecraft:spruce",
+                "feature": "minecraft:spruce_checked",
                 "chance": 0.666
               },
               {
@@ -14,7 +14,7 @@
                 "chance": 0.1
               }
             ],
-            "default": "minecraft:oak"
+            "default": "minecraft:oak_checked"
           },
           "type": "minecraft:random_selector"
         },

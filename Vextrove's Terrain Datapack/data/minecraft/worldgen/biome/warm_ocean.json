@@ -1,5 +1,4 @@
 {
-  "scale": 0.1,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,28 +6,29 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 8103167,
-    "fog_color": 12638463,
+    "sky_color": 9760767,
+    "fog_color": 11793663,
     "water_color": 4445678,
     "water_fog_color": 270131
   },
-  "surface_builder": "minecraft:full_sand",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
@@ -42,21 +42,23 @@
       "vextrove:stone_type/smooth_basalt",
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
-      "minecraft:prototype_ore_coal_upper",
-      "minecraft:prototype_ore_coal_lower",
-      "minecraft:prototype_ore_iron_upper",
-      "minecraft:prototype_ore_iron_middle",
-      "minecraft:prototype_ore_iron_small",
-      "minecraft:prototype_ore_gold",
-      "minecraft:prototype_ore_redstone",
-      "minecraft:prototype_ore_redstone_lower",
-      "minecraft:prototype_ore_diamond",
-      "minecraft:prototype_ore_diamond_large",
-      "minecraft:prototype_ore_lapis",
-      "minecraft:prototype_ore_lapis_buried",
-      "minecraft:prototype_ore_copper",
-      "minecraft:prototype_underwater_magma",
       "vextrove:modifiers/wood_type/ocean",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"

@@ -96,21 +96,6 @@
         "spacing": 1,
         "separation": 0,
         "salt": 0
-      },
-      "minecraft:village": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 10387312
-      },
-      "minecraft:desert_pyramid": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357617
-      },
-      "minecraft:jungle_pyramid": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357619
       }
     }
   },

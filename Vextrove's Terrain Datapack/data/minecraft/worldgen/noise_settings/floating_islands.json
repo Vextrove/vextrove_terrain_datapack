@@ -114,7 +114,6 @@
     }
   },
   "noise": {
-    "simplex_surface_noise": true,
     "size_vertical": 1,
     "density_factor": 0.0,
     "density_offset": 0.0,

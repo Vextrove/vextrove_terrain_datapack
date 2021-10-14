@@ -3,32 +3,7 @@
     "lava_level": {
       "above_bottom": 8
     },
-    "aquifers_enabled": false,
-    "debug_settings": {
-      "water_state": {
-        "Properties": {
-          "waterlogged": "false",
-          "lit": "false",
-          "candles": "1"
-        },
-        "Name": "minecraft:candle"
-      },
-      "lava_state": {
-        "Name": "minecraft:orange_stained_glass"
-      },
-      "barrier_state": {
-        "Name": "minecraft:glass"
-      },
-      "air_state": {
-        "Properties": {
-          "powered": "false",
-          "facing": "north",
-          "face": "wall"
-        },
-        "Name": "minecraft:crimson_button"
-      }
-    },
-    "probability": 0.33333334,
+    "probability": 0.2,
     "y": {
       "min_inclusive": {
         "above_bottom": 8

@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -14,7 +13,6 @@
     "water_color": 11303852,
     "water_fog_color": 7031915
   },
-  "surface_builder": "minecraft:end",
   "carvers": {},
   "features": [
     [
@@ -30,18 +28,13 @@
       {
         "type": "minecraft:enderman",
         "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
-      },
-      {
-        "type": "minecraft:shulker",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
+        "minCount": 4,
+        "maxCount": 4
       }
     ],
     "creature": [],
     "ambient": [],
+    "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
@@ -52,6 +45,5 @@
   "precipitation": "none",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "the_end",
-  "depth": 0.1
+  "category": "the_end"
 }

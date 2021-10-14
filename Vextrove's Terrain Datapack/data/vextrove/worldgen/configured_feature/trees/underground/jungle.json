@@ -1,0 +1,59 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "features": [
+                  {
+                    "feature": "vextrove:trees/fancy_jungle",
+                    "chance": 0.1
+                  },
+                  {
+                    "feature": "minecraft:jungle_bush",
+                    "chance": 0.5
+                  },
+                  {
+                    "feature": "minecraft:mega_jungle_tree",
+                    "chance": 0.33333334
+                  }
+                ],
+                "default": "minecraft:jungle_tree"
+              },
+              "type": "minecraft:random_selector"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 16
+                  },
+                  "max_inclusive": {
+                    "absolute": 56
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 64
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

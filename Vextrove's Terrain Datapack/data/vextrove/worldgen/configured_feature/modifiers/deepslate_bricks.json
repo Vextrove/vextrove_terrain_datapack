@@ -1,0 +1,114 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "targets": [
+                  {
+                    "target": {
+                      "block": "minecraft:stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:deepslate_bricks"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:cracked_stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:cracked_deepslate_bricks"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:mossy_stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:cracked_deepslate_bricks"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:chiseled_stone_bricks",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:chiseled_deepslate_bricks"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:cobblestone",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:cobbled_deepslate"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:torch",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:soul_torch"
+                    }
+                  },
+                  {
+                    "target": {
+                      "block": "minecraft:wall_torch",
+                      "predicate_type": "minecraft:block_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:soul_wall_torch",
+                      "Properties": {
+                        "facing": "north"
+                      }
+                    }
+                  }
+                ],
+                "size": 64,
+                "discard_chance_on_air_exposure": 0.0
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 4
+                  },
+                  "max_inclusive": {
+                    "absolute": -4
+                  },
+                  "type": "minecraft:uniform"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 127
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

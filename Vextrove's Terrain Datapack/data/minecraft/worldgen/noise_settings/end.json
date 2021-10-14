@@ -10,6 +10,12 @@
   "default_fluid": {
     "Name": "minecraft:air"
   },
+  "surface_rule": {
+    "result_state": {
+      "Name": "minecraft:end_stone"
+    },
+    "type": "minecraft:block"
+  },
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": -2147483648,
   "structures": {

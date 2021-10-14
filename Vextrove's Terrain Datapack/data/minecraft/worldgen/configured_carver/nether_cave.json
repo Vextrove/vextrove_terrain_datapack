@@ -1,7 +1,7 @@
 {
   "config": {
     "lava_level": {
-      "above_bottom": 8
+      "above_bottom": 10
     },
     "probability": 0.2,
     "y": {

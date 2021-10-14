@@ -29,7 +29,7 @@
                 "size": 7,
                 "discard_chance_on_air_exposure": 1.0
               },
-              "type": "minecraft:scattered_ore"
+              "type": "minecraft:ore"
             },
             "decorator": {
               "config": {

@@ -3,6 +3,7 @@
   "ore_veins_enabled": false,
   "noodle_caves_enabled": true,
   "min_surface_level": 0,
+  "sea_level": 0,
   "disable_mob_generation": true,
   "aquifers_enabled": false,
   "noise_caves_enabled": true,
@@ -11,7 +12,6 @@
   },
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": -2147483648,
-  "sea_level": 0,
   "structures": {
     "structures": {
       "minecraft:jungle_pyramid": {

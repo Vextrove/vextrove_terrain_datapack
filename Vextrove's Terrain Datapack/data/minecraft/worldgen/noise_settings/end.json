@@ -19,19 +19,19 @@
   "bedrock_floor_position": -2147483648,
   "structures": {
     "structures": {
-      "minecraft:jungle_pyramid": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357619
+      "minecraft:nether_fossil": {
+        "spacing": 2,
+        "separation": 1,
+        "salt": 14357921
       },
-      "minecraft:bastion_remnant": {
-        "spacing": 27,
+      "minecraft:shipwreck": {
+        "spacing": 24,
         "separation": 4,
-        "salt": 30084232
+        "salt": 165745295
       },
-      "minecraft:endcity": {
-        "spacing": 20,
-        "separation": 11,
+      "minecraft:monument": {
+        "spacing": 32,
+        "separation": 5,
         "salt": 10387313
       },
       "minecraft:mansion": {

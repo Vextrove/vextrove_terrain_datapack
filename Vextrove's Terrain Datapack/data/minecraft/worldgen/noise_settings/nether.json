@@ -774,8 +774,8 @@
     }
   },
   "noise": {
-    "simplex_surface_noise": false,
     "size_vertical": 4,
+    "use_legacy_random": true,
     "density_factor": 0.0,
     "density_offset": 0.019921875,
     "top_slide": {

@@ -41,7 +41,8 @@
     [
       "vextrove:stone_type/smooth_sandstone",
       "vextrove:stone_type/sand",
-      "vextrove:stone_type/granite",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
       "vextrove:stone_type/tuff",
       "vextrove:stone_type/deepslate",
       "vextrove:stone_type/blackstone",

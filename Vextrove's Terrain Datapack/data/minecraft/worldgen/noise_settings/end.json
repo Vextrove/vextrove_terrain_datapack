@@ -2,6 +2,7 @@
   "deepslate_enabled": false,
   "ore_veins_enabled": false,
   "noodle_caves_enabled": true,
+  "legacy_random_source": true,
   "sea_level": 0,
   "disable_mob_generation": true,
   "aquifers_enabled": false,

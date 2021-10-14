@@ -1,5 +1,4 @@
 {
-  "scale": 0.1,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -12,11 +11,11 @@
     "water_color": 3750089,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:frozen_ocean",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
@@ -26,7 +25,8 @@
     ],
     [
       "minecraft:iceberg_packed",
-      "minecraft:iceberg_blue"
+      "minecraft:iceberg_blue",
+      "minecraft:amethyst_geode"
     ],
     [
       "minecraft:amethyst_geode",

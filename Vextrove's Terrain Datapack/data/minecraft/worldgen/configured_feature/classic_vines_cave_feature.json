@@ -15,7 +15,7 @@
                     "above_bottom": 18
                   },
                   "max_inclusive": {
-                    "absolute": 60
+                    "absolute": 256
                   },
                   "type": "minecraft:uniform"
                 }
@@ -34,7 +34,7 @@
     },
     "decorator": {
       "config": {
-        "count": 127
+        "count": 216
       },
       "type": "minecraft:count"
     }

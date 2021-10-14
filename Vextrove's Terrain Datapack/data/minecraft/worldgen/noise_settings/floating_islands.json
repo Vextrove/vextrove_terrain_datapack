@@ -2,7 +2,7 @@
   "deepslate_enabled": true,
   "ore_veins_enabled": true,
   "noodle_caves_enabled": true,
-  "sea_level": -64,
+  "sea_level": -2048,
   "disable_mob_generation": false,
   "aquifers_enabled": false,
   "noise_caves_enabled": true,
@@ -14,7 +14,6 @@
   },
   "bedrock_roof_position": -2147483648,
   "bedrock_floor_position": -2147483648,
-  "sea_level": -2048,
   "structures": {
     "stronghold": {
       "distance": 32,

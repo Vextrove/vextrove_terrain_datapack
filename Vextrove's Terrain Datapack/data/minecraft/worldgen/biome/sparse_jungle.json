@@ -1,5 +1,4 @@
 {
-  "scale": 0.8,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,36 +6,38 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 8233727,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 9760767,
+    "fog_color": 10076415,
+    "water_color": 4445678,
+    "water_fog_color": 270131,
+    "grass_color": 8585006,
+    "foliage_color": 8585006
   },
-  "surface_builder": "minecraft:stone",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
     [
-      "vextrove:stone_type/dripstone",
-      "vextrove:stone_type/calcite",
-      "vextrove:stone_type/sand",
+      "vextrove:stone_type/dirt",
+      "vextrove:stone_type/granite",
+      "vextrove:stone_type/diorite",
       "vextrove:stone_type/gravel",
       "vextrove:stone_type/tuff",
       "vextrove:stone_type/deepslate",
@@ -44,6 +45,7 @@
       "vextrove:stone_type/smooth_basalt",
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
+      "vextrove:modifiers/wood_type/jungle",
       "minecraft:prototype_ore_coal_upper",
       "minecraft:prototype_ore_coal_lower",
       "minecraft:prototype_ore_iron_upper",
@@ -62,30 +64,26 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
+    [],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
-      "minecraft:prototype_glow_lichen",
-      "minecraft:flower_default",
-      "minecraft:patch_grass_badlands",
+      "minecraft:glow_lichen",
+      "minecraft:trees_jungle_edge",
+      "minecraft:flower_warm",
+      "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
-      "vextrove:ocean_spring_water",
-      "minecraft:spring_lava"
+      "minecraft:patch_melon",
+      "minecraft:vines"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain"
   ],
   "spawners": {
     "monster": [
@@ -138,7 +136,38 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 12,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 8,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -147,15 +176,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -168,8 +192,7 @@
   "spawn_costs": {},
   "player_spawn_friendly": false,
   "precipitation": "rain",
-  "temperature": 0.2,
-  "downfall": 0.3,
-  "category": "none",
-  "depth": 0.1
+  "temperature": 0.95,
+  "downfall": 0.8,
+  "category": "jungle"
 }

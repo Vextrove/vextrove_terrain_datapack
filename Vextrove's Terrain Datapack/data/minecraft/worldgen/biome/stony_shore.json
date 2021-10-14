@@ -1,5 +1,4 @@
 {
-  "scale": 0.025,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -7,31 +6,29 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 3527405,
-    "fog_color": 10076415,
-    "water_color": 4445678,
-    "water_fog_color": 270131,
-    "grass_color": 14394311,
-    "foliage_color": 14394311
+    "sky_color": 8233727,
+    "fog_color": 12638463,
+    "water_color": 4566514,
+    "water_fog_color": 267827
   },
-  "surface_builder": "minecraft:mycelium",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
@@ -46,7 +43,6 @@
       "vextrove:stone_type/smooth_basalt",
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
-      "vextrove:modifiers/wood_type/mushroom",
       "minecraft:prototype_ore_coal_upper",
       "minecraft:prototype_ore_coal_lower",
       "minecraft:prototype_ore_iron_upper",
@@ -65,45 +61,76 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
+    [],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
-      "minecraft:prototype_glow_lichen",
-      "minecraft:mushroom_field_vegetation",
-      "vextrove:huge_mushrooms/caves",
-      "vextrove:cave_vegetation/mushroom_cave_vegetation",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
+      "minecraft:glow_lichen",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
-      "vextrove:ocean_spring_water",
-      "minecraft:spring_lava",
-      "minecraft:classic_vines_cave_feature"
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
-  ],
   "spawners": {
-    "monster": [],
-    "creature": [
+    "monster": [
       {
-        "type": "minecraft:mooshroom",
-        "weight": 8,
+        "type": "minecraft:spider",
+        "weight": 100,
         "minCount": 4,
-        "maxCount": 8
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
+    "creature": [],
     "ambient": [
       {
         "type": "minecraft:bat",
@@ -112,15 +139,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -133,8 +155,7 @@
   "spawn_costs": {},
   "player_spawn_friendly": false,
   "precipitation": "rain",
-  "temperature": 0.9,
-  "downfall": 1.0,
-  "category": "mushroom",
-  "depth": 0.0
+  "temperature": 0.2,
+  "downfall": 0.3,
+  "category": "beach"
 }

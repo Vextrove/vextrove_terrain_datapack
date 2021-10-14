@@ -1,5 +1,4 @@
 {
-  "scale": 0.5,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -12,30 +11,33 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:mountain",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
     [
+      "vextrove:stone_type/calcite",
+      "vextrove:stone_type/dirt",
       "vextrove:stone_type/smooth_quartz",
       "vextrove:stone_type/andesite",
+      "vextrove:stone_type/diorite",
       "vextrove:stone_type/dripstone",
       "vextrove:stone_type/gravel",
       "vextrove:stone_type/tuff",
@@ -65,30 +67,25 @@
       "minecraft:prototype_ore_emerald"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone",
-      "minecraft:prototype_ore_infested"
+      "minecraft:ore_infested"
     ],
     [
-      "minecraft:prototype_glow_lichen",
-      "minecraft:trees_mountain",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:trees_mountain_edge",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
-      "minecraft:spring_lava"
+      "minecraft:patch_pumpkin"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain"
   ],
   "spawners": {
     "monster": [
@@ -171,12 +168,6 @@
         "weight": 5,
         "minCount": 4,
         "maxCount": 6
-      },
-      {
-        "type": "minecraft:goat",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
       }
     ],
     "ambient": [
@@ -187,15 +178,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -210,6 +196,5 @@
   "precipitation": "rain",
   "temperature": 0.2,
   "downfall": 0.3,
-  "category": "extreme_hills",
-  "depth": 1.0
+  "category": "extreme_hills"
 }

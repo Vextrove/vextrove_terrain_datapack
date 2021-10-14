@@ -9,18 +9,24 @@
                 "targets": [
                   {
                     "target": {
-                      "tag": "minecraft:base_stone_overworld",
+                      "tag": "minecraft:stone_ore_replaceables",
                       "predicate_type": "minecraft:tag_match"
                     },
                     "state": {
-                      "Properties": {
-                        "axis": "y"
-                      },
-                      "Name": "minecraft:deepslate"
+                      "Name": "minecraft:copper_ore"
+                    }
+                  },
+                  {
+                    "target": {
+                      "tag": "minecraft:deepslate_ore_replaceables",
+                      "predicate_type": "minecraft:tag_match"
+                    },
+                    "state": {
+                      "Name": "minecraft:deepslate_copper_ore"
                     }
                   }
                 ],
-                "size": 64,
+                "size": 20,
                 "discard_chance_on_air_exposure": 0.0
               },
               "type": "minecraft:ore"
@@ -29,12 +35,12 @@
               "config": {
                 "height": {
                   "min_inclusive": {
-                    "absolute": 0
+                    "absolute": -16
                   },
                   "max_inclusive": {
-                    "absolute": 16
+                    "absolute": 112
                   },
-                  "type": "minecraft:uniform"
+                  "type": "minecraft:trapezoid"
                 }
               },
               "type": "minecraft:range"
@@ -51,7 +57,7 @@
     },
     "decorator": {
       "config": {
-        "count": 2
+        "count": 16
       },
       "type": "minecraft:count"
     }

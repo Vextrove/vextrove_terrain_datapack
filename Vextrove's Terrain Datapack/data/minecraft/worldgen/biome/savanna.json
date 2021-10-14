@@ -65,12 +65,8 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
-    ],
-    [
+      "minecraft:glow_lichen",
       "minecraft:patch_tall_grass",
-      "minecraft:prototype_glow_lichen",
       "minecraft:trees_savanna",
       "minecraft:flower_warm",
       "minecraft:patch_grass_savanna",
@@ -78,19 +74,12 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
+      "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:village_savanna",
-    "minecraft:pillager_outpost",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
   ],
   "spawners": {
     "monster": [
@@ -189,15 +178,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -212,6 +196,5 @@
   "precipitation": "none",
   "temperature": 1.2,
   "downfall": 0.0,
-  "category": "savanna",
-  "depth": 0.125
+  "category": "savanna"
 }

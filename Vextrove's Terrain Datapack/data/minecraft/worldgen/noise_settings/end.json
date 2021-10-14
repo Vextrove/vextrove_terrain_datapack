@@ -2,7 +2,6 @@
   "deepslate_enabled": false,
   "ore_veins_enabled": false,
   "noodle_caves_enabled": true,
-  "min_surface_level": 0,
   "sea_level": 0,
   "disable_mob_generation": true,
   "aquifers_enabled": false,
@@ -113,18 +112,18 @@
     }
   },
   "noise": {
-    "simplex_surface_noise": true,
     "island_noise_override": true,
+    "use_legacy_random": true,
     "size_vertical": 1,
     "density_factor": 0.0,
     "density_offset": 0.0,
     "top_slide": {
-      "target": -3000,
+      "target": -23.4375,
       "size": 64,
       "offset": -46
     },
     "bottom_slide": {
-      "target": -30,
+      "target": -0.234375,
       "size": 7,
       "offset": 1
     },
@@ -136,6 +135,44 @@
       "y_scale": 1.0,
       "xz_factor": 80.0,
       "y_factor": 160.0
+    }
+  },
+  "octaves": {
+    "erosion": {
+      "firstOctave": 0,
+      "amplitudes": [
+        0.0
+      ]
+    },
+    "weirdness": {
+      "firstOctave": 0,
+      "amplitudes": [
+        0.0
+      ]
+    },
+    "shift": {
+      "firstOctave": 0,
+      "amplitudes": [
+        0.0
+      ]
+    },
+    "temperature": {
+      "firstOctave": 0,
+      "amplitudes": [
+        0.0
+      ]
+    },
+    "humidity": {
+      "firstOctave": 0,
+      "amplitudes": [
+        0.0
+      ]
+    },
+    "continentalness": {
+      "firstOctave": 0,
+      "amplitudes": [
+        0.0
+      ]
     }
   },
   "default_block": {

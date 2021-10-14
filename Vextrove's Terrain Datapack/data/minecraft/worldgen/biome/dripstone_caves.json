@@ -1,5 +1,4 @@
 {
-  "scale": 0.05,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -25,11 +24,12 @@
       "minecraft:lake_lava"
     ],
     [
+      "minecraft:amethyst_geode",
       "minecraft:large_dripstone"
     ],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],

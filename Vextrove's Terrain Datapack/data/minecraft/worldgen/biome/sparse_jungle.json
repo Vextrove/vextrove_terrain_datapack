@@ -68,10 +68,6 @@
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
       "minecraft:glow_lichen",
       "minecraft:trees_jungle_edge",
       "minecraft:flower_warm",
@@ -81,7 +77,9 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:patch_melon",
-      "minecraft:vines"
+      "minecraft:vines",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"

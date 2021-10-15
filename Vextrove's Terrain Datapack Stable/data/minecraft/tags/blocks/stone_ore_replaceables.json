@@ -1,0 +1,24 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:stone",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:tuff",
+    "minecraft:calcite",
+    "minecraft:smooth_sandstone",
+    "minecraft:sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:red_sandstone",
+    "minecraft:prismarine",
+    "minecraft:terracotta",
+    "minecraft:orange_terracotta",
+    "minecraft:brown_terracotta",
+    "minecraft:red_terracotta",
+    "minecraft:yellow_terracotta",
+    "minecraft:light_gray_terracotta",
+    "minecraft:white_terracotta",
+    "minecraft:smooth_quartz"
+  ]
+}

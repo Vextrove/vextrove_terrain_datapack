@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_bars",
+    "minecraft:bedrock",
+    "minecraft:spawner",
+    "minecraft:chest",
+    "minecraft:end_portal",
+    "minecraft:end_gateway",
+    "minecraft:barrier",
+    "minecraft:command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:chain_command_block",
+    "minecraft:structure_block",
+    "minecraft:jigsaw",
+    "minecraft:moving_piston",
+    "#vextrove:obsidian",
+    "#vextrove:end_stone",
+    "#vextrove:purpur",
+    "minecraft:netherite_block"
+  ]
+}

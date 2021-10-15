@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:infiniburn_overworld",
+    "minecraft:warped_nylium",
+    "minecraft:crimson_nylium",
+    "minecraft:deepslate"
+  ]
+}

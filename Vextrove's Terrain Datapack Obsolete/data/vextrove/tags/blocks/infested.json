@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#vextrove:infested_stone_bricks",
+    "minecraft:infested_cobblestone",
+    "minecraft:infested_deepslate",
+    "minecraft:infested_stone"
+  ]
+}

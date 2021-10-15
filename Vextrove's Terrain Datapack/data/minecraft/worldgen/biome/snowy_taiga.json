@@ -85,12 +85,6 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:igloo",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
-  ],
   "spawners": {
     "monster": [
       {

@@ -16,6 +16,8 @@
                   "minecraft:granite",
                   "minecraft:diorite",
                   "minecraft:andesite",
+                  "minecraft:calcite",
+                  "minecraft:dirt",
                   "minecraft:tuff",
                   "minecraft:coal_ore",
                   "minecraft:deepslate_coal_ore",
@@ -43,6 +45,9 @@
                   "minecraft:dark_prismarine",
                   "minecraft:blue_ice",
                   "minecraft:moss_block",
+                  "minecraft:snow_block",
+                  "minecraft:powder_snow",
+                  "minecraft:packed_ice",
                   "minecraft:water"
                 ],
                 "state": {

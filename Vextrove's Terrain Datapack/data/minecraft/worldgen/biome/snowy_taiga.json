@@ -78,8 +78,9 @@
       "minecraft:prototype_spring_water",
       "vextrove:stone_type/packed_ice",
       "vextrove:stone_type/ice",
-      "minecraft:spring_lava",
-      "minecraft:patch_berry_decorated"
+      "minecraft:patch_berry_rare",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"

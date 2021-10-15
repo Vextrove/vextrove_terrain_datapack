@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -14,7 +13,6 @@
     "grass_color": 11303852,
     "foliage_color": 11303852
   },
-  "surface_builder": "minecraft:end",
   "carvers": {},
   "features": [
     [],
@@ -25,7 +23,6 @@
       "minecraft:end_spike"
     ]
   ],
-  "starts": [],
   "spawners": {
     "monster": [
       {
@@ -37,6 +34,7 @@
     ],
     "creature": [],
     "ambient": [],
+    "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
@@ -47,6 +45,5 @@
   "precipitation": "none",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "the_end",
-  "depth": 0.1
+  "category": "the_end"
 }

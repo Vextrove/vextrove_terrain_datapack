@@ -72,11 +72,10 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "vextrove:ocean_spring_water",
       "minecraft:warm_ocean_vegetation",
       "minecraft:seagrass_warm",
       "minecraft:sea_pickle",
-      "minecraft:spring_water",
+      "vextrove:ocean_spring_water",
       "minecraft:spring_lava"
     ],
     [

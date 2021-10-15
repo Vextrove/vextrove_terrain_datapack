@@ -69,10 +69,6 @@
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
       "minecraft:glow_lichen",
       "minecraft:forest_flower_vegetation",
       "minecraft:birch_tall",
@@ -81,7 +77,9 @@
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"

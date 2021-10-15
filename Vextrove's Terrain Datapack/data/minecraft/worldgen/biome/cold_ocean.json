@@ -72,23 +72,17 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "vextrove:stone_type/packed_ice",
-      "vextrove:stone_type/ice",
       "minecraft:seagrass_cold",
       "minecraft:seagrass_simple",
       "minecraft:kelp_cold",
       "vextrove:ocean_spring_water",
+      "vextrove:stone_type/packed_ice",
+      "vextrove:stone_type/ice",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:shipwreck",
-    "minecraft:ocean_ruin_cold",
-    "minecraft:ruined_portal_ocean"
   ],
   "spawners": {
     "monster": [
@@ -156,15 +150,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -199,6 +188,5 @@
   "precipitation": "rain",
   "temperature": 0.5,
   "downfall": 0.5,
-  "category": "ocean",
-  "depth": -1.0
+  "category": "ocean"
 }

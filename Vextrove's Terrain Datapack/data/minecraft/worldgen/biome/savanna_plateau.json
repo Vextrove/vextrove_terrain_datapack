@@ -1,5 +1,4 @@
 {
-  "scale": 0.025,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -14,24 +13,24 @@
     "grass_color": 16771189,
     "foliage_color": 16771189
   },
-  "surface_builder": "minecraft:shattered_savanna",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
@@ -46,31 +45,29 @@
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
       "vextrove:modifiers/wood_type/acacia",
-      "minecraft:prototype_ore_coal_upper",
-      "minecraft:prototype_ore_coal_lower",
-      "minecraft:prototype_ore_iron_upper",
-      "minecraft:prototype_ore_iron_middle",
-      "minecraft:prototype_ore_iron_small",
-      "minecraft:prototype_ore_gold",
-      "minecraft:prototype_ore_redstone",
-      "minecraft:prototype_ore_redstone_lower",
-      "minecraft:prototype_ore_diamond",
-      "minecraft:prototype_ore_diamond_large",
-      "minecraft:prototype_ore_lapis",
-      "minecraft:prototype_ore_lapis_buried",
-      "minecraft:prototype_ore_copper",
-      "minecraft:prototype_underwater_magma",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
-    ],
-    [
+      "minecraft:glow_lichen",
       "minecraft:patch_tall_grass",
-      "minecraft:prototype_glow_lichen",
       "minecraft:trees_savanna",
       "minecraft:flower_warm",
       "minecraft:patch_grass_savanna",
@@ -78,17 +75,12 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
+      "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain"
   ],
   "spawners": {
     "monster": [
@@ -193,15 +185,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -216,6 +203,5 @@
   "precipitation": "none",
   "temperature": 1.0,
   "downfall": 0.0,
-  "category": "savanna",
-  "depth": 1.5
+  "category": "savanna"
 }

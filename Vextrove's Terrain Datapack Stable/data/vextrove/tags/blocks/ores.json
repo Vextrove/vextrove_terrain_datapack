@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#vextrove:deepslate_ores",
-    "#vextrove:stone_ores",
-    "minecraft:nether_gold_ore",
-    "minecraft:nether_quartz_ore"
-  ]
-}

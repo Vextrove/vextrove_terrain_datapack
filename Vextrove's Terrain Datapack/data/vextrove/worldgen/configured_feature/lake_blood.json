@@ -6,14 +6,25 @@
           "config": {
             "feature": {
               "config": {
-                "state": {
-                  "Properties": {
-                    "level": "0"
+                "feature": {
+                  "config": {
+                    "state": {
+                      "Properties": {
+                        "level": "0"
+                      },
+                      "Name": "minecraft:water"
+                    }
                   },
-                  "Name": "minecraft:water"
+                  "type": "minecraft:lake"
+                },
+                "decorator": {
+                  "config": {
+                    "chance": 80
+                  },
+                  "type": "minecraft:lava_lake"
                 }
               },
-              "type": "minecraft:lake"
+              "type": "minecraft:decorated"
             },
             "decorator": {
               "config": {
@@ -24,6 +35,7 @@
                   "max_inclusive": {
                     "below_top": 48
                   },
+                  "inner": 8,
                   "type": "minecraft:trapezoid"
                 }
               },

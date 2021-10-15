@@ -1,5 +1,4 @@
 {
-  "scale": 0.025,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -11,27 +10,27 @@
     "foliage_color": 10387789,
     "grass_color": 9470285,
     "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 4566514,
+    "water_fog_color": 267827
   },
-  "surface_builder": "minecraft:wooded_badlands",
   "carvers": {
     "air": [
-      "minecraft:prototype_cave",
-      "minecraft:prototype_canyon",
-      "minecraft:prototype_crevice"
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
@@ -65,11 +64,7 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
-    ],
-    [
-      "minecraft:prototype_glow_lichen",
+      "minecraft:glow_lichen",
       "minecraft:trees_badlands",
       "minecraft:patch_grass_badlands",
       "minecraft:patch_dead_bush_badlands",
@@ -78,7 +73,7 @@
       "minecraft:patch_sugar_cane_badlands",
       "minecraft:patch_pumpkin",
       "minecraft:patch_cactus_decorated",
-      "minecraft:prototype_spring_water",
+      "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [

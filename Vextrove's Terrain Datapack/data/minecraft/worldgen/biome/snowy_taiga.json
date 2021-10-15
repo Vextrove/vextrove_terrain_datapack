@@ -194,15 +194,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -217,6 +212,5 @@
   "precipitation": "snow",
   "temperature": -0.5,
   "downfall": 0.4,
-  "category": "taiga",
-  "depth": 0.2
+  "category": "taiga"
 }

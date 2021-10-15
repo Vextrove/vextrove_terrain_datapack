@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",
@@ -25,7 +24,6 @@
     "grass_color": 11614521,
     "foliage_color": 13907293
   },
-  "surface_builder": "minecraft:nether",
   "carvers": {
     "air": [
       "minecraft:nether_cave"
@@ -72,12 +70,6 @@
       "minecraft:red_mushroom_normal",
       "vextrove:huge_mushrooms/nether"
     ]
-  ],
-  "starts": [
-    "minecraft:ruined_portal_nether",
-    "minecraft:fortress",
-    "minecraft:stronghold",
-    "minecraft:bastion_remnant"
   ],
   "spawners": {
     "monster": [
@@ -139,6 +131,7 @@
       }
     ],
     "ambient": [],
+    "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
@@ -149,6 +142,5 @@
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,
-  "category": "nether",
-  "depth": 0.1
+  "category": "nether"
 }

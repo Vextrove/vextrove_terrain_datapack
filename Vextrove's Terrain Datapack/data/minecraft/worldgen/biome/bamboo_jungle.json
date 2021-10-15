@@ -67,15 +67,12 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
-    ],
     [
       "vextrove:trees/underground/jungle",
       "minecraft:lush_caves_ceiling_vegetation",
       "minecraft:cave_vines",
       "vextrove:cave_vegetation/jungle_cave_vegetation",
-      "minecraft:prototype_glow_lichen",
+      "minecraft:glow_lichen",
       "minecraft:bamboo",
       "minecraft:bamboo_vegetation",
       "minecraft:flower_warm",
@@ -84,11 +81,10 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
-      "minecraft:spring_lava",
       "minecraft:patch_melon",
-      "minecraft:prototype_vines",
-      "minecraft:classic_vines_cave_feature"
+      "minecraft:vines",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"

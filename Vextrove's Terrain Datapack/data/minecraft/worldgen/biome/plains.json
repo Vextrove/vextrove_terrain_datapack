@@ -34,10 +34,8 @@
     [],
     [
       "vextrove:stone_type/andesite",
-      "minecraft:ore_granite_upper",
-      "minecraft:ore_granite_lower",
-      "minecraft:ore_diorite_upper",
-      "minecraft:ore_diorite_lower",
+      "vextrove:stone_type/granite",
+      "vextrove:stone_type/diorite",
       "vextrove:stone_type/dirt",
       "vextrove:stone_type/gravel",
       "vextrove:stone_type/tuff",

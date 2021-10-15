@@ -80,11 +80,6 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:mineshaft_mesa",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain"
-  ],
   "spawners": {
     "monster": [
       {
@@ -151,12 +146,6 @@
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
       }
     ],
     "water_creature": [],
@@ -168,6 +157,5 @@
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,
-  "category": "mesa",
-  "depth": 1.5
+  "category": "mesa"
 }

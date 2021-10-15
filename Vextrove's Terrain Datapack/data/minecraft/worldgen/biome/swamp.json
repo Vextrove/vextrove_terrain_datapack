@@ -49,31 +49,13 @@
       "vextrove:stone_type/smooth_basalt",
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
-      "minecraft:prototype_ore_coal_upper",
-      "minecraft:prototype_ore_coal_lower",
-      "minecraft:prototype_ore_iron_upper",
-      "minecraft:prototype_ore_iron_middle",
-      "minecraft:prototype_ore_iron_small",
-      "minecraft:prototype_ore_gold",
-      "minecraft:prototype_ore_redstone",
-      "minecraft:prototype_ore_redstone_lower",
-      "minecraft:prototype_ore_diamond",
-      "minecraft:prototype_ore_diamond_large",
-      "minecraft:prototype_ore_lapis",
-      "minecraft:prototype_ore_lapis_buried",
-      "minecraft:prototype_ore_copper",
-      "minecraft:prototype_underwater_magma",
       "minecraft:disk_clay"
-    ],
-    [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
     ],
     [
       "vextrove:cave_vegetation/swamp_caves_ceiling_vegetation",
       "vextrove:cave_vegetation/swamp_caves_clay",
-      "minecraft:prototype_glow_lichen",
       "vextrove:huge_mushrooms/swamp",
+      "minecraft:glow_lichen",
       "minecraft:trees_swamp",
       "minecraft:flower_swamp",
       "minecraft:patch_grass_normal",
@@ -85,18 +67,13 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane_swamp",
       "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
-      "minecraft:spring_lava",
-      "minecraft:seagrass_swamp"
+      "minecraft:seagrass_swamp",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:swamp_hut",
-    "minecraft:mineshaft",
-    "minecraft:ruined_portal_swamp"
   ],
   "spawners": {
     "monster": [
@@ -189,6 +166,7 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",

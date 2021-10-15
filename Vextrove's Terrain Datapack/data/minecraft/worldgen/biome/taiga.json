@@ -1,5 +1,4 @@
 {
-  "scale": 0.2,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -12,7 +11,6 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -23,13 +21,14 @@
   "features": [
     [],
     [
-      "minecraft:lake_water",
       "minecraft:lake_lava"
     ],
-    [],
     [
-      "minecraft:amethyst_geode",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [],
     [],
@@ -46,31 +45,29 @@
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
       "vextrove:modifiers/wood_type/spruce",
-      "minecraft:prototype_ore_coal_upper",
-      "minecraft:prototype_ore_coal_lower",
-      "minecraft:prototype_ore_iron_upper",
-      "minecraft:prototype_ore_iron_middle",
-      "minecraft:prototype_ore_iron_small",
-      "minecraft:prototype_ore_gold",
-      "minecraft:prototype_ore_redstone",
-      "minecraft:prototype_ore_redstone_lower",
-      "minecraft:prototype_ore_diamond",
-      "minecraft:prototype_ore_diamond_large",
-      "minecraft:prototype_ore_lapis",
-      "minecraft:prototype_ore_lapis_buried",
-      "minecraft:prototype_ore_copper",
-      "minecraft:prototype_underwater_magma",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
-    ],
-    [
+      "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
-      "minecraft:prototype_glow_lichen",
       "minecraft:taiga_vegetation",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
@@ -80,20 +77,13 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:prototype_spring_water",
-      "minecraft:spring_lava",
-      "minecraft:patch_berry_sparse"
+      "minecraft:patch_berry_common",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "starts": [
-    "minecraft:village_taiga",
-    "minecraft:pillager_outpost",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
   ],
   "spawners": {
     "monster": [
@@ -198,15 +188,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -221,6 +206,5 @@
   "precipitation": "rain",
   "temperature": 0.25,
   "downfall": 0.8,
-  "category": "taiga",
-  "depth": 0.2
+  "category": "taiga"
 }

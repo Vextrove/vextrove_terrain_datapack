@@ -69,10 +69,6 @@
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
-    ],
-    [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",
       "minecraft:trees_giant",
@@ -85,7 +81,9 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "minecraft:patch_berry_common",
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
     ],
     [
       "minecraft:freeze_top_layer"

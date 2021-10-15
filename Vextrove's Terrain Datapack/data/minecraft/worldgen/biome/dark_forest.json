@@ -86,12 +86,6 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:mansion",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
-  ],
   "spawners": {
     "monster": [
       {
@@ -177,15 +171,10 @@
         "maxCount": 8
       }
     ],
+    "axolotls": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 6
-      },
-      {
-        "type": "minecraft:axolotl",
         "weight": 10,
         "minCount": 4,
         "maxCount": 6
@@ -200,6 +189,5 @@
   "precipitation": "rain",
   "temperature": 0.7,
   "downfall": 0.8,
-  "category": "forest",
-  "depth": 0.1
+  "category": "forest"
 }

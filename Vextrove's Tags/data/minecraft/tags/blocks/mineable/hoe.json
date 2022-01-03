@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:carpets",
+    "#minecraft:wart_blocks",
+    "#minecraft:wool",
+    "#vextrove:leaves",
+    "#vextrove:netherrack",
+    "#vextrove:sculk",
+    "#vextrove:sponges",
+    "minecraft:big_dripleaf",
+    "minecraft:chain",
+    "minecraft:cobweb",
+    "minecraft:cocoa",
+    "minecraft:dried_kelp_block",
+    "minecraft:glow_lichen",
+    "minecraft:hay_block",
+    "minecraft:moss_block",
+    "minecraft:shroomlight",
+    "minecraft:target",
+    "minecraft:turtle_egg",
+    "minecraft:vine"
+  ]
+}

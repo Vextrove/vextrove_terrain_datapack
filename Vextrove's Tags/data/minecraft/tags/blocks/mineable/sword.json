@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "#vextrove:netherrack",
+    "minecraft:bamboo",
+    "minecraft:bee_nest",
+    "minecraft:big_dripleaf",
+    "minecraft:cobweb",
+    "minecraft:cocoa",
+    "minecraft:glow_lichen",
+    "minecraft:hay_block",
+    "minecraft:scaffolding",
+    "minecraft:target",
+    "minecraft:turtle_egg",
+    "minecraft:vine"
+  ]
+}

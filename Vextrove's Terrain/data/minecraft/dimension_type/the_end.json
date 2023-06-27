@@ -2,7 +2,6 @@
   "infiniburn": "minecraft:infiniburn_end",
   "effects": "minecraft:the_end",
   "ambient_light": 0.0,
-  "respawn_anchor_works": true,
   "bed_works": false,
   "coordinate_scale": 0.0625,
   "fixed_time": 6000,
@@ -12,7 +11,9 @@
   "height": 256,
   "logical_height": 256,
   "min_y": 0,
+  "monster_spawn_block_light_limit": 0,
   "natural": false,
   "piglin_safe": false,
+  "respawn_anchor_works": true,
   "ultrawarm": false
 }

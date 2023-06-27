@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:cobbled_deepslate",
+    "minecraft:mossy_cobblestone",
+    "minecraft:blackstone",
+    "minecraft:gilded_blackstone",
+    "minecraft:polished_blackstone",
+    "minecraft:deepslate",
+    "#vextrove:igneous_rock",
+    "#vextrove:polished_igneous_rock",
+    "#vextrove:basalt",
+    "minecraft:prismarine",
+    "minecraft:dark_prismarine",
+    "#vextrove:volcanic_glass",
+    "minecraft:bedrock"
+  ]
+}

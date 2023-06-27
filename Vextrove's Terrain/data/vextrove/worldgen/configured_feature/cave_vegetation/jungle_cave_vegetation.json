@@ -1,0 +1,52 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "feature": "vextrove:cave_vegetation/surface_patch_jungle",
+                "decorator": {
+                  "config": {
+                    "surface": "floor",
+                    "floor_to_ceiling_search_range": 12
+                  },
+                  "type": "minecraft:cave_surface"
+                }
+              },
+              "type": "minecraft:decorated"
+            },
+            "decorator": {
+              "config": {
+                "height": {
+                  "min_inclusive": {
+                    "above_bottom": 48
+                  },
+                  "max_inclusive": {
+                    "absolute": 64
+                  },
+                  "type": "minecraft:trapezoid"
+                }
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 40
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

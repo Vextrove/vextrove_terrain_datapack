@@ -1,0 +1,31 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": "minecraft:dark_oak",
+        "decorator": {
+          "config": {
+            "height": {
+              "min_inclusive": {
+                "above_bottom": 16
+              },
+              "max_inclusive": {
+                "above_bottom": 64
+              },
+              "type": "minecraft:uniform"
+            }
+          },
+          "type": "minecraft:range"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 64
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

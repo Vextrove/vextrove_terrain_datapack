@@ -3,6 +3,8 @@
     "minecraft:bedrock",
     "minecraft:water",
     "minecraft:lava",
-    "minecraft:ice"
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice"
   ]
 }

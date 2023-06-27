@@ -3,6 +3,7 @@
   "infiniburn": "minecraft:infiniburn_nether",
   "effects": "minecraft:the_nether",
   "ambient_light": 0.1,
+  "bed_works": false,
   "fixed_time": 18000,
   "has_ceiling": true,
   "has_raids": false,
@@ -12,7 +13,6 @@
   "natural": false,
   "coordinate_scale": 16.0,
   "piglin_safe": true,
-  "bed_works": false,
   "respawn_anchor_works": true,
   "ultrawarm": true
 }

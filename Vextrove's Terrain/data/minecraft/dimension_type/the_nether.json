@@ -1,5 +1,4 @@
 {
-  "logical_height": 1024,
   "ambient_light": 0.1,
   "bed_works": false,
   "coordinate_scale": 16.0,
@@ -9,6 +8,7 @@
   "has_raids": false,
   "has_skylight": false,
   "infiniburn": "#minecraft:infiniburn_nether",
+  "logical_height": 1024,
   "min_y": 0,
   "height": 1024,
   "natural": false,

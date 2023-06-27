@@ -2,7 +2,6 @@
   "infiniburn": "minecraft:infiniburn_overworld",
   "effects": "minecraft:overworld",
   "ambient_light": 0.1,
-  "respawn_anchor_works": true,
   "bed_works": true,
   "coordinate_scale": 8.0,
   "has_ceiling": true,
@@ -13,5 +12,6 @@
   "min_y": -128,
   "natural": true,
   "piglin_safe": false,
+  "respawn_anchor_works": true,
   "ultrawarm": false
 }

@@ -1,7 +1,5 @@
 {
   "values": [
-    "minecraft:iron_bars",
-    "minecraft:bedrock",
     "minecraft:spawner",
     "minecraft:chest",
     "minecraft:end_portal",
@@ -9,8 +7,10 @@
     "minecraft:barrier",
     "minecraft:command_block",
     "minecraft:repeating_command_block",
+    "minecraft:bedrock",
     "minecraft:chain_command_block",
     "minecraft:structure_block",
+    "minecraft:iron_bars",
     "minecraft:jigsaw",
     "minecraft:moving_piston",
     "#vextrove:obsidian",

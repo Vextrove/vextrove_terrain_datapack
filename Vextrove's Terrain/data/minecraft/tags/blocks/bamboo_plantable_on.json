@@ -1,9 +1,10 @@
 {
   "values": [
-    "#minecraft:dirt",
     "#minecraft:sand",
+    "#minecraft:dirt",
     "minecraft:bamboo",
     "minecraft:bamboo_sapling",
-    "minecraft:gravel"
+    "minecraft:gravel",
+    "minecraft:suspicious_gravel"
   ]
 }

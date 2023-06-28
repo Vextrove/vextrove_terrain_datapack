@@ -13,9 +13,14 @@
     "water_color": 11303852,
     "water_fog_color": 7031915
   },
-  "carvers": {},
   "features": [],
+  "has_precipitation": false,
+  "spawn_costs": {},
   "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
     "monster": [
       {
         "type": "minecraft:enderman",

@@ -2,15 +2,15 @@
   "config": {
     "feature": {
       "config": {
+    "radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 8,
+        "min_inclusive": 2
+      }
+    },
         "state": {
           "Name": "minecraft:clay"
-        },
-        "radius": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 2,
-            "max_inclusive": 8
-          }
         },
         "half_height": 1,
         "targets": [

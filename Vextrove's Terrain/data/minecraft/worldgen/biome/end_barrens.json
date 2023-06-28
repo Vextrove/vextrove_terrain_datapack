@@ -26,15 +26,15 @@
     "monster": [
       {
         "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 3
       },
       {
         "type": "minecraft:shulker",
         "weight": 1,
         "minCount": 1,
         "maxCount": 1
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 10
       }
     ],
     "underground_water_creature": [],

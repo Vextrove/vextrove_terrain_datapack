@@ -17,12 +17,12 @@
     },
     "foliage_radius": 3,
     "stem_provider": {
+      "type": "minecraft:simple_state_provider",
       "state": {
+        "Name": "minecraft:mushroom_stem",
         "Properties": {
           "down": "false",
           "east": "true",
-        "Name": "minecraft:mushroom_stem"
-      "type": "minecraft:simple_state_provider"
           "north": "true",
           "south": "true",
           "up": "false",

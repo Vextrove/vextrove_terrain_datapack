@@ -1,11 +1,6 @@
 {
+  "type": "minecraft:geode",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
                 "min_gen_offset": -16,
                 "max_gen_offset": 16,
                 "noise_multiplier": 0.05,
@@ -15,21 +10,18 @@
                   "value": {
                     "min_inclusive": 4,
                     "max_inclusive": 6
-                  }
                 },
                 "distribution_points": {
                   "type": "minecraft:uniform",
                   "value": {
                     "min_inclusive": 3,
                     "max_inclusive": 4
-                  }
                 },
                 "point_offset": {
                   "type": "minecraft:uniform",
                   "value": {
                     "min_inclusive": 1,
                     "max_inclusive": 2
-                  }
                 },
                 "use_potential_placements_chance": 0.35,
                 "use_alternate_layer0_chance": 0.083,
@@ -96,7 +88,6 @@
                       "Name": "minecraft:calcite"
                     },
                     "type": "minecraft:simple_state_provider"
-                  }
                 },
                 "layers": {
                   "filling": 1.7,
@@ -108,7 +99,6 @@
                   "generate_crack_chance": 0.55,
                   "base_crack_size": 2.0,
                   "crack_point_offset": 2
-                }
               },
               "type": "minecraft:geode"
             },
@@ -122,10 +112,8 @@
                     "absolute": 30
                   },
                   "type": "minecraft:uniform"
-                }
               },
               "type": "minecraft:range"
-            }
           },
           "type": "minecraft:decorated"
         },

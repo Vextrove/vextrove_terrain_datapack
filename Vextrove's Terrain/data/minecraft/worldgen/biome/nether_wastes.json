@@ -2,8 +2,8 @@
   "carvers": {
     "air": "minecraft:nether_cave"
   },
+  "downfall": 0.0,
   "effects": {
-    },
     "additions_sound": {
       "sound": "minecraft:ambient.nether_wastes.additions",
       "tick_chance": 0.0111

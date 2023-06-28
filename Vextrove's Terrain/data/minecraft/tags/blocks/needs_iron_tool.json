@@ -2,8 +2,8 @@
   "replace": true,{
   "values": [
     "#minecraft:cauldrons",
-    "#vextrove:dark_prismarine",
     "#vextrove:blackstone",
+    "#vextrove:dark_prismarine",
     "minecraft:diamond_block",
     "minecraft:diamond_ore",
     "minecraft:emerald_ore",

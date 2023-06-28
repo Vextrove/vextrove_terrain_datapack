@@ -111,10 +111,6 @@
         "type": "minecraft:piglin",
         "maxCount": 4,
         "minCount": 4,
-        "type": "minecraft:ravager",
-        "weight": 1,
-      }
-    ],
         "weight": 15
       },
       {
@@ -122,6 +118,12 @@
         "maxCount": 4,
         "minCount": 3,
         "weight": 9
+      },
+      {
+        "type": "minecraft:ravager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
       }
     ],
     "underground_water_creature": [],

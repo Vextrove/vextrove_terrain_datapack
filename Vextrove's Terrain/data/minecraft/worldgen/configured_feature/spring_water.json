@@ -8,23 +8,6 @@
               "config": {
                 "rock_count": 4,
                 "hole_count": 1,
-                "valid_blocks": [
-                  "minecraft:stone",
-                  "minecraft:deepslate",
-                  "minecraft:smooth_basalt",
-                  "minecraft:blackstone",
-                  "minecraft:granite",
-                  "minecraft:diorite",
-                  "minecraft:andesite",
-                  "minecraft:dripstone_block",
-                  "minecraft:smooth_sandstone",
-                  "minecraft:smooth_red_sandstone",
-                  "minecraft:packed_ice",
-                  "minecraft:prismarine",
-                  "minecraft:dark_prismarine",
-                  "minecraft:clay",
-                  "minecraft:moss_block"
-                ],
                 "state": {
                   "Properties": {
                     "falling": "true"
@@ -67,4 +50,22 @@
     }
   },
   "type": "minecraft:decorated"
+    "valid_blocks": [
+      "minecraft:stone",
+      "minecraft:deepslate",
+      "minecraft:smooth_basalt",
+      "minecraft:blackstone",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:andesite",
+      "minecraft:dripstone_block",
+      "minecraft:smooth_sandstone",
+      "minecraft:smooth_red_sandstone",
+      "minecraft:packed_ice",
+      "minecraft:prismarine",
+      "minecraft:dark_prismarine",
+      "minecraft:clay",
+      "minecraft:moss_block"
+    ]
+  }
 }

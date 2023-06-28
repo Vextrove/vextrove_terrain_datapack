@@ -1,8 +1,9 @@
 {
   "values": [
     "#minecraft:is_ocean",
-    "#vextrove:is_swamp",
+    "#minecraft:is_swamp",
     "#minecraft:is_beach",
+    "#minecraft:mushroom_fields",
     "#minecraft:is_river"
   ]
 }

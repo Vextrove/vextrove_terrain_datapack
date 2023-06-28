@@ -11,79 +11,79 @@
         }
       },
       {
-        "chance": 0.005,
+        "chance": 0.004,
         "feature": {
           "feature": "minecraft:huge_red_mushroom",
           "placement": []
         }
       },
       {
-        "chance": 0.005,
+        "chance": 0.004,
         "feature": {
-          "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_alternate",
+          "feature": "vextrove:huge_mushrooms/brown_alt",
           "placement": []
         }
       },
       {
         "chance": 0.004,
         "feature": {
-          "feature": "vextrove:huge_mushrooms/huge_red_mushroom_alternate",
+          "feature": "vextrove:huge_mushrooms/red_alt",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.003,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/smaller/brown",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.003,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/smaller/red",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.003,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/smaller/brown_alt",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.003,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/smaller/red_alt",
           "placement": []
         }
       },
       {
         "chance": 0.002,
         "feature": {
-          "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_smaller",
+          "feature": "vextrove:huge_mushrooms/larger/brown",
           "placement": []
         }
       },
       {
         "chance": 0.002,
         "feature": {
-          "feature": "vextrove:huge_mushrooms/huge_red_mushroom_smaller",
+          "feature": "vextrove:huge_mushrooms/larger/red",
           "placement": []
         }
       },
       {
         "chance": 0.002,
         "feature": {
-          "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_smaller_alternate",
+          "feature": "vextrove:huge_mushrooms/larger/brown_alt",
           "placement": []
         }
       },
       {
         "chance": 0.002,
         "feature": {
-          "feature": "vextrove:huge_mushrooms/huge_red_mushroom_smaller_alternate",
-          "placement": []
-        }
-      },
-      {
-        "chance": 0.002,
-        "feature": {
-          "feature": "vextrove:huge_mushrooms/huger_brown_mushroom",
-          "placement": []
-        }
-      },
-      {
-        "chance": 0.002,
-        "feature": {
-          "feature": "vextrove:huge_mushrooms/huger_red_mushroom",
-          "placement": []
-        }
-      },
-      {
-        "chance": 0.002,
-        "feature": {
-          "feature": "vextrove:huge_mushrooms/huger_brown_mushroom_alternate",
-          "placement": []
-        }
-      },
-      {
-        "chance": 0.002,
-        "feature": {
-          "feature": "vextrove:huge_mushrooms/huger_red_mushroom_alternate",
+          "feature": "vextrove:huge_mushrooms/larger/red_alt",
           "placement": []
         }
       },

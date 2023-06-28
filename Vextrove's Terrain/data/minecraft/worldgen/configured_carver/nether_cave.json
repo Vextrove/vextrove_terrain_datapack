@@ -1,6 +1,13 @@
 {
   "type": "minecraft:nether_cave",
   "config": {
+    "floor_level": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": -1.0,
+        "max_exclusive": -0.4
+      }
+    }
     "lava_level": {
       "above_bottom": 10
     },
@@ -34,12 +41,5 @@
         "above_bottom": 8
       }
     },
-    "floor_level": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": -1.0,
-        "max_exclusive": -0.4
-      }
-    }
-  },
+  }
 }

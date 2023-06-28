@@ -30,13 +30,9 @@
         "maxCount": 1
       }
     ],
-    "creature": [],
-    "ambient": [],
-    "axolotls": [],
     "underground_water_creature": [],
-    "water_creature": [],
     "water_ambient": [],
-    "misc": []
+    "water_creature": []
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,

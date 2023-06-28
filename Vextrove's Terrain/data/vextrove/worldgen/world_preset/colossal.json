@@ -1,7 +1,7 @@
 {
   "dimensions": {
     "minecraft:overworld": {
-      "type": "minecraft:overworld",
+      "type": "vextrove:colossal",
       "generator": {
         "type": "minecraft:noise",
         "biome_source": {
@@ -22,7 +22,7 @@
       }
     },
     "minecraft:the_nether": {
-      "type": "minecraft:the_nether",
+      "type": "vextrove:colossal_nether",
       "generator": {
         "type": "minecraft:noise",
         "biome_source": {

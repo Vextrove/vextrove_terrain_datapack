@@ -1,16 +1,9 @@
 {
   "values": [
-    "minecraft:badlands",
-    "minecraft:basalt_deltas",
-    "minecraft:crimson_forest",
+    "#minecraft:is_nether",
     "minecraft:desert",
-    "minecraft:eroded_badlands",
-    "minecraft:nether_wastes",
-    "minecraft:savanna",
-    "minecraft:savanna_plateau",
-    "minecraft:soul_sand_valley",
-    "minecraft:warped_forest",
-    "minecraft:windswept_savanna",
-    "minecraft:wooded_badlands"
+    "#minecraft:is_jungle",
+    "#minecraft:is_savanna",
+    "#minecraft:is_badlands"
   ]
 }

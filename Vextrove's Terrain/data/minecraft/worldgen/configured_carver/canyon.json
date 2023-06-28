@@ -47,20 +47,20 @@
     "probability": 0.01,
     "replaceable": "#minecraft:overworld_carver_replaceables",
     "shape": {
-      "horizontal_radius_factor": {
+      "distance_factor": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 0.75,
-          "max_exclusive": 1.0
+          "max_exclusive": 1.0,
+          "min_inclusive": 0.75
         }
       },
       "vertical_radius_default_factor": 1.0,
       "vertical_radius_center_factor": 0.0,
-      "distance_factor": {
+      "horizontal_radius_factor": {
         "type": "minecraft:uniform",
         "value": {
-          "min_inclusive": 0.75,
-          "max_exclusive": 1.0
+          "max_exclusive": 1.0,
+          "min_inclusive": 0.75
         }
       },
       "thickness": {

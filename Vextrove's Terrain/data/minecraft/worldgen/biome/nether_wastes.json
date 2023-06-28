@@ -1,33 +1,32 @@
 {
+  "carvers": {
+    "air": "minecraft:nether_cave"
+  },
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.nether_wastes.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
     },
     "additions_sound": {
       "sound": "minecraft:ambient.nether_wastes.additions",
       "tick_chance": 0.0111
     },
-    "music": {
-      "sound": "minecraft:music.nether.nether_wastes",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
-    },
     "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.nether.nether_wastes"
+    },
     "sky_color": 7254527,
     "fog_color": 3344392,
     "water_color": 13243926,
     "water_fog_color": 8060928,
     "grass_color": 11614521,
     "foliage_color": 13907293
-  },
-  "carvers": {
-    "air": [
-      "minecraft:nether_cave"
-    ]
   },
   "features": [
     [],

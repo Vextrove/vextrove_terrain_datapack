@@ -1,12 +1,4 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "feature": "minecraft:end_island",
                 "decorator": {
                   "config": {
                     "height": {
@@ -28,6 +20,7 @@
               "config": {},
               "type": "minecraft:square"
             }
+  "feature": "minecraft:end_island",
           },
           "type": "minecraft:decorated"
         },

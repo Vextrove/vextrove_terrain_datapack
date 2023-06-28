@@ -16,6 +16,7 @@
                   "minecraft:dark_prismarine"
                 ],
                 "requires_block_below": true
+  "feature": "minecraft:spring_lava_overworld",
   "placement": [
     {
       "type": "minecraft:count",
@@ -40,6 +41,5 @@
     {
       "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

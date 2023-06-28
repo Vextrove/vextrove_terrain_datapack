@@ -8,6 +8,13 @@
         "max_exclusive": -0.4
       }
     }
+    "horizontal_radius_multiplier": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0.5,
+        "max_exclusive": 1.8
+      }
+    },
     "lava_level": {
       "above_bottom": 10
     },
@@ -22,13 +29,6 @@
       "value": {
         "min_inclusive": 0.1,
         "max_exclusive": 0.9
-      }
-    },
-    "horizontal_radius_multiplier": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 0.5,
-        "max_exclusive": 1.8
       }
     },
     "vertical_radius_multiplier": {

@@ -1,20 +1,22 @@
 {
+  "carvers": {
+    "air": "minecraft:nether_cave"
+  },
+  "downfall": 0.0,
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.crimson_forest.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
     "additions_sound": {
       "sound": "minecraft:ambient.crimson_forest.additions",
       "tick_chance": 0.0111
     },
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.crimson_forest.mood",
+      "tick_delay": 6000
+    },
     "music": {
-      "sound": "minecraft:music.nether.crimson_forest",
-      "min_delay": 12000,
       "max_delay": 24000,
-      "replace_current_music": false
     },
     "particle": {
       "options": {
@@ -22,18 +24,12 @@
       },
       "probability": 0.025
     },
-    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
     "sky_color": 7254527,
     "fog_color": 3343107,
     "water_color": 13243926,
     "water_fog_color": 8060928,
     "grass_color": 13643567,
     "foliage_color": 15210263
-  },
-  "carvers": {
-    "air": [
-      "minecraft:nether_cave"
-    ]
   },
   "features": [
     [],
@@ -60,6 +56,7 @@
       "minecraft:ore_gold_nether",
       "minecraft:ore_quartz_nether",
       "minecraft:ore_debris_large",
+      "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
     ],
     [
@@ -71,46 +68,51 @@
       "minecraft:crimson_forest_vegetation"
     ]
   ],
+  "spawn_costs": {},
   "spawners": {
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 60
+      }
+    ],
+    "misc": [],
     "monster": [
       {
         "type": "minecraft:zombified_piglin",
         "weight": 1,
+        "maxCount": 4,
         "minCount": 2,
         "maxCount": 4
+        "weight": 1
       },
       {
         "type": "minecraft:hoglin",
         "weight": 9,
+        "maxCount": 4,
         "minCount": 3,
         "maxCount": 4
+        "weight": 9
       },
       {
         "type": "minecraft:piglin",
         "weight": 5,
+        "maxCount": 4,
         "minCount": 3,
         "maxCount": 4
+        "weight": 5
       }
     ],
     "creature": [
-      {
-        "type": "minecraft:strider",
-        "weight": 60,
-        "minCount": 1,
-        "maxCount": 2
-      }
-    ],
-    "ambient": [],
-    "axolotls": [],
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
     "misc": []
+    "water_creature": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "none",
-  "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether"
+  "temperature": 2.0
 }

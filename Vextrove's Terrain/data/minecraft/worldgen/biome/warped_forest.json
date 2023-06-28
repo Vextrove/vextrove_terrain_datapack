@@ -1,4 +1,8 @@
 {
+  "carvers": {
+    "air": "minecraft:nether_cave"
+  },
+  "downfall": 0.0,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.warped_forest.mood",
@@ -29,11 +33,6 @@
     "water_fog_color": 8060928,
     "grass_color": 5102526,
     "foliage_color": 3263960
-  },
-  "carvers": {
-    "air": [
-      "minecraft:nether_cave"
-    ]
   },
   "features": [
     [],
@@ -99,7 +98,6 @@
   },
   "player_spawn_friendly": false,
   "precipitation": "none",
-  "temperature": 2.0,
-  "downfall": 0.0,
   "category": "nether"
+  "temperature": 2.0
 }

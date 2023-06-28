@@ -40,7 +40,7 @@
         "decorator": {
           "type": "minecraft:square"
         }
-      "type": "minecraft:decorated"
+      }
     },
     "decorator": {
       "config": {
@@ -50,5 +50,5 @@
     {
       "type": "minecraft:biome"
     }
-  "type": "minecraft:decorated"
+  ]
 }

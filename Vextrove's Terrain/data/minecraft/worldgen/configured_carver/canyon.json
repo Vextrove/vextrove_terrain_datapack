@@ -70,7 +70,7 @@
         "absolute": 67
       },
       "min_inclusive": {
-        "absolute": 10
+        "above_bottom": 48
       }
     },
     "yScale": 4.0

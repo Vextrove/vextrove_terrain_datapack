@@ -2,14 +2,18 @@
   "deepslate_enabled": false,
   "ore_veins_enabled": false,
   "noodle_caves_enabled": true,
-  "legacy_random_source": true,
   "sea_level": 32,
-  "disable_mob_generation": false,
   "aquifers_enabled": false,
   "noise_caves_enabled": true,
+  "default_block": {
+    "Name": "minecraft:netherrack"
+  },
   "default_fluid": {
+    "Name": "minecraft:lava",
     "Properties": {
       "level": "0"
+  "disable_mob_generation": false,
+  "legacy_random_source": true,
     },
     "Name": "minecraft:lava"
   },

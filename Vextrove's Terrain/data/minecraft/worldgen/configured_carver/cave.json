@@ -33,6 +33,12 @@
         "absolute": 180
       },
       "type": "minecraft:uniform"
+    "floor_level": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_exclusive": -0.4,
+        "min_inclusive": -1.0
+      }
     },
     "horizontal_radius_multiplier": {
       "type": "minecraft:uniform",
@@ -49,11 +55,12 @@
     "vertical_radius_multiplier": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 0.8,
-        "max_exclusive": 1.3
+        "max_exclusive": 1.3,
+        "min_inclusive": 0.8
       }
     },
-    "floor_level": {
+      }
+    },
     "yScale": {
       "type": "minecraft:uniform",
       "value": {

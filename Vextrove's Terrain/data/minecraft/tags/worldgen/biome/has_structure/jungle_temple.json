@@ -1,6 +1,5 @@
 {
   "values": [
-    "minecraft:bamboo_jungle",
-    "minecraft:jungle"
+    "#minecraft:is_deep_jungle"
   ]
 }

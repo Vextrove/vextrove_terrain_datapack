@@ -41,6 +41,8 @@
         "min_inclusive": -0.125,
         "max_exclusive": 0.125
       }
+    "lava_level": {
+      "above_bottom": 8
     },
     "probability": 0.01,
     "shape": {

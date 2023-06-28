@@ -10,6 +10,8 @@
     "Name": "minecraft:lava",
     "Properties": {
       "level": "0"
+    }
+  },
   "disable_mob_generation": false,
   "legacy_random_source": true,
     },

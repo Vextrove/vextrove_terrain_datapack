@@ -2,7 +2,6 @@
   "values": [
     "minecraft:plains",
     "minecraft:sunflower_plains",
-    "minecraft:river",
     "minecraft:beach",
     "#minecraft:is_forest",
     "#minecraft:is_hill",

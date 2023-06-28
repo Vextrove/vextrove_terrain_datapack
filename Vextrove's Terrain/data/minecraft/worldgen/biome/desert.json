@@ -1,10 +1,24 @@
 {
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.0,
   "effects": {
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.desert"
     },
     "sky_color": 9760767,
     "fog_color": 11793663,
@@ -13,17 +27,11 @@
     "grass_color": 16771189,
     "foliage_color": 16771189
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
   "features": [
     [],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
     ],
     [
       "minecraft:amethyst_geode"

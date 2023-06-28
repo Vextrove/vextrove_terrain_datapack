@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:is_snowy",
+    "#minecraft:is_frozen",
+    "#minecraft:has_cold_water",
+    "#minecraft:is_end"
+  ]
+}

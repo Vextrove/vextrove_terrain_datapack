@@ -1,7 +1,6 @@
 {
   "values": [
-    "minecraft:frozen_ocean",
-    "minecraft:frozen_river",
+    "#minecraft:has_frozen_water",
     "minecraft:frozen_peaks"
   ]
 }

@@ -1,8 +1,9 @@
 {
+  "replace": true,
   "values": [
-    "#vextrove:obsidian",
-    "minecraft:ancient_debris",
+    "#minecraft:obsidian",
     "minecraft:netherite_block",
     "minecraft:spawner"
+    "minecraft:ancient_debris"
   ]
 }

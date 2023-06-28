@@ -1,0 +1,11 @@
+{
+  "values": [
+    "minecraft:bamboo_jungle",
+    "minecraft:mushroom_fields",
+    "#vextrove:is_swamp",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "minecraft:jungle"
+  ]
+}

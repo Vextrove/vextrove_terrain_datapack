@@ -1,9 +1,4 @@
 {
-    "sky_color": 8233983,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
-    "foliage_color": 6396257
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -20,6 +15,9 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
+    "sky_color": 8233983,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
     [],

@@ -20,13 +20,6 @@
     },
     "probability": 0.2,
     "replaceable": "#minecraft:nether_carver_replaceables",
-    "yScale": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 0.1,
-        "max_exclusive": 0.9
-      }
-    },
     "vertical_radius_multiplier": {
       "type": "minecraft:uniform",
       "value": {
@@ -43,5 +36,12 @@
         "above_bottom": 8
       }
     },
+    "yScale": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 0.1,
+        "max_exclusive": 0.9
+      }
+    }
   }
 }

@@ -26,7 +26,6 @@
         }
       }
     },
-    "probability": 0.01,
     "y": {
       "min_inclusive": {
         "above_bottom": 48
@@ -43,6 +42,7 @@
         "max_exclusive": 0.125
       }
     },
+    "probability": 0.01,
     "shape": {
       "horizontal_radius_factor": {
         "type": "minecraft:uniform",

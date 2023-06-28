@@ -61,7 +61,25 @@
       "minecraft:red_mushroom_normal"
     ]
   ],
+  "spawn_costs": {},
   "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:strider",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 60
+      },
+      {
+        "type": "minecraft:mooshroom",
+        "maxCount": 7,
+        "minCount": 3,
+        "weight": 8
+      }
+    ],
+    "misc": [],
     "monster": [
       {
         "type": "minecraft:ghast",
@@ -95,21 +113,12 @@
         "weight": 1,
       }
     ],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "weight": 60,
-        "minCount": 1,
-        "maxCount": 2
         "weight": 15
       },
       {
-        "type": "minecraft:mooshroom",
-        "weight": 8,
         "type": "minecraft:zoglin",
         "maxCount": 4,
         "minCount": 3,
-        "maxCount": 7
         "weight": 9
       }
     ],

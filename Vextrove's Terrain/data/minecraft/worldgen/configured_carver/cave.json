@@ -25,14 +25,6 @@
         }
       }
     },
-    "y": {
-      "min_inclusive": {
-        "above_bottom": 8
-      },
-      "max_inclusive": {
-        "absolute": 180
-      },
-      "type": "minecraft:uniform"
     "floor_level": {
       "type": "minecraft:uniform",
       "value": {
@@ -59,6 +51,13 @@
         "min_inclusive": 0.8
       }
     },
+    "y": {
+      "type": "minecraft:uniform",
+      "max_inclusive": {
+        "absolute": 180
+      },
+      "min_inclusive": {
+        "above_bottom": 8
       }
     },
     "yScale": {

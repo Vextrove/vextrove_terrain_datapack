@@ -54,6 +54,15 @@
       "vextrove:stone_type/magma",
       "vextrove:modifiers/deepslate_bricks",
       "vextrove:modifiers/wood_type/jungle",
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
       "minecraft:ore_iron_upper",
@@ -74,6 +83,11 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
     [
       "vextrove:trees/underground/jungle",
       "minecraft:lush_caves_ceiling_vegetation",
@@ -88,10 +102,8 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_melon",
       "minecraft:vines",
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:patch_melon"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -221,9 +233,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "spawn_costs": {},
-  "player_spawn_friendly": true,
-  "temperature": 0.95,
-  "downfall": 0.9,
-  "category": "jungle"
+  "temperature": 0.95
 }

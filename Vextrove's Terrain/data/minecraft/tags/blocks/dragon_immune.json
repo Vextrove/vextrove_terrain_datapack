@@ -5,17 +5,18 @@
     "minecraft:end_portal",
     "minecraft:end_gateway",
     "minecraft:barrier",
-    "minecraft:repeating_command_block",
     "minecraft:bedrock",
     "minecraft:chain_command_block",
     "minecraft:command_block",
     "minecraft:iron_bars",
     "minecraft:jigsaw",
     "minecraft:moving_piston",
-    "#vextrove:obsidian",
     "#vextrove:end_stone",
     "#vextrove:purpur",
     "minecraft:netherite_block"
+    "#minecraft:obsidian",
+    "minecraft:reinforced_deepslate",
+    "minecraft:repeating_command_block",
     "minecraft:structure_block"
   ]
 }

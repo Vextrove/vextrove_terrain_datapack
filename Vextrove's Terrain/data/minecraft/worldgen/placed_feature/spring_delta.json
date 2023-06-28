@@ -1,11 +1,4 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
                 "rock_count": 4,
                 "hole_count": 1,
                 "valid_blocks": [
@@ -18,46 +11,29 @@
                   "minecraft:polished_basalt",
                   "minecraft:smooth_basalt"
                 ],
-                "state": {
-                  "Properties": {
-                    "falling": "true"
-                  },
-                  "Name": "minecraft:lava"
-                },
-                "requires_block_below": true
-              },
-              "type": "minecraft:spring_feature"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 4
-                  },
-                  "max_inclusive": {
-                    "below_top": 4
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "minecraft:spring_lava_nether",
+  "placement": [
+    {
+      "type": "minecraft:count",
     },
-    "decorator": {
-      "config": {
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "below_top": 4
+        },
+        "min_inclusive": {
+          "above_bottom": 4
+        }
+      }
+    },
         "count": 48
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

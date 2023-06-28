@@ -1,6 +1,5 @@
 {
   "noodle_caves_enabled": true,
-  "sea_level": 32,
   "aquifers_enabled": false,
   "noise_caves_enabled": true,
   "default_block": {

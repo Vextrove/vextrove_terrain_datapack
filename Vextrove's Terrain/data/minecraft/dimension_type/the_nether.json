@@ -11,6 +11,7 @@
   "infiniburn": "#minecraft:infiniburn_nether",
   "logical_height": 1024,
   "min_y": 0,
+  "monster_spawn_block_light_limit": 15,
   "natural": false,
   "piglin_safe": true,
   "respawn_anchor_works": true,

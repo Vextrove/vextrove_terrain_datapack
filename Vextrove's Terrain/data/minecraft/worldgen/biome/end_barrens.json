@@ -1,4 +1,6 @@
 {
+  "carvers": {},
+  "downfall": 0.5,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",

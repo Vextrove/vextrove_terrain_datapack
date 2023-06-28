@@ -5,9 +5,6 @@
     },
     "probability": 0.2,
     "y": {
-      "min_inclusive": {
-        "above_bottom": 8
-      },
       "max_inclusive": {
         "below_top": 127
       },
@@ -32,6 +29,8 @@
       "value": {
         "min_inclusive": 0.5,
         "max_exclusive": 1.8
+      "min_inclusive": {
+        "above_bottom": 8
       }
     },
     "floor_level": {

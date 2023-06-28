@@ -7,7 +7,7 @@
         "min_inclusive": -1.0,
         "max_exclusive": -0.4
       }
-    }
+    },
     "horizontal_radius_multiplier": {
       "type": "minecraft:uniform",
       "value": {

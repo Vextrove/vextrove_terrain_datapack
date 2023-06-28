@@ -89,7 +89,6 @@
       },
       {
         "type": "minecraft:piglin",
-        "weight": 15,
         "maxCount": 4,
         "minCount": 4,
         "type": "minecraft:ravager",
@@ -102,6 +101,7 @@
         "weight": 60,
         "minCount": 1,
         "maxCount": 2
+        "weight": 15
       },
       {
         "type": "minecraft:mooshroom",

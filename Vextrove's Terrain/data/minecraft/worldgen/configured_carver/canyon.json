@@ -56,8 +56,7 @@
       "vertical_radius_center_factor": 0.0,
       "vertical_radius_default_factor": 1.0,
       "width_smoothness": 3
-    }
-  },
+    },
     "vertical_rotation": {
       "type": "minecraft:uniform",
       "value": {
@@ -75,4 +74,5 @@
       }
     },
     "yScale": 4.0
+  }
 }

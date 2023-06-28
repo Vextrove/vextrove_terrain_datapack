@@ -38,8 +38,8 @@
     "horizontal_radius_multiplier": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 0.7,
-        "max_exclusive": 1.4
+        "max_exclusive": 1.4,
+        "min_inclusive": 0.7
       }
     },
     "lava_level": {

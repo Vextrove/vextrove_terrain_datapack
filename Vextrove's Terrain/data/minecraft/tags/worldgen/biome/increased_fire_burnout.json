@@ -1,11 +1,10 @@
 {
   "values": [
     "#minecraft:is_ocean",
-    "minecraft:mushroom_fields",
-    "#vextrove:is_swamp",
-    "minecraft:snowy_slopes",
-    "minecraft:frozen_peaks",
-    "minecraft:jagged_peaks",
+    "#minecraft:is_ocean_adjacent",
+    "#minecraft:is_swamp",
+    "#minecraft:is_snowy",
+    "#minecraft:is_frozen",
     "#minecraft:is_jungle"
   ]
 }

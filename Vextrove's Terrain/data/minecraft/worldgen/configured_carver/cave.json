@@ -1,13 +1,6 @@
 {
   "type": "minecraft:cave",
   "config": {
-    "yScale": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": 0.1,
-        "max_exclusive": 0.9
-      }
-    },
     "debug_settings": {
       "air_state": {
         "Name": "minecraft:crimson_button",
@@ -60,11 +53,12 @@
       }
     },
     "floor_level": {
+    "yScale": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": -1.0,
-        "max_exclusive": -0.4
+        "max_exclusive": 0.9,
+        "min_inclusive": 0.1
       }
     }
-  },
+  }
 }

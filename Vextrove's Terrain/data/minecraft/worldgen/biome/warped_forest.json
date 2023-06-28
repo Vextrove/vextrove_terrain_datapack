@@ -4,21 +4,21 @@
   },
   "downfall": 0.0,
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
     "additions_sound": {
       "sound": "minecraft:ambient.warped_forest.additions",
       "tick_chance": 0.0111
     },
     "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "fog_color": 1705242,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000
+    },
     "music": {
-      "min_delay": 12000,
       "max_delay": 24000,
+      "min_delay": 12000,
       "replace_current_music": false,
       "sound": "minecraft:music.nether.warped_forest"
     },
@@ -53,9 +53,10 @@
       "minecraft:ore_gravel_nether",
       "minecraft:ore_gold_nether",
       "minecraft:ore_quartz_nether",
-      "minecraft:ore_debris_large",
+      "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small"
     ],
+    [],
     [
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
@@ -66,6 +67,7 @@
       "minecraft:twisting_vines"
     ]
   ],
+  "has_precipitation": false,
   "spawners": {
     "monster": [
       {
@@ -75,18 +77,17 @@
         "maxCount": 4
       }
     ],
+    "ambient": [],
+    "axolotls": [],
     "creature": [
       {
         "type": "minecraft:strider",
-        "weight": 60,
+        "maxCount": 2,
         "minCount": 1,
-        "maxCount": 2
+        "weight": 60
       }
     ],
-    "ambient": [],
-    "axolotls": [],
     "underground_water_creature": [],
-    "water_creature": [],
     "water_ambient": [],
     "misc": []
   },
@@ -95,9 +96,9 @@
       "energy_budget": 0.12,
       "charge": 1.0
     }
+    "water_creature": []
   },
   "player_spawn_friendly": false,
-  "precipitation": "none",
   "category": "nether"
   "temperature": 2.0
 }

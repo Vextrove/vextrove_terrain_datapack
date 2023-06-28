@@ -2,9 +2,11 @@
   "values": [
     "minecraft:desert",
     "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "#minecraft:is_hill",
     "minecraft:savanna",
+    "minecraft:savanna_plateau",
     "minecraft:snowy_plains",
-    "minecraft:taiga",
     "#minecraft:is_mountain",
     "minecraft:grove"
   ]

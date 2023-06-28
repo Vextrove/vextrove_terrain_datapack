@@ -9,6 +9,8 @@
     "minecraft:iron_block",
     "minecraft:iron_door",
     "minecraft:iron_ore",
+    "#minecraft:anvils",
+    "#minecraft:cauldrons",
     "minecraft:iron_trapdoor",
     "minecraft:lapis_block",
     "minecraft:lapis_ore",

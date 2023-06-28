@@ -1,7 +1,6 @@
 {
   "replace": true,{
   "values": [
-    "#minecraft:cauldrons",
     "#vextrove:blackstone",
     "#vextrove:dark_prismarine",
     "minecraft:diamond_block",

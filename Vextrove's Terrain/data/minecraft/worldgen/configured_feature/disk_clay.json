@@ -1,7 +1,7 @@
 {
+  "type": "minecraft:disk",
   "config": {
-    "feature": {
-      "config": {
+    "half_height": 1,
     "radius": {
       "type": "minecraft:uniform",
       "value": {
@@ -11,8 +11,6 @@
     },
         "state": {
           "Name": "minecraft:clay"
-        },
-        "half_height": 1,
         "targets": [
           {
             "Name": "minecraft:dirt"
@@ -34,11 +32,14 @@
           "config": {
             "heightmap": "OCEAN_FLOOR_WG"
           },
-          "type": "minecraft:heightmap"
         }
       },
-      "type": "minecraft:decorated"
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "minecraft:dirt",
+        "minecraft:clay"
+      ]
     }
-  },
-  "type": "minecraft:decorated"
+  }
 }

@@ -66,8 +66,8 @@
       "thickness": {
         "type": "minecraft:trapezoid",
         "value": {
-          "min": 0.0,
           "max": 6.0,
+          "min": 0.0,
           "plateau": 2.0
         }
       },

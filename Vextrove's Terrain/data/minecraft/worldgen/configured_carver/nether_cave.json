@@ -17,7 +17,6 @@
       "max_inclusive": {
         "below_top": 127
       },
-    },
     "yScale": {
       "type": "minecraft:uniform",
       "value": {

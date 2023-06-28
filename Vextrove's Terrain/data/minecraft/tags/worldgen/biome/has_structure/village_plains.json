@@ -1,9 +1,12 @@
 {
   "values": [
     "minecraft:plains",
+    "minecraft:sunflower_plains",
     "#minecraft:is_river",
     "#minecraft:is_beach",
+    "minecraft:sparse_jungle",
     "minecraft:mushroom_fields",
+    "minecraft:cherry_grove",
     "minecraft:meadow"
   ]
 }

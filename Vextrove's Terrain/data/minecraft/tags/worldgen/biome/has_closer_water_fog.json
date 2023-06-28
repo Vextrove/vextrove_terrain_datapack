@@ -1,6 +1,8 @@
 {
   "values": [
     "minecraft:swamp",
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle",
     "minecraft:mangrove_swamp"
   ]
 }

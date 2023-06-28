@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:cave",
   "config": {
     "yScale": {
       "type": "minecraft:uniform",
@@ -66,5 +67,4 @@
       }
     }
   },
-  "type": "minecraft:cave"
 }

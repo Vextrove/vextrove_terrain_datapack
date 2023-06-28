@@ -1,11 +1,8 @@
 {
   "values": [
-    "minecraft:swamp",
     "#minecraft:is_jungle",
-    "#minecraft:is_beach",
     "#minecraft:is_ocean",
-    "minecraft:plains",
-    "minecraft:mushroom_fields",
-    "minecraft:mangrove_swamp"
+    "#minecraft:is_ocean_adjacent",
+    "#minecraft:is_swamp"
   ]
 }

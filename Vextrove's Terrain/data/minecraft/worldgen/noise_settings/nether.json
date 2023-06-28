@@ -15,7 +15,6 @@
   "disable_mob_generation": false,
   "legacy_random_source": true,
     },
-    "Name": "minecraft:lava"
   },
   "surface_rule": {
     "sequence": [
@@ -23,10 +22,10 @@
         "if_true": {
           "biome_is": [
             "minecraft:basalt_deltas"
-          ],
-          "type": "minecraft:biome"
+          ]
         },
         "then_run": {
+          "type": "minecraft:sequence",
           "sequence": [
             {
               "if_true": {

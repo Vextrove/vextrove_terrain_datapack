@@ -1,6 +1,4 @@
 {
-    "grass_color": 8431445,
-    "foliage_color": 8431445
   "carvers": {
     "air": [
       "minecraft:cave",
@@ -25,7 +23,8 @@
     },
     "sky_color": 8037887,
     "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_fog_color": 329011,
+    "foliage_color": 8431445
   },
   "features": [
     [],

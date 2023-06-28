@@ -10,6 +10,8 @@
       "sound": "minecraft:ambient.warped_forest.additions",
       "tick_chance": 0.0111
     },
+    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "fog_color": 1705242,
     "music": {
       "sound": "minecraft:music.nether.warped_forest",
       "min_delay": 12000,
@@ -22,9 +24,7 @@
       },
       "probability": 0.01428
     },
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "sky_color": 7254527,
-    "fog_color": 1705242,
     "water_color": 13243926,
     "water_fog_color": 8060928,
     "grass_color": 5102526,

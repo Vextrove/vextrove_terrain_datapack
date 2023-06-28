@@ -62,8 +62,8 @@
     "floor_level": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": -1.0,
-        "max_exclusive": -0.4
+        "max_exclusive": 0.9,
+        "min_inclusive": 0.1
       }
     }
   },

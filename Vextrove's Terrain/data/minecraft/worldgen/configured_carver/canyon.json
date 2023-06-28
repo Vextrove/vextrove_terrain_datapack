@@ -25,12 +25,6 @@
         }
       }
     },
-    "vertical_rotation": {
-      "type": "minecraft:uniform",
-      "value": {
-        "min_inclusive": -0.125,
-        "max_exclusive": 0.125
-      }
     "lava_level": {
       "above_bottom": 8
     },
@@ -64,6 +58,13 @@
       "width_smoothness": 3
     }
   },
+    "vertical_rotation": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_exclusive": 0.125,
+        "min_inclusive": -0.125
+      }
+    },
     "y": {
       "type": "minecraft:uniform",
       "max_inclusive": {

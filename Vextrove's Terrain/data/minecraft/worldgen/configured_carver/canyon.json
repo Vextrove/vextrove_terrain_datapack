@@ -1,31 +1,29 @@
 {
+  "type": "minecraft:canyon",
   "config": {
     "yScale": 4.0,
-    "lava_level": {
-      "above_bottom": 8
-    },
     "debug_settings": {
-      "water_state": {
+      "air_state": {
+        "Name": "minecraft:warped_button",
         "Properties": {
-          "waterlogged": "false",
-          "lit": "false",
-          "candles": "1"
-        },
-        "Name": "minecraft:candle"
-      },
-      "lava_state": {
-        "Name": "minecraft:orange_stained_glass"
+          "face": "wall",
+          "facing": "north",
+          "powered": "false"
+        }
       },
       "barrier_state": {
         "Name": "minecraft:glass"
       },
-      "air_state": {
+      "lava_state": {
+        "Name": "minecraft:orange_stained_glass"
+      },
+      "water_state": {
+        "Name": "minecraft:candle",
         "Properties": {
-          "powered": "false",
-          "facing": "north",
-          "face": "wall"
-        },
-        "Name": "minecraft:warped_button"
+          "candles": "1",
+          "lit": "false",
+          "waterlogged": "false"
+        }
       }
     },
     "probability": 0.01,
@@ -73,5 +71,4 @@
       "width_smoothness": 3
     }
   },
-  "type": "minecraft:canyon"
 }

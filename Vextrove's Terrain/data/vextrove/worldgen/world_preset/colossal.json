@@ -8,7 +8,7 @@
           "type": "minecraft:multi_noise",
           "preset": "minecraft:overworld"
         },
-        "settings": "minecraft:colossal"
+        "settings": "vextrove:colossal"
       }
     },
     "minecraft:the_end": {

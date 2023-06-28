@@ -1,99 +1,104 @@
 {
+  "type": "minecraft:random_selector",
   "config": {
-    "feature": {
-      "config": {
-        "features": [
-          {
-            "chance": 0.003,
-            "feature": "minecraft:huge_brown_mushroom"
-          },
-          {
-            "chance": 0.003,
-            "feature": "minecraft:huge_red_mushroom"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_alternate"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huge_red_mushroom_alternate"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_smaller"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huge_red_mushroom_smaller"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_smaller_alternate"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huge_red_mushroom_smaller_alternate"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huger_brown_mushroom"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huger_red_mushroom"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huger_brown_mushroom_alternate"
-          },
-          {
-            "chance": 0.003,
-            "feature": "vextrove:huge_mushrooms/huger_red_mushroom_alternate"
-          },
-          {
-            "feature": "minecraft:dark_oak_checked",
-            "chance": 0.6666667
-          },
-          {
-            "feature": "minecraft:birch_checked",
-            "chance": 0.2
-          },
-          {
-            "feature": "minecraft:fancy_oak_checked",
-            "chance": 0.1
-          }
-        ],
-        "default": "minecraft:oak_checked"
-      },
-      "type": "minecraft:random_selector"
-    },
-    "decorator": {
-      "config": {
-        "outer": {
-          "config": {},
-          "type": "minecraft:dark_oak_tree"
-        },
-        "inner": {
-          "config": {
-            "outer": {
-              "config": {
-                "max_water_depth": 0
-              },
-              "type": "minecraft:water_depth_threshold"
-            },
-            "inner": {
-              "config": {
-                "heightmap": "OCEAN_FLOOR"
-              },
-              "type": "minecraft:heightmap"
-            }
-          },
-          "type": "minecraft:decorated"
+    "default": "minecraft:oak_checked",
+    "features": [
+      {
+        "chance": 0.004,
+        "feature": {
+          "feature": "minecraft:huge_brown_mushroom",
+          "placement": []
         }
       },
-      "type": "minecraft:decorated"
-    }
-  },
-  "type": "minecraft:decorated"
+      {
+        "chance": 0.005,
+        "feature": {
+          "feature": "minecraft:huge_red_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.005,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_alternate",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.004,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huge_red_mushroom_alternate",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_smaller",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huge_red_mushroom_smaller",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huge_brown_mushroom_smaller_alternate",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huge_red_mushroom_smaller_alternate",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huger_brown_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huger_red_mushroom",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huger_brown_mushroom_alternate",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.002,
+        "feature": {
+          "feature": "vextrove:huge_mushrooms/huger_red_mushroom_alternate",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.6666667,
+        "feature": "minecraft:dark_oak_checked"
+      },
+      {
+        "chance": 0.2,
+        "feature": "minecraft:birch_checked"
+      },
+      {
+        "chance": 0.1,
+        "feature": "minecraft:fancy_oak_checked"
+      }
+    ]
+  }
 }

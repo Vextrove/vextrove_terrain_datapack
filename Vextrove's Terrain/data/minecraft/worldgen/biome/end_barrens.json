@@ -41,10 +41,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "spawn_costs": {},
-  "player_spawn_friendly": false,
-  "precipitation": "none",
-  "temperature": 0.5,
-  "downfall": 0.5,
-  "category": "the_end"
+  "temperature": 0.5
 }

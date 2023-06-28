@@ -1,10 +1,12 @@
 {
+  "carvers": {},
+  "downfall": 0.5,
   "effects": {
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
       "block_search_extent": 8,
-      "offset": 2.0
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
     },
     "sky_color": 1900575,
     "fog_color": 10518688,

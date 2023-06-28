@@ -19,6 +19,7 @@
       "above_bottom": 10
     },
     "probability": 0.2,
+    "replaceable": "#minecraft:nether_carver_replaceables",
     "y": {
       "type": "minecraft:uniform",
       "max_inclusive": {

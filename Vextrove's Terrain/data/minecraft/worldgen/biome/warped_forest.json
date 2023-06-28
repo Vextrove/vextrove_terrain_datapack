@@ -68,6 +68,12 @@
     ]
   ],
   "has_precipitation": false,
+  "spawn_costs": {
+    "minecraft:enderman": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+    }
+  },
   "spawners": {
     "monster": [
       {
@@ -89,13 +95,6 @@
     ],
     "underground_water_creature": [],
     "water_ambient": [],
-    "misc": []
-  },
-  "spawn_costs": {
-    "minecraft:enderman": {
-      "energy_budget": 0.12,
-      "charge": 1.0
-    }
     "water_creature": []
   },
   "player_spawn_friendly": false,

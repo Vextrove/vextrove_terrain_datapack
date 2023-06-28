@@ -54,8 +54,6 @@
           "min_inclusive": 0.75
         }
       },
-      "vertical_radius_default_factor": 1.0,
-      "vertical_radius_center_factor": 0.0,
       "horizontal_radius_factor": {
         "type": "minecraft:uniform",
         "value": {
@@ -71,6 +69,8 @@
           "plateau": 2.0
         }
       },
+      "vertical_radius_center_factor": 0.0,
+      "vertical_radius_default_factor": 1.0,
       "width_smoothness": 3
     }
   },

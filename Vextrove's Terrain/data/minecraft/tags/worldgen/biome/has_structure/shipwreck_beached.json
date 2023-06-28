@@ -1,7 +1,6 @@
 {
   "values": [
-    "minecraft:mushroom_fields",
     "minecraft:windswept_savanna",
-    "#minecraft:is_beach"
+    "#minecraft:is_ocean_adjacent"
   ]
 }

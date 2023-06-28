@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:nether_cave",
   "config": {
     "lava_level": {
       "above_bottom": 10
@@ -41,5 +42,4 @@
       }
     }
   },
-  "type": "minecraft:nether_cave"
 }

@@ -1,9 +1,9 @@
 {
   "values": [
     "#minecraft:dirt",
-    "#minecraft:terracotta",
     "minecraft:cobblestone",
     "minecraft:cobbled_deepslate",
+    "#minecraft:hardened_clay",
     "#minecraft:flowers",
     "#minecraft:logs",
     "#minecraft:planks",

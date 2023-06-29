@@ -1,24 +1,7 @@
 {
+  "type": "minecraft:ore",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:netherrack",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:blackstone"
-                    }
-                  }
-                ],
                 "size": 64,
-                "discard_chance_on_air_exposure": 0.0
               },
               "type": "minecraft:ore"
             },
@@ -38,20 +21,17 @@
             }
           },
           "type": "minecraft:decorated"
+    "discard_chance_on_air_exposure": 0.0,
+    "targets": [
+      {
+        "state": {
+          "Name": "minecraft:blackstone"
         },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+        "target": {
+          "block": "minecraft:netherrack",
+          "predicate_type": "minecraft:block_match"
         }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 12
-      },
-      "type": "minecraft:count"
-    }
-  },
-  "type": "minecraft:decorated"
+      }
+    ]
+  }
 }

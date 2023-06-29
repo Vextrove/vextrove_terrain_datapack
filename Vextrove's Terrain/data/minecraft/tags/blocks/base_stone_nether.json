@@ -1,7 +1,7 @@
 {
   "replace": true,
   "values": [
-    "#vextrove:basalt",
+    "#minecraft:basalt",
     "minecraft:netherrack",
     "minecraft:blackstone",
     "minecraft:cracked_nether_bricks",

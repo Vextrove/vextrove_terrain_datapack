@@ -6,6 +6,6 @@
     "minecraft:blackstone",
     "minecraft:magma_block",
     "minecraft:dark_prismarine",
-    "#vextrove:deepslate_ores"
+    "#minecraft:deepslate_ores"
   ]
 }

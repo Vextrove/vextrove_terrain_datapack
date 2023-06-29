@@ -1,7 +1,7 @@
 {
   "values": [
-    "#vextrove:netherrack",
-    "#minecraft:dripstone_replaceable_blocks",
+    "#minecraft:netherrack",
+    "#minecraft:base_stone_overworld",
     "#minecraft:dirt"
   ]
 }

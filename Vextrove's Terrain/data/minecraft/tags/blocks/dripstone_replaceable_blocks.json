@@ -7,8 +7,8 @@
     "#minecraft:planks",
     "#minecraft:logs",
     "#minecraft:stone_bricks",
-    "#vextrove:deepslate_bricks",
-    "#vextrove:blackstone_bricks",
+    "#minecraft:deepslate_bricks",
+    "#minecraft:blackstone_bricks",
     "minecraft:gravel",
     "#minecraft:base_stone_overworld"
   ]

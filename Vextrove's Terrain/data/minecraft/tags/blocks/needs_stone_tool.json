@@ -1,15 +1,15 @@
 {
   "replace": true,
   "values": [
-    "#minecraft:non_flammable_wood",
-    "#vextrove:copper",
+    "#minecraft:nether_wood",
+    "#minecraft:copper",
     "minecraft:copper_ore",
     "minecraft:heavy_weighted_pressure_plate",
     "minecraft:iron_bars",
     "minecraft:iron_block",
     "minecraft:iron_door",
     "minecraft:iron_ore",
-    "#minecraft:anvils",
+    "#minecraft:anvil",
     "#minecraft:cauldrons",
     "minecraft:iron_trapdoor",
     "minecraft:lapis_block",

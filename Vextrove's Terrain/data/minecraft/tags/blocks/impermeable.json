@@ -1,6 +1,7 @@
 {
   "values": [
     "minecraft:glass",
+    "#minecraft:obsidian",
     "minecraft:white_stained_glass",
     "minecraft:orange_stained_glass",
     "minecraft:magenta_stained_glass",
@@ -17,9 +18,6 @@
     "minecraft:green_stained_glass",
     "minecraft:red_stained_glass",
     "minecraft:black_stained_glass",
-    "minecraft:tinted_glass",
-    "minecraft:enchanting_table",
-    "minecraft:obsidian",
-    "minecraft:respawn_anchor"
+    "minecraft:tinted_glass"
   ]
 }

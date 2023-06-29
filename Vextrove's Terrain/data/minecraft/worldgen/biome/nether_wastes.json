@@ -115,9 +115,9 @@
       },
       {
         "type": "minecraft:zoglin",
-        "maxCount": 4,
-        "minCount": 3,
-        "weight": 9
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 8
       },
       {
         "type": "minecraft:ravager",

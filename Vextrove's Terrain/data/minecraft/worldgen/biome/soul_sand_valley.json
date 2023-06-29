@@ -29,14 +29,16 @@
     },
     "sky_color": 7254527,
     "fog_color": 1787717,
-    "water_color": 13243926,
+    "water_color": 16711680,
     "water_fog_color": 8060928,
     "grass_color": 7730943,
     "foliage_color": 5108735
   },
   "features": [
     [],
-    [],
+    [
+      "vextrove:lake_blood"
+    ],
     [
       "minecraft:basalt_pillar"
     ],

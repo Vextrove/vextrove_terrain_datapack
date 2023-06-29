@@ -2,6 +2,7 @@
   "values": [
     "minecraft:spawner",
     "minecraft:chest",
+    "minecraft:ender_chest",
     "minecraft:barrier",
     "minecraft:bedrock",
     "minecraft:chain_command_block",

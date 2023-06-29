@@ -2,12 +2,13 @@
   "replace": true,
   "values": [
     "#minecraft:base_stone_overworld",
+    "minecraft:cobblestone",
+    "minecraft:cobbled_deepslate",
     "#minecraft:flowers",
     "#minecraft:logs",
     "#minecraft:planks",
     "#minecraft:sand",
     "#minecraft:stone_bricks",
-    "#vextrove:basalt",
     "#vextrove:blackstone_bricks",
     "#vextrove:crimson_nether_bricks",
     "#vextrove:deepslate_bricks",
@@ -17,14 +18,16 @@
     "#vextrove:red_nether_bricks",
     "minecraft:blackstone",
     "minecraft:calcite",
-    "minecraft:cobbled_deepslate",
-    "minecraft:cobblestone",
     "minecraft:dripstone_block",
     "minecraft:grass",
     "minecraft:gravel",
     "minecraft:mossy_cobblestone",
     "minecraft:tall_grass",
     "minecraft:vine"
+    "#minecraft:deepslate_bricks",
+    "#minecraft:basalt",
+    "#minecraft:cave_vines",
+    "minecraft:vine",
     "#minecraft:dirt"
   ]
 }

@@ -1,27 +1,8 @@
 {
   "type": "minecraft:ore",
   "config": {
-                "size": 64,
-              },
-              "type": "minecraft:ore"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 64
-                  },
-                  "max_inclusive": {
-                    "below_top": 384
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
     "discard_chance_on_air_exposure": 0.0,
+    "size": 64,
     "targets": [
       {
         "state": {

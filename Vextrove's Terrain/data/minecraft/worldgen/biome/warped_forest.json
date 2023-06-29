@@ -36,7 +36,9 @@
   },
   "features": [
     [],
-    [],
+    [
+      "vextrove:lake_blood"
+    ],
     [],
     [],
     [],

@@ -73,8 +73,8 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:y_clamped_gradient",
-          "from_y": -64,
-          "to_y": -40,
+          "from_y": -320,
+          "to_y": -306,
           "from_value": 0,
           "to_value": 1
         },
@@ -117,7 +117,7 @@
                       }
                     }
                   },
-                  "min": -64,
+                  "min": -320,
                   "max": 64
                 }
               }
@@ -144,8 +144,8 @@
                   "type": "minecraft:mul",
                   "argument1": {
                     "type": "minecraft:y_clamped_gradient",
-                    "from_y": -64,
-                    "to_y": -40,
+                    "from_y": -320,
+                    "to_y": -306,
                     "from_value": 0,
                     "to_value": 1
                   },

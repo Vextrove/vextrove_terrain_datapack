@@ -1,5 +1,7 @@
 {
   "values": [
+    "minecraft:bastion_remnant",
+    "minecraft:end_city",
     "minecraft:stronghold"
   ]
 }

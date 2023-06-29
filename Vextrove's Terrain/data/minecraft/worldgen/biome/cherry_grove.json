@@ -8,11 +8,6 @@
   },
   "downfall": 0.8,
   "effects": {
-    "sky_color": 8103167,
-    "fog_color": 12638463,
-    "water_color": 6141935,
-    "water_fog_color": 6141935,
-    "grass_color": 11983713,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -26,8 +21,10 @@
       "sound": "minecraft:music.overworld.cherry_grove"
     },
     "sky_color": 8103167,
+    "fog_color": 12638463,
     "water_color": 6141935,
-    "water_fog_color": 6141935
+    "water_fog_color": 6141935,
+    "grass_color": 11983713,
   },
   "features": [
     [],

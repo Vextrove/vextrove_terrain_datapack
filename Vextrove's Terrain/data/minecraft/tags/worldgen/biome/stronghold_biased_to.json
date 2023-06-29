@@ -1,5 +1,19 @@
 {
   "values": [
-    "#minecraft:not_water"
+    "#minecraft:is_windswept",
+    "#minecraft:is_mountain",
+    "minecraft:desert",
+    "minecraft:dark_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:savanna_plateau",
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:deep_dark",
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves"
   ]
 }

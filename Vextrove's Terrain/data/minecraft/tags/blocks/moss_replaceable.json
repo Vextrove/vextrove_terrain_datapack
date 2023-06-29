@@ -13,6 +13,8 @@
     "#vextrove:deepslate_bricks",
     "#vextrove:igneous_rock",
     "#vextrove:red_nether_bricks",
+    "#minecraft:deepslate_bricks",
+    "#minecraft:blackstone_bricks",
     "minecraft:blackstone",
     "minecraft:calcite",
     "minecraft:dripstone_block",

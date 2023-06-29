@@ -1,5 +1,6 @@
 {
   "values": [
+    "#minecraft:dirt",
     "minecraft:air",
     "#minecraft:leaves",
     "#minecraft:logs"

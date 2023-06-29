@@ -1,8 +1,5 @@
 {
   "values": [
-    "minecraft:deepslate",
-    "minecraft:smooth_basalt",
-    "minecraft:blackstone",
     "#minecraft:dirt",
     "minecraft:netherrack",
     "#minecraft:sand",
@@ -10,6 +7,9 @@
     "minecraft:tuff",
     "minecraft:stone",
     "#vextrove:igneous_rock",
+    "minecraft:deepslate",
+    "minecraft:smooth_basalt",
+    "minecraft:blackstone",
     "#minecraft:nylium"
   ]
 }

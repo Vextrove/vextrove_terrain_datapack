@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
+    "#minecraft:base_stone_overworld",
     "#minecraft:flowers",
     "#minecraft:logs",
     "#minecraft:planks",

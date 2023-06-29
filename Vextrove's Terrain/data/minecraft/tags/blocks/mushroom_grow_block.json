@@ -1,15 +1,15 @@
 {
   "values": [
-    "minecraft:netherrack",
-    "minecraft:stone",
     "#vextrove:igneous_rock",
     "minecraft:deepslate",
     "minecraft:smooth_basalt",
     "minecraft:blackstone",
     "#minecraft:dirt",
-    "#minecraft:nylium",
     "#minecraft:sand",
     "minecraft:clay",
     "minecraft:tuff"
+    "minecraft:stone",
+    "minecraft:netherrack",
+    "#minecraft:nylium"
   ]
 }

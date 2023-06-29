@@ -1,7 +1,6 @@
 {
   "values": [
     "minecraft:stone",
-    "minecraft:andesite",
     "minecraft:granite",
     "minecraft:diorite",
     "minecraft:tuff",
@@ -18,6 +17,7 @@
     "minecraft:yellow_terracotta",
     "minecraft:light_gray_terracotta",
     "minecraft:white_terracotta",
-    "minecraft:smooth_quartz"
+    "minecraft:smooth_quartz",
+    "minecraft:andesite"
   ]
 }

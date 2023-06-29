@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#vextrove:end_bricks",
-    "minecraft:end_portal_frame",
-    "minecraft:end_stone"
-  ]
-}

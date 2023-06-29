@@ -1,7 +1,7 @@
 {
   "replace": true,
   "values": [
-    "#vextrove:netherrack",
+    "#minecraft:netherrack",
     "minecraft:bamboo",
     "minecraft:bee_nest",
     "minecraft:big_dripleaf",

@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#minecraft:igneous_rock",
+    "#minecraft:polished_igneous",
+    "minecraft:andesite_slab",
+    "minecraft:andesite_stairs",
+    "minecraft:diorite_slab",
+    "minecraft:diorite_stairs",
+    "minecraft:granite_slab",
+    "minecraft:granite_stairs"
+  ]
+}

@@ -5,6 +5,6 @@
     "minecraft:soul_soil",
     "minecraft:crimson_nylium",
     "minecraft:deepslate",
-    "#vextrove:deepslate_bricks"
+    "#minecraft:deepslate_bricks"
   ]
 }

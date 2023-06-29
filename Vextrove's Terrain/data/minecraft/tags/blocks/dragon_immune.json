@@ -2,16 +2,16 @@
   "values": [
     "minecraft:spawner",
     "minecraft:chest",
-    "minecraft:end_portal",
     "minecraft:barrier",
     "minecraft:bedrock",
     "minecraft:chain_command_block",
     "minecraft:command_block",
     "minecraft:end_gateway",
+    "minecraft:end_portal",
+    "#minecraft:end_stone",
     "minecraft:iron_bars",
     "minecraft:jigsaw",
     "minecraft:moving_piston",
-    "#vextrove:end_stone",
     "#vextrove:purpur",
     "minecraft:netherite_block"
     "#minecraft:obsidian",

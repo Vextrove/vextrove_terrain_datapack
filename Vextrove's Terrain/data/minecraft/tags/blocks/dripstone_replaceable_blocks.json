@@ -1,7 +1,6 @@
 {
   "replace": true,
   "values": [
-    "#minecraft:base_stone_overworld",
     "minecraft:cobblestone",
     "minecraft:mossy_cobblestone",
     "minecraft:cobbled_deepslate",
@@ -10,6 +9,7 @@
     "#minecraft:stone_bricks",
     "#vextrove:deepslate_bricks",
     "#vextrove:blackstone_bricks",
-    "minecraft:gravel"
+    "minecraft:gravel",
+    "#minecraft:base_stone_overworld"
   ]
 }

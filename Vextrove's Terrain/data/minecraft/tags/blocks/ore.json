@@ -1,0 +1,8 @@
+{
+  "values": [
+    "#minecraft:deepslate_ores",
+    "#minecraft:stone_ores",
+    "minecraft:nether_gold_ore",
+    "minecraft:nether_quartz_ore"
+  ]
+}

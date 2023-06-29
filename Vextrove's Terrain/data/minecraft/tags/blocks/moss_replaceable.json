@@ -1,7 +1,6 @@
 {
   "replace": true,
   "values": [
-    "#minecraft:dirt",
     "#minecraft:flowers",
     "#minecraft:logs",
     "#minecraft:planks",
@@ -31,5 +30,6 @@
     "minecraft:tall_grass",
     "minecraft:tuff",
     "minecraft:vine"
+    "#minecraft:dirt"
   ]
 }

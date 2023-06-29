@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:dirt",
+    "#minecraft:terracotta",
+    "#minecraft:nylium",
+    "#minecraft:base_stone_nether",
+    "#minecraft:sand",
+    "minecraft:gravel",
+    "minecraft:clay",
+    "minecraft:dripstone_block",
+    "minecraft:end_stone",
+    "#minecraft:base_stone_overworld"
+  ]
+}

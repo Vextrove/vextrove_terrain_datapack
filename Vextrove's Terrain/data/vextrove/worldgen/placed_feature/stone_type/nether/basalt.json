@@ -1,18 +1,27 @@
 {
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "vextrove:stone_type\nether\basalt",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 48
     },
-    "decorator": {
-      "config": {
-        "count": 48
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "below_top": 0
+        },
+        "min_inclusive": {
+          "above_bottom": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

@@ -10,7 +10,7 @@
         },
         "target": {
           "block": "minecraft:red_nether_bricks",
-          "predicate_type": "minecraft:tag_match"
+          "predicate_type": "minecraft:block_match"
         }
       }
     ]

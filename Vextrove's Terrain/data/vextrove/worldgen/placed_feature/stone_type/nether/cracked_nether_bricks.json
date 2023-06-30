@@ -1,27 +1,4 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:nether_bricks",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:cracked_nether_bricks"
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.9
-              },
-              "type": "minecraft:ore"
-            },
             "decorator": {
               "config": {
                 "height": {

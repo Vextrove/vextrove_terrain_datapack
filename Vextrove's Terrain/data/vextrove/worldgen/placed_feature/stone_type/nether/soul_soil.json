@@ -1,27 +1,4 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:soul_sand",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:soul_soil"
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.0
-              },
-              "type": "minecraft:ore"
-            },
             "decorator": {
               "config": {
                 "height": {

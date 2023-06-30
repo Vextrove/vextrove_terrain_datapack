@@ -1,30 +1,4 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:netherrack",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Properties": {
-                        "axis": "y"
-                      },
-                      "Name": "minecraft:basalt"
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.15
-              },
-              "type": "minecraft:ore"
-            },
             "decorator": {
               "config": {
                 "height": {

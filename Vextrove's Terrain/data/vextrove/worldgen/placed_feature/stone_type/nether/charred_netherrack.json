@@ -1,27 +1,4 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "minecraft:base_stone_nether",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:blackstone"
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.2
-              },
-              "type": "minecraft:ore"
-            },
             "decorator": {
               "config": {
                 "height": {

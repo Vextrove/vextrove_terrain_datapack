@@ -1,12 +1,9 @@
 {
-                "size": 17,
-                "discard_chance_on_air_exposure": 0.0
-                    "absolute": 136
-                    "below_top": 0
   "feature": "minecraft:ore_coal",
   "placement": [
     {
       "type": "minecraft:count",
+      "count": 30
     },
     {
       "type": "minecraft:in_square"
@@ -16,12 +13,13 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
+          "below_top": 0
         },
         "min_inclusive": {
+          "absolute": 136
         }
       }
     },
-        "count": 30
     {
       "type": "minecraft:biome"
     }

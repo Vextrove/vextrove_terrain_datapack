@@ -1,34 +1,24 @@
 {
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": -10
-                  },
-                  "max_inclusive": {
-                    "above_bottom": 9
-                  },
-                  "type": "minecraft:trapezoid"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "vextrove:stone_type\magma",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
     },
-    "decorator": {
-      "config": {
-        "count": 5
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "max_inclusive": {
+        },
+        "min_inclusive": {
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

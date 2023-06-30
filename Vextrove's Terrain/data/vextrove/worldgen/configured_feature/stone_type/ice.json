@@ -1,66 +1,27 @@
 {
+  "type": "minecraft:ore",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:water",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:ice"
-                    }
-                  },
-                  {
-                    "target": {
-                      "block": "minecraft:packed_ice",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:blue_ice"
-                    }
-                  }
-                ],
-                "size": 32,
-                "discard_chance_on_air_exposure": 0.0
-              },
-              "type": "minecraft:ore"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 18
-                  },
-                  "max_inclusive": {
-                    "absolute": 32
-                  },
-                  "type": "minecraft:trapezoid"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 32,
+    "targets": [
+      {
+        "state": {
+          "Name": "minecraft:water"
         },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+        "target": {
+          "block": "minecraft:ice",
+          "predicate_type": "minecraft:block_match"
         }
       },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 32
-      },
-      "type": "minecraft:count"
-    }
-  },
-  "type": "minecraft:decorated"
+      {
+        "state": {
+          "Name": "minecraft:packed_ice"
+        },
+        "target": {
+          "block": "minecraft:blue_ice",
+          "predicate_type": "minecraft:block_match"
+        }
+      }
+    ]
+  }
 }

@@ -1,57 +1,18 @@
 {
+  "type": "minecraft:ore",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "vextrove:dirt_replaceable",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:dirt"
-                    }
-                  }
-                ],
-                "size": 48,
-                "discard_chance_on_air_exposure": 0.05
-              },
-              "type": "minecraft:ore"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "absolute": 60
-                  },
-                  "max_inclusive": {
-                    "absolute": 80
-                  },
-                  "type": "minecraft:trapezoid"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
+    "discard_chance_on_air_exposure": 0.05,
+    "size": 48,
+    "targets": [
+      {
+        "state": {
+          "Name": "vextrove:dirt_replaceable"
         },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+        "target": {
+          "block": "minecraft:dirt",
+          "predicate_type": "minecraft:tag_match"
         }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 16
-      },
-      "type": "minecraft:count"
-    }
-  },
-  "type": "minecraft:decorated"
+      }
+    ]
+  }
 }

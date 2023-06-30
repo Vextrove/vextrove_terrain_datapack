@@ -1,57 +1,18 @@
 {
+  "type": "minecraft:ore",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:nether_bricks",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:cracked_nether_bricks"
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.9
-              },
-              "type": "minecraft:ore"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 8
-                  },
-                  "max_inclusive": {
-                    "above_bottom": 96
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
+    "discard_chance_on_air_exposure": 0.9,
+    "size": 64,
+    "targets": [
+      {
+        "state": {
+          "Name": "minecraft:nether_bricks"
         },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+        "target": {
+          "block": "minecraft:cracked_nether_bricks",
+          "predicate_type": "minecraft:tag_match"
         }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 64
-      },
-      "type": "minecraft:count"
-    }
-  },
-  "type": "minecraft:decorated"
+      }
+    ]
+  }
 }

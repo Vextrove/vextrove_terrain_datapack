@@ -1,13 +1,4 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
                     "target": {
                       "tag": "minecraft:base_stone_overworld",
                       "predicate_type": "minecraft:tag_match"

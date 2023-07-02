@@ -4,6 +4,7 @@
   "feature": "vextrove:stone_type/nether/charred_netherrack",
   "placement": [
     {
+      "type": "minecraft:count",
       "count": 18
     },
     {

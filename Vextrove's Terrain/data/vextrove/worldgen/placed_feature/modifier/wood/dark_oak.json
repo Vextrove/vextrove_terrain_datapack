@@ -1,85 +1,27 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "minecraft:planks",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:dark_oak_planks"
-                    }
-                  },
-                  {
-                    "target": {
-                      "tag": "minecraft:logs",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:dark_oak_log",
-                      "Properties": {
-                        "axis": "y"
-                      }
-                    }
-                  },
-                  {
-                    "target": {
-                      "tag": "minecraft:wooden_fences",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:dark_oak_fence",
-                      "Properties": {
-                        "east": "false",
-                        "north": "false",
-                        "south": "false",
-                        "waterlogged": "false",
-                        "west": "false"
-                      }
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.0
-              },
-              "type": "minecraft:ore"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 8
-                  },
-                  "max_inclusive": {
-                    "absolute": 24
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "vextrove:modifier/wood/dark_oak",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 127
     },
-    "decorator": {
-      "config": {
-        "count": 127
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 56
+        },
+        "min_inclusive": {
+          "above_bottom": 8
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

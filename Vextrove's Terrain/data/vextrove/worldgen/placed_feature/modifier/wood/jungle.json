@@ -3,6 +3,7 @@
   "placement": [
     {
       "type": "minecraft:count",
+      "count": 127
     },
     {
       "type": "minecraft:in_square"
@@ -19,7 +20,6 @@
         }
       }
     },
-        "count": 127
     {
       "type": "minecraft:biome"
     }

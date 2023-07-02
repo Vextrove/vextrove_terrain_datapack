@@ -55,7 +55,7 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "minecraft:warped_fence",
+          "Name": "minecraft:jungle_fence",
           "Properties": {
             "north": "false",
             "east": "false",

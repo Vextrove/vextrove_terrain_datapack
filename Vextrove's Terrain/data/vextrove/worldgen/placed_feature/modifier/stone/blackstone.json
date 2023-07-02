@@ -1,9 +1,9 @@
 {
-  "feature": "vextrove:stone_type/sand",
+  "feature": "vextrove:modifier/stone/blackstone",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 16
+      "count": 7
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
+        "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 64
+          "above_bottom": 19
         },
         "min_inclusive": {
-          "absolute": 0
+          "above_bottom": 0
         }
       }
     },

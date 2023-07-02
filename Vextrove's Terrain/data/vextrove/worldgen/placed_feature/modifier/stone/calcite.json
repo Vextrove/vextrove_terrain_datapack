@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type/calcite",
+  "feature": "vextrove:modifier/stone/calcite",
   "placement": [
     {
       "type": "minecraft:count",

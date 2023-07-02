@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type/diorite",
+  "feature": "vextrove:modifier/stone/granite",
   "placement": [
     {
       "type": "minecraft:count",

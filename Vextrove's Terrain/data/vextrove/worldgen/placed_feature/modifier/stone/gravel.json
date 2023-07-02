@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type/gravel",
+  "feature": "vextrove:modifier/stone/gravel",
   "placement": [
     {
       "type": "minecraft:count",

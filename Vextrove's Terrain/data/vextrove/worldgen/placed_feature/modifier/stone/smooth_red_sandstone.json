@@ -1,9 +1,9 @@
 {
-  "feature": "vextrove:stone_type/blackstone",
+  "feature": "vextrove:modifier/stone/smooth_red_sandstone",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 7
+      "count": 42
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "above_bottom": 19
+          "absolute": 64
         },
         "min_inclusive": {
-          "above_bottom": 0
+          "absolute": 0
         }
       }
     },

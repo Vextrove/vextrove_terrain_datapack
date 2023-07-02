@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type/ice",
+  "feature": "vextrove:modifier/stone/packed_ice",
   "placement": [
     {
       "type": "minecraft:count",
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 32
+          "absolute": 64
         },
         "min_inclusive": {
-          "above_bottom": 18
+          "above_bottom": 16
         }
       }
     },

@@ -1,9 +1,9 @@
 {
-  "feature": "vextrove:stone_type/deepslate",
+  "feature": "vextrove:modifier/stone/prismarine",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 3
+      "count": 64
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "below_top": 12
+          "absolute": 64
         },
         "min_inclusive": {
-          "absolute": -8
+          "above_bottom": 0
         }
       }
     },

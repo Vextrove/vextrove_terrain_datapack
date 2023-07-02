@@ -1,9 +1,9 @@
 {
-  "feature": "vextrove:stone_type/dirt",
+  "feature": "vextrove:modifier/stone/dripstone",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 16
+      "count": 6
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
+        "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 60
+          "absolute": 64
         },
         "min_inclusive": {
-          "absolute": 80
+          "absolute": -16
         }
       }
     },

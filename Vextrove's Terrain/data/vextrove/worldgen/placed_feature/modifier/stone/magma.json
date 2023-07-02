@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type/magma",
+  "feature": "vextrove:modifier/stone/magma",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,5 +1,4 @@
 {
-  "replace": true,
   "values": [
     "minecraft:terracotta",
     "minecraft:orange_terracotta",
@@ -7,6 +6,6 @@
     "minecraft:red_terracotta",
     "minecraft:yellow_terracotta",
     "minecraft:light_gray_terracotta",
-    "minecraft:white_terracotta",
+    "minecraft:white_terracotta"
   ]
 }

@@ -1,8 +1,8 @@
 {
   "replace": true,{
   "values": [
-    "#vextrove:blackstone",
-    "#vextrove:dark_prismarine",
+    "#minecraft:blackstone",
+    "#minecraft:dark_prismarine",
     "minecraft:diamond_block",
     "minecraft:diamond_ore",
     "minecraft:emerald_ore",
@@ -14,6 +14,6 @@
     "minecraft:redstone_block",
     "minecraft:smooth_basalt",
     "minecraft:light_weighted_pressure_plate",
-    "#vextrove:deepslate"
+    "#minecraft:deepslate"
   ]
 }

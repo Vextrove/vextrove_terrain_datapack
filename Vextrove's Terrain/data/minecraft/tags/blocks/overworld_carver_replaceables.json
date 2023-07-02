@@ -1,5 +1,7 @@
 {
   "values": [
+    "#minecraft:base_stone_overworld",
+    "#minecraft:igneous_rock",
     "#minecraft:dirt",
     "#minecraft:sand",
     "#minecraft:hardened_clay",
@@ -8,9 +10,6 @@
     "minecraft:water",
     "minecraft:gravel",
     "minecraft:suspicious_gravel",
-    "minecraft:sandstone",
-    "minecraft:red_sandstone",
-    "minecraft:calcite",
     "minecraft:snow",
     "minecraft:packed_ice",
     "minecraft:raw_iron_block",

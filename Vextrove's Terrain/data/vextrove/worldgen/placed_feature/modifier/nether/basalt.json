@@ -1,9 +1,9 @@
 {
-  "feature": "vextrove:stone_type/nether/red_nether_bricks",
+  "feature": "vextrove:modifier/nether/basalt",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 64
+      "count": 48
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:trapezoid",
+        "type": "minecraft:uniform",
         "max_inclusive": {
-          "above_bottom": -56
+          "below_top": 0
         },
         "min_inclusive": {
-          "above_bottom": 64
+          "above_bottom": 0
         }
       }
     },

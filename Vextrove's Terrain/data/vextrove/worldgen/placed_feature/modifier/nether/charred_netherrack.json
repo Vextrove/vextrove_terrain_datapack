@@ -1,9 +1,9 @@
 {
-  "feature": "vextrove:stone_type/nether/cracked_nether_bricks",
+  "feature": "vextrove:modifier/nether/charred_netherrack",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 64
+      "count": 18
     },
     {
       "type": "minecraft:in_square"
@@ -11,12 +11,12 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniforms",
+        "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "above_bottom": 96
+          "above_bottom": 48
         },
         "min_inclusive": {
-          "above_bottom": 8
+          "above_bottom": 0
         }
       }
     },

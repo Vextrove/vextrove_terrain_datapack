@@ -1,9 +1,9 @@
 {
-  "feature": "vextrove:stone_type/nether/charred_netherrack",
+  "feature": "vextrove:modifier/nether/ore_quartz_upper",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 18
+      "count": 8
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "above_bottom": 48
+          "below_top": 256
         },
         "min_inclusive": {
-          "above_bottom": 0
+          "below_top": 256
         }
       }
     },

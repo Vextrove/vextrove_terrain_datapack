@@ -4,6 +4,7 @@
   "feature": "vextrove:stone_type/nether/charred_netherrack",
   "placement": [
     {
+      "count": 18
     },
     {
     },
@@ -17,7 +18,6 @@
         }
       }
     },
-        "count": 18
     {
       "type": "minecraft:biome"
     }

@@ -10,7 +10,7 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "minecraft:acacia_planks"
+          "Name": "minecraft:nether_bricks"
         }
       },
       {
@@ -19,7 +19,7 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "minecraft:acacia_log",
+          "Name": "minecraft:polished_basalt",
           "Properties": {
             "axis": "y"
           }
@@ -31,7 +31,7 @@
           "predicate_type": "minecraft:tag_match"
         },
         "state": {
-          "Name": "minecraft:acacia_fence",
+          "Name": "minecraft:nether_brick_fence",
           "Properties": {
             "north": "false",
             "east": "false",

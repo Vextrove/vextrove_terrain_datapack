@@ -1,85 +1,46 @@
 {
+  "type": "minecraft:ore",
   "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "tag": "minecraft:planks",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:birch_planks"
-                    }
-                  },
-                  {
-                    "target": {
-                      "tag": "minecraft:logs",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:birch_log",
-                      "Properties": {
-                        "axis": "y"
-                      }
-                    }
-                  },
-                  {
-                    "target": {
-                      "tag": "minecraft:wooden_fences",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:birch_fence",
-                      "Properties": {
-                        "east": "false",
-                        "north": "false",
-                        "south": "false",
-                        "waterlogged": "false",
-                        "west": "false"
-                      }
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.0
-              },
-              "type": "minecraft:ore"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 8
-                  },
-                  "max_inclusive": {
-                    "absolute": 24
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 64,
+    "targets": [
+      {
+        "target": {
+          "tag": "minecraft:planks",
+          "predicate_type": "minecraft:tag_match"
         },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
+        "state": {
+          "Name": "minecraft:birch_planks"
         }
       },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": 127
+      {
+        "target": {
+          "tag": "minecraft:logs",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:birch_log",
+          "Properties": {
+            "axis": "y"
+          }
+        }
       },
-      "type": "minecraft:count"
-    }
-  },
-  "type": "minecraft:decorated"
+      {
+        "target": {
+          "tag": "minecraft:wooden_fences",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:birch_fence",
+          "Properties": {
+            "north": "false",
+            "east": "false",
+            "south": "false",
+            "west": "false",
+            "waterlogged": "false"
+          }
+        }
+      }
+    ]
+  }
 }

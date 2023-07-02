@@ -1,30 +1,27 @@
 {
-                    "above_bottom": 4
-                  },
-                  "max_inclusive": {
-                    "absolute": -4
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "vextrove:modifier/bricks/blackstone",
+  "placement": [
+    {
+      "type": "minecraft:count",
     },
-    "decorator": {
-      "config": {
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": -4
+        },
+        "min_inclusive": {
+          "above_bottom": 4
+        }
+      }
+    },
         "count": 127
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

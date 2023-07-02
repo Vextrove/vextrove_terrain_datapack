@@ -83,8 +83,8 @@
       {
         "type": "minecraft:mooshroom",
         "maxCount": 7,
-        "minCount": 3,
         "weight": 8
+        "minCount": 2,
       }
     ],
     "misc": [],
@@ -123,7 +123,7 @@
         "type": "minecraft:zoglin",
         "maxCount": 2,
         "minCount": 1,
-        "weight": 8
+        "weight": 3
       },
       {
         "type": "minecraft:ravager",

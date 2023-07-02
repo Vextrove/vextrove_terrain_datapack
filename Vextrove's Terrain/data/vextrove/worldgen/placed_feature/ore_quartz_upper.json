@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:modifier/nether/ore_quartz_upper",
+  "feature": "vextrove:ore_quartz_upper",
   "placement": [
     {
       "type": "minecraft:count",

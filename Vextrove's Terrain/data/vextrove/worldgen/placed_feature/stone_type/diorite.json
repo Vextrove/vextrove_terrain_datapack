@@ -1,6 +1,20 @@
 {
+  "feature": "vextrove:stone_type/diorite",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 7
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "below_top": 0
         },
-        "target": {
         "min_inclusive": {
           "absolute": 0
         }

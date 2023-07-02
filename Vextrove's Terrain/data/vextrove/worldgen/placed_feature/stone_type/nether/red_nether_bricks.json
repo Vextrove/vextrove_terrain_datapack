@@ -1,34 +1,27 @@
 {
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": -56
-                  },
-                  "max_inclusive": {
-                    "above_bottom": 64
-                  },
-                  "type": "minecraft:trapezoid"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "vextrove:stone_type/nether/red_nether_bricks",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 64
     },
-    "decorator": {
-      "config": {
-        "count": 64
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "above_bottom": -56
+        },
+        "min_inclusive": {
+          "above_bottom": 64
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

@@ -5,7 +5,6 @@
     "#minecraft:dirt",
     "#minecraft:nylium",
     "#minecraft:wart_blocks",
-    "minecraft:soul_sand",
-    "minecraft:soul_soil"
+    "#minecraft:sand"
   ]
 }

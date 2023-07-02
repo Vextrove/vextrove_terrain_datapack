@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type\nether\basalt",
+  "feature": "vextrove:stone_type/nether/basalt",
   "placement": [
     {
       "type": "minecraft:count",

@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type\granite",
+  "feature": "vextrove:stone_type/granite",
   "placement": [
     {
       "type": "minecraft:count",

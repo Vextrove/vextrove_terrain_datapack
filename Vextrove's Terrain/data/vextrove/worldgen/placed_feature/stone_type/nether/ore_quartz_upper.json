@@ -15,6 +15,9 @@
             }
           },
           "type": "minecraft:decorated"
+  "feature": "vextrove:stone_type/nether/ore_quartz_upper",
+  "placement": [
+    {
         },
         "decorator": {
           "config": {},

@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type\prismarine",
+  "feature": "vextrove:stone_type/prismarine",
   "placement": [
     {
       "type": "minecraft:count",

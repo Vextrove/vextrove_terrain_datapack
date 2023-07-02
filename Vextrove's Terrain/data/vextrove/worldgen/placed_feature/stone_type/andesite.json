@@ -1,5 +1,5 @@
 {
-  "feature": "vextrove:stone_type\andesite",
+  "feature": "vextrove:stone_type/andesite",
   "placement": [
     {
       "type": "minecraft:count",

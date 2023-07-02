@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:dripstone_replaceable_blocks"
+          "Name": "minecraft:dripstone"
         },
         "target": {
-          "block": "minecraft:dripstone_block",
+          "tag": "minecraft:dripstone_replaceable_blocks",
           "predicate_type": "minecraft:tag_match"
         }
       }

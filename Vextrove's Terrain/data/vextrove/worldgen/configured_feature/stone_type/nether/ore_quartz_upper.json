@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:netherrack"
+          "Name": "minecraft:nether_quartz_ore"
         },
         "target": {
-          "block": "minecraft:nether_quartz_ore",
+          "block": "minecraft:netherrack",
           "predicate_type": "minecraft:block_match"
         }
       }

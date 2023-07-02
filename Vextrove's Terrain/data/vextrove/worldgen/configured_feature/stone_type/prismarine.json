@@ -6,18 +6,19 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:stone_ore_replaceables"
+          "Name": "minecraft:prismarine"
         },
         "target": {
-          "block": "minecraft:prismarine",
+          "tag": "minecraft:stone_ore_replaceables",
           "predicate_type": "minecraft:tag_match"
-        },
-        {
+        }
+      },
+      {
         "state": {
-          "Name": "minecraft:deepslate_ore_replaceables"
+          "Name": "minecraft:dark_prismarine"
         },
         "target": {
-          "block": "minecraft:dark_prismarine",
+          "tag": "minecraft:deepslate_ore_replaceables",
           "predicate_type": "minecraft:tag_match"
         }
       }

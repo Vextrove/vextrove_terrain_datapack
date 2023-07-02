@@ -6,19 +6,19 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:water"
+          "Name": "minecraft:ice"
         },
         "target": {
-          "block": "minecraft:ice",
+          "block": "minecraft:water",
           "predicate_type": "minecraft:block_match"
         }
       },
       {
         "state": {
-          "Name": "minecraft:packed_ice"
+          "Name": "minecraft:blue_ice"
         },
         "target": {
-          "block": "minecraft:blue_ice",
+          "block": "minecraft:packed_ice",
           "predicate_type": "minecraft:block_match"
         }
       }

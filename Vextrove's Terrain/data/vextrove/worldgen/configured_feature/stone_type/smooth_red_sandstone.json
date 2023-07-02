@@ -6,28 +6,28 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:base_stone_overworld"
+          "Name": "minecraft:smooth_red_sandstone"
         },
         "target": {
-          "block": "minecraft:smooth_red_sandstone",
+          "tag": "minecraft:base_stone_overworld",
           "predicate_type": "minecraft:tag_match"
         }
       },
       {
         "state": {
-          "Name": "minecraft:sand"
+          "Name": "minecraft:red_sand"
         },
         "target": {
-          "block": "minecraft:red_sand",
+          "block": "minecraft:sand",
           "predicate_type": "minecraft:block_match"
         }
       },
       {
         "state": {
-          "Name": "minecraft:gravel"
+          "Name": "minecraft:red_sand"
         },
         "target": {
-          "block": "minecraft:red_sand",
+          "block": "minecraft:gravel",
           "predicate_type": "minecraft:block_match"
         }
       }

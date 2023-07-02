@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:base_stone_nether"
+          "Name": "minecraft:magma_block"
         },
         "target": {
-          "block": "minecraft:magma_block",
+          "tag": "minecraft:base_stone_nether",
           "predicate_type": "minecraft:tag_match"
         }
       }

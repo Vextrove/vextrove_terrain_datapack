@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:soul_sand"
+          "Name": "minecraft:soul_soil"
         },
         "target": {
-          "block": "minecraft:soul_soil",
+          "block": "minecraft:soul_sand",
           "predicate_type": "minecraft:block_match"
         }
       }

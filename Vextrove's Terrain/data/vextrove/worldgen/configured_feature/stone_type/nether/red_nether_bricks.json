@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:nether_bricks"
+          "Name": "minecraft:red_nether_bricks"
         },
         "target": {
-          "block": "minecraft:red_nether_bricks",
+          "block": "minecraft:nether_bricks",
           "predicate_type": "minecraft:block_match"
         }
       }

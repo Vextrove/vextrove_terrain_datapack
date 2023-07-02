@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:base_stone_overworld"
+          "Name": "minecraft:blackstone"
         },
         "target": {
-          "block": "minecraft:blackstone",
+          "tag": "minecraft:base_stone_overworld",
           "predicate_type": "minecraft:tag_match"
         }
       }

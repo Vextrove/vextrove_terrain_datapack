@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:deepslate_ore_replaceables"
+          "Name": "minecraft:magma_block"
         },
         "target": {
-          "block": "minecraft:magma_block",
+          "tag": "minecraft:deepslate_ore_replaceables",
           "predicate_type": "minecraft:tag_match"
         }
       }

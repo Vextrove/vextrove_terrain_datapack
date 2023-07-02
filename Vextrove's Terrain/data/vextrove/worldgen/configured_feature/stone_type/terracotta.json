@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "minecraft:stone"
+          "Name": "minecraft:terracotta"
         },
         "target": {
-          "block": "minecraft:terracotta",
+          "block": "minecraft:stone",
           "predicate_type": "minecraft:block_match"
         }
       }

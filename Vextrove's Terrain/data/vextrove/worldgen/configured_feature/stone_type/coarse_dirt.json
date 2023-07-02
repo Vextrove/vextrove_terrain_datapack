@@ -6,10 +6,10 @@
     "targets": [
       {
         "state": {
-          "Name": "vextrove:dirt_replaceable"
+          "Name": "minecraft:coarse_dirt"
         },
         "target": {
-          "block": "minecraft:coarse_dirt",
+          "tag": "vextrove:dirt_replaceable",
           "predicate_type": "minecraft:tag_match"
         }
       }

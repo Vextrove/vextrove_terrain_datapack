@@ -1,75 +1,27 @@
 {
-  "config": {
-    "feature": {
-      "config": {
-        "feature": {
-          "config": {
-            "feature": {
-              "config": {
-                "targets": [
-                  {
-                    "target": {
-                      "block": "minecraft:cobblestone",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:mossy_cobblestone"
-                    }
-                  },
-                  {
-                    "target": {
-                      "block": "minecraft:stone_bricks",
-                      "predicate_type": "minecraft:block_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:mossy_stone_bricks"
-                    }
-                  },
-                  {
-                    "target": {
-                      "tag": "minecraft:carpets",
-                      "predicate_type": "minecraft:tag_match"
-                    },
-                    "state": {
-                      "Name": "minecraft:moss_carpet"
-                    }
-                  }
-                ],
-                "size": 64,
-                "discard_chance_on_air_exposure": 0.66
-              },
-              "type": "minecraft:ore"
-            },
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "above_bottom": 16
-                  },
-                  "max_inclusive": {
-                    "absolute": 60
-                  },
-                  "type": "minecraft:uniform"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "vextrove:modifier/mossify",
+  "placement": [
+    {
+      "type": "minecraft:count",
     },
-    "decorator": {
-      "config": {
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "absolute": 60
+        },
+        "min_inclusive": {
+          "above_bottom": 16
+        }
+      }
+    },
         "count": 127
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

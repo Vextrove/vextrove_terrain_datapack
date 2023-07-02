@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 64,
+    "targets": [
+      {
+        "target": {
+          "tag": "minecraft:planks",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:warped_planks"
+        }
+      },
+      {
+        "target": {
+          "tag": "minecraft:logs",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:warped_log",
+          "Properties": {
+            "axis": "y"
+          }
+        }
+      },
+      {
+        "target": {
+          "tag": "minecraft:wooden_fences",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:warped_fence",
+          "Properties": {
+            "north": "false",
+            "east": "false",
+            "south": "false",
+            "west": "false",
+            "waterlogged": "false"
+          }
+        }
+      }
+    ]
+  }
+}

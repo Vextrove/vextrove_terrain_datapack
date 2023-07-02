@@ -37,7 +37,7 @@
     [
       "vextrove:modifier/stone/calcite",
       "vextrove:modifier/stone/dripstone",
-      "vextrove:stone_type/sand",
+      "vextrove:modifier/stone/sand",
       "vextrove:modifier/stone/gravel",
       "vextrove:modifier/stone/tuff",
       "vextrove:modifier/stone/deepslate",

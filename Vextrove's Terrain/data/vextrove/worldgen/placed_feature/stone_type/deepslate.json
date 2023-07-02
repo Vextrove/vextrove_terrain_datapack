@@ -1,34 +1,27 @@
 {
-            "decorator": {
-              "config": {
-                "height": {
-                  "min_inclusive": {
-                    "absolute": -8
-                  },
-                  "max_inclusive": {
-                    "absolute": 12
-                  },
-                  "type": "minecraft:trapezoid"
-                }
-              },
-              "type": "minecraft:range"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {},
-          "type": "minecraft:square"
-        }
-      },
-      "type": "minecraft:decorated"
+  "feature": "vextrove:stone_type/deepslate",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 3
     },
-    "decorator": {
-      "config": {
-        "count": 3
-      },
-      "type": "minecraft:count"
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:trapezoid",
+        "max_inclusive": {
+          "below_top": 12
+        },
+        "min_inclusive": {
+          "absolute": -8
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
     }
-  },
-  "type": "minecraft:decorated"
+  ]
 }

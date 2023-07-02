@@ -27,6 +27,18 @@
     "misc": [],
     "monster": [
       {
+        "type": "minecraft:phantom",
+        "weight": 15,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:shulker",
+        "weight": 7,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 4,

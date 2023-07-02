@@ -1,7 +1,6 @@
 {
                     "above_bottom": 0
                     "above_bottom": 48
-                  "type": "minecraft:trapezoid"
   "feature": "vextrove:stone_type/nether/charred_netherrack",
   "placement": [
     {
@@ -11,7 +10,7 @@
     {
       "type": "minecraft:height_range",
       "height": {
-        "type": "minecraft:uniform",
+        "type": "minecraft:trapezoid",
         "max_inclusive": {
         },
         "min_inclusive": {

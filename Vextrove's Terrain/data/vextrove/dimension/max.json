@@ -2,7 +2,7 @@
   "type": "vextrove:max",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "vextrove:max",
+    "settings": "minecraft:overworld",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "preset": "minecraft:overworld"

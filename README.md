@@ -139,14 +139,6 @@ A basic imitation of the classic Aether mod. Ranges from 0 to 128
 A 1024 block tall floating islands world. Ranges from -256 to 768
 ### Caverns
 A 512 block tall cave world. Ranges from -128 to 384
-### Dripstone Caverns
-![A colossal dripstone](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/giant_dripstone.png "A colossal dripstone")
-![A stalagmite that has fallen over](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/fallen_stalagmite.png "A stalagmite that has fallen over")
-![A dripstone cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/dripstone_cavern.png "A dripstone cavern")
-A 256 block tall dripstone cave world. Ranges from -192 to 64
-### Lush Caverns
-![A lush cavern](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/lush_cavern.png "A lush cavern")
-A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
  - Fix dimensions
@@ -227,10 +219,11 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Axe: Sideways chopping motion
  - Hoe: Tilling motion
  - Sword: Slashing motion
-###### Attacks require different animations (their current one would suffice but isn't ideal)
 #### ★★★☆☆ Different mining cracking patterns depending on what block is being broken and/or what tool is being used
  - Logs + Axe: cutting pattern
  - It does not make sense for some blocks to appear to break like they currently do
+###### Different animations for different weapons
+ - Their current one is good enough, but it would be nice if different weapons had different animations
 
 #### Hoes:
 ##### ★★★★☆ Hoes take time to till soil

@@ -293,7 +293,7 @@
             "argument": {
               "type": "minecraft:range_choice",
               "input": "minecraft:y",
-              "min_inclusive": -60,
+              "min_inclusive": -316,
               "max_exclusive": 51,
               "when_in_range": {
                 "type": "minecraft:noise",

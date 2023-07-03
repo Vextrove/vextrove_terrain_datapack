@@ -189,7 +189,8 @@ Roughly ordered from best to worst, based on how good the concept is and how muc
 Some of the worse ideas are higher up in the list than they should be, due to being grouped together with other ideas
 These ideas are here so they may inspire me when adding features to this datapack.
 
-### [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
+### Chainstone
+ - [Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
  - Great steampunk vibes!
 ### Ignore tall grass when attacking entities
 ### An option to disable the warning when generating a world with custom settings
@@ -197,11 +198,12 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### Water on top of lava forms tuff rather than Cobblestone
 ### Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
  - This will make it so that clouds will not go through solid terrain
-### Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
+### Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle)
+ - [Suggested by ilmango](https://www.youtube.com/c/ilmango)/SciCraft
 ### Lava can create source blocks in the Nether
  - Renewable Lava
 ### Skin customization depending on environment
-	e.g. miner outfit when under y: 0, diver outfit when submerged in water, warm outfit in cold biomes
+ - e.g. miner outfit when under y: 0, diver outfit when submerged in water, warm outfit in cold biomes
 
 ### Inventory:
 #### Increase amount of inventory slots

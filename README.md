@@ -193,13 +193,15 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Great steampunk vibes!
 ### ★★★★★ Ignore tall grass when attacking entities
 ### ★★★★★ An option to disable the warning when generating a world with custom settings
-### ★★★★☆ Ghast charging fireball animation (Fix MC-165038)
+### ★★★★★ Ghast charging fireball animation (Fix MC-165038)
 ### ★★★★☆ Water on top of lava forms tuff rather than Cobblestone
 ### ★★★★☆ Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
  - This will make it so that clouds will not go through solid terrain
 ### ★★★★☆ Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
 ### ★★★★☆ Lava can create source blocks in the Nether
  - Renewable Lava
+### ★★★★★ Skin customization depending on environment
+	e.g. miner outfit when under y: 0, diver outfit when submerged in water, warm outfit in cold biomes
 
 ### Inventory:
 #### ★★★★☆ Increase amount of inventory slots
@@ -208,8 +210,8 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### ★★★☆☆ Enable datapacks to add custom blocks
 ### ★★☆☆☆ Lava "melts" blocks it comes in contact with (like concrete powder)
  - Cobblestone -> Stone
- - Sand -> Sandstone
- - Red Sand -> Red Sandstone
+ - Sand -> Sandstone/Glass
+ - Red Sand -> Red Sandstone/Glass
 
 ### Tools:
 #### Tool animations:
@@ -246,25 +248,25 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Renewable Lava
 
 ### Decorative blocks:
-#### ★★★★★ Frosted glass
+#### Frosted glass
  - The opposite of tinted glass; an opaque block that lets through light.
  - Crafted by resmelting glass blocks
  - Could come in all 16 usual colors
-#### ★★★★★ Elder Prismarine
- - Prismarine with the Elder Guardian color palette
- - Can be crafted into Elder Prismarine Bricks
-#### ★★★★★ Dark Prismarine Wall
-#### ★★★★☆ Soul Sandstone?
- - Various Soul Sandstone Brick blocks
-#### ★★★☆☆ Red Nether Bricks:
+#### Elder Prismarine
+ - Prismarine with the Elder Guardian color palette\
+#### Dark Prismarine Wall
+#### Soul Sandstone
+ - Soul Sandstone Brick blocks
+#### Red Nether Bricks:
+ - Red Nether Bricks has some missing blocks
 ##### Red Nether Brick Fence
 ##### Cracked Red Nether Bricks
 ##### Chiseled Red Nether Bricks
-### ★★☆☆☆ Fence Post
- - A fence type that doesn't connect to surrounding blocks
-### ★☆☆☆☆ Wall Post
- - A wall type that doesn't connect to surrounding blocks
-### ★☆☆☆☆ Dual-type slabs??
+#### Cloud block
+ - Transparent cloud-like block for building
+#### Fence/Wall Post
+ - A wall/fence that doesn't connect to surrounding blocks
+#### Dual-type slabs
 
 ### Minecarts:
 #### ★★★★☆ Rails don't need a supporting block
@@ -275,31 +277,39 @@ These ideas are here so they may inspire me when adding features to this datapac
 #### ★★★☆☆ Increase Furnace Minecart tensile strength
  - Currently Minecarts split up when making a turn
 
-### Biomes:
-#### ★★★☆☆ Altitude-dependent biome generation
- - Different biomes generate at different heights
- - It appears this will be implemented in 1.18 with the new mountains, and hopefully the upcoming cave biomes as well
- 
+### Terrain generation: 
+ - Suggestions for Terrain generation
 #### Caves:
+ - Suggestions for caves
 ##### ★★★★★ Local stone types
- - ★★★★☆ [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png)
- - ★★★★☆ [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
- - ★★★★☆ [Terracotta caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/terracotta_cave.png)
- - ★★☆☆☆ Marble caves
- 
-##### Slimes:
- - ★★★★★ Slimes should occasionally spawn underground, especially in Lush Caves (not just in Slime chunks)
- - ★★★★★ Slime size should either scale linearly or exponentially, not logarithmically like they currently do
- - ★★★★☆ Slimes should have an RGB data value either scale linearly or exponentially, not logarithmically like they currently do
- - ★★★☆☆ Slimes should rarely spawn at bigger sizes
-###### Overhaul Slime chunks
- - Needs a visual cue, perhaps remove Slime chunks and replace them with a slimy cave biome
-
+ - ★★★★★ [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png)
+ - ★★★★★ [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
+ - ★★★★★ [Badlands caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mesa_cave.png)
+ - ★★★★☆ Andesite/Diorite/Granite caves
+ - ★★★☆☆ Marble caves
+ - ★★★☆☆ Limestone caves 
+##### ★★★☆☆ Overhaul Slime chunks
+ - Needs a visual cue
+ - Perhaps remove Slime chunks and replace them with a slime cave biome
+#### Autumn biome
+ - Orange leaves for autumn builds
+#### Pink grass biome
+ - Could be in a sky dimension
 #### ★★★☆☆ Dynamic biomes
  - e.g. plant a lot of Jungle trees to create artificial Jungle biome, snow to create a cold biome, etc.
  - Special variations depending on the dimension the biome is in, e.g Hot Jungle Biome (Red foliage? Special mobs?)
+#### The End:
+##### ★★★☆☆ Purpur wood
+ - [Purple](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Nether_Portal_%28EW%29_BE.gif) wood
+##### ★★☆☆☆ Ender wood
+ - [Teal](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Ender_Pearl_JE3_BE2.png) wood
+ - Color might be too similar to Warped Planks. But then again, we have Crimson and Mangrove, Spruce and Oak, Jungle and Acacia
+##### ★★☆☆☆ Chorus moss block
+ -  Like Grass blocks, but the moss grows on the bottom face of Endstone instead of on the top
+ -  Let's call it Chorus/Ender/Purpur Moss, just to differentiate it from grass
 
 ### Functional blocks:
+ - Suggestions for blocks with special functionality
 #### ★★☆☆☆ Moving platform block
  - Moves horizontally or vertically
  - Entities can stand on them without falling off
@@ -310,6 +320,16 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Have to be synced up with each other
 #### ★☆☆☆☆ Speaker block
  - Plays sounds
+
+### Entities
+#### Slimes:
+ - ★★★★★ Slime size should scale linearly, not logarithmically
+ - ★★★★★ Slimes should have an RGB data value
+ - ★★★★☆ Slimes should occasionally spawn underground, especially in Lush Caves (not just in Slime chunks)
+ - ★★★★☆ Slime in a Bucket (catch small slimes)
+ - ★★★☆☆ Slimes should rarely spawn at a bigger size
+#### Brown Mooshrooms
+ - Should spawn naturally
 
 ### Sound:
 #### ★★★★☆ Make block sounds .json dependent
@@ -328,13 +348,6 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Wind high up in the mountains and perhaps in deserts
  - Shore wave sounds coming from the direction of ocean biomes in beach biomes
  
-### The End:
-#### ★★☆☆☆ Chorus moss block
- - ★★★★☆ Like Grass blocks, but the moss grows on the bottom face of Endstone instead of on the top
- - ★★★☆☆ Let's call it Chorus/Ender/Purpur Moss, just to differentiate it from grass
-#### "Wood" types
- - ★★☆☆☆ Purpur "wood" type [(Purple)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Nether_Portal_%28EW%29_BE.gif)
- - ★★☆☆☆ Ender "wood" type [(Teal)](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Ender_Pearl_JE3_BE2.png)
 
 ### ★★☆☆☆ Mob texture variations (should be distinguishable and recognizable, like red and brown Mooshrooms, but not like horses)
  - Black and white cows
@@ -350,24 +363,5 @@ These ideas are here so they may inspire me when adding features to this datapac
  - ★★★☆☆ Could possibly affect mobs spawns, like how moon phases affect Slime spawns in Swamps
  - ★★★☆☆ Orange Autumn trees
  - ★☆☆☆☆ Unknown how this should interplay with biomes, e.g. snowy biomes
-
-## Implemented ideas
-These ideas were previously listed above, and have been implemented into the game!
-
-### ★★★★★ Directional damage (Fix MC-26678)
- - Was finally fixed after years
-### ★★★★★ More configurability for mob spawning in biomes
- - Minimum light level should be configurable, as well as for which blocks mobs can spawn on (or in)
-### ★★★★★ Let the size_horizontal parameter in noise_settings affect the biome noise map, so the terrain and biomes match up properly instead of getting out of sync
- - This is now possible
-### ★★★★★ An option to disable the warning when generating a world with custom settings
-
-#### ★★★☆☆ [Cherry blossoms](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
- - Pink planks
- - Pink leaves
-
-### Biomes:
-#### ★★★☆☆ Altitude-dependent biome generation
- - Different biomes generate at different heights
 
 ![A Mongus](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mongus.png "A Mongus")

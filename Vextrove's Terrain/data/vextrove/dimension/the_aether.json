@@ -1,9 +1,10 @@
 {
   "type": "vextrove:the_aether",
   "generator": {
+    "type": "minecraft:noise",
+    "settings": "vextrove:the_aether",
     "biome_source": {
       "type": "minecraft:multi_noise",
-      "seed": 0,
       "altitude_noise": {
         "firstOctave": -7,
         "amplitudes": [
@@ -85,8 +86,7 @@
         }
       ]
     },
-    "seed": 0,
-    "settings": "vextrove:the_aether",
-    "type": "minecraft:noise"
+      "preset": "aether:aether"
+    }
   }
 }

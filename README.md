@@ -149,23 +149,29 @@ A 256 block tall dripstone cave world. Ranges from -192 to 64
 A 256 block tall lush cave world. Ranges from -192 to 64
 
 ## To-do List
+ - Fix dimensions
+ - Update density functions
+ - Update images
+ - Update underground foliage
+ - Add back skylands and aether
+ - Ensure everything looks as it did previously
+
  - Underground Snow in icy biomes
  - Optimize stone type generation
  - Look into generating different biomes at different vertical levels in the Nether
- - Get Soulsand Valley to generate Skeleton skulls on the floor again
+ - Get Soulsand Valley to generate Skeleton skulls
  - Generate large quartz crystals in the highest part of the Nether Wastes
- - Get Chorus Trees to generate underneath overhangs again
+ - Get Chorus Trees to generate underneath overhangs
  - Investigate Coral
- - Investigate density_factor and density_offset
  - Figure out why Swamps are generating so damn many small Brown Mushrooms
+ - Figure out why Mushroom Fields don't generate small red mushrooms
  - Generate Shroomlight on the underground Mushroom Island ceiling
  - Underground Lilypads in Swamp
  - Look into increasing variation in tree height
- - Get Beta terrain working as intended
- - Learn more about structures/custom structures so I can use them to do more things
-### Website
- - Customize discussions page
-### On hold until new customization options become available
+ - Get Beta terrain dimension
+ - Learn about custom structures
+
+### Reconsider
  - Raise cloud height in the 1024 and 4064 block tall world types - Cloud height is hard-coded (last checked 21w20a)
  - Get structures to generate above y: 128 (particularly in the Nether) - Structures are hard-coded to generate at specific ranges of y levels (last checked 21w20a) 
  - Get [Brown Mooshrooms](https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Brown_Mooshroom_JE2.png) to spawn naturally on Mushroom Islands - Can't configure mob spawns with specific data values (last checked 21w20a)
@@ -181,20 +187,18 @@ Please let me know if any of this has changed!
 
 ## Resource pack/Datapack recommendations
  - [Lime's Advancements datapack](https://github.com/slicedlime/LimesAdvancements)
+This datapack adds many new achievements to the game! It was created by a Mojangster
  - [myuusubi's FabulousHDR resource pack](https://www.curseforge.com/minecraft/texture-packs/fabulous-hdr)
+This resource pack adds a HDR shader that increases the dynamic range of the visuals of the game. This really makes the visuals 'pop'. Recommended with the 'Brightness' setting set to 'Moody'
 
 ## Minecraft ideas
 This is my personal list of ideas of things to add to Minecraft. Most of these are my own, however a couple of them came from other people.
-Roughly ordered from best to worst, based on how good the concept is and how much I like it, divided by how difficult I think it would be to implement. That being said, I am not a programmer...
+Roughly ordered from best to worst, based on how good the concept is and how much I like it, divided by how difficult I expect it would be to implement.
 Some of the worse ideas are higher up in the list than they should be, due to being grouped together with other ideas
 These ideas are here so they may inspire me when adding features to this datapack.
 
-### ★★★★★ Directional damage (Fix MC-26678)
 ### ★★★★★ [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
  - Great steampunk vibes!
-### ★★★★★ More configurability for mob spawning in biomes
-### ★★★★★ Let the size_horizontal parameter in noise_settings affect the biome noise map, so the terrain and biomes match up properly instead of getting out of sync
- - Minimum light level should be configurable, as well as for which blocks mobs can spawn on (or in)
 ### ★★★★★ Ignore tall grass when attacking entities
 ### ★★★★★ An option to disable the warning when generating a world with custom settings
 ### ★★★★☆ Ghast charging fireball animation (Fix MC-165038)
@@ -202,6 +206,8 @@ These ideas are here so they may inspire me when adding features to this datapac
 ### ★★★★☆ Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
  - This will make it so that clouds will not go through solid terrain
 ### ★★★★☆ Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
+### ★★★★☆ Lava can create source blocks in the Nether
+ - Renewable Lava
 
 ### Inventory:
 #### ★★★★☆ Increase amount of inventory slots
@@ -242,16 +248,15 @@ These ideas are here so they may inspire me when adding features to this datapac
  - With enchantments, it can hit more than one target without falling
  - Fits with Minecraft's "medieval" aesthetic
 #### ★☆☆☆☆ Infinity on water/lava buckets - Suggested by unknown
- - Great for building :)
- - Great for grieving >:)
- - Creative mode already has it - in survival mode, you just have to tediously replenish from your 2x2 infinite water source
+ - Great for building
+ - Great for grieving
  - Renewable Lava
 
 ### Decorative blocks:
 #### ★★★★★ Frosted glass
  - The opposite of tinted glass; an opaque block that lets through light.
  - Crafted by resmelting glass blocks
- - Comes in "all 16 colors"
+ - Could come in all 16 usual colors
 #### ★★★★★ Elder Prismarine
  - Prismarine with the Elder Guardian color palette
  - Can be crafted into Elder Prismarine Bricks
@@ -262,10 +267,6 @@ These ideas are here so they may inspire me when adding features to this datapac
 ##### Red Nether Brick Fence
 ##### Cracked Red Nether Bricks
 ##### Chiseled Red Nether Bricks
-#### ★★★☆☆ [Cherry blossoms](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
- - Pink planks
- - Pink leaves
- - Dark grayish brown logs
 ### ★★☆☆☆ Fence Post
  - A fence type that doesn't connect to surrounding blocks
 ### ★☆☆☆☆ Wall Post
@@ -319,7 +320,6 @@ These ideas are here so they may inspire me when adding features to this datapac
 
 ### Sound:
 #### ★★★★☆ Make block sounds .json dependent
- - Could possibly run on a seperate thread? Supposedly Minecraft only employs one CPU core while most devices have at least two
 #### ★★★★☆ Sound filtering
  - Underwater - and even more so "underlava" - higher frequencies are filtered out, muffling the sound
 #### ★★★☆☆ Echo sound filter
@@ -357,5 +357,24 @@ These ideas are here so they may inspire me when adding features to this datapac
  - ★★★☆☆ Could possibly affect mobs spawns, like how moon phases affect Slime spawns in Swamps
  - ★★★☆☆ Orange Autumn trees
  - ★☆☆☆☆ Unknown how this should interplay with biomes, e.g. snowy biomes
+
+## Implemented ideas
+These ideas were previously listed above, and have been implemented into the game!
+
+### ★★★★★ Directional damage (Fix MC-26678)
+ - Was finally fixed after years
+### ★★★★★ More configurability for mob spawning in biomes
+ - Minimum light level should be configurable, as well as for which blocks mobs can spawn on (or in)
+### ★★★★★ Let the size_horizontal parameter in noise_settings affect the biome noise map, so the terrain and biomes match up properly instead of getting out of sync
+ - This is now possible
+### ★★★★★ An option to disable the warning when generating a world with custom settings
+
+#### ★★★☆☆ [Cherry blossoms](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Kenrokuen-kumagai1.jpg/1024px-Kenrokuen-kumagai1.jpg)
+ - Pink planks
+ - Pink leaves
+
+### Biomes:
+#### ★★★☆☆ Altitude-dependent biome generation
+ - Different biomes generate at different heights
 
 ![A Mongus](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mongus.png "A Mongus")

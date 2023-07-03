@@ -1,0 +1,11 @@
+{
+  "type": "vextrove:colossal",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "vextrove:colossal",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    }
+  }
+}

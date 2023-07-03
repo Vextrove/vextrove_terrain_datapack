@@ -9,7 +9,7 @@
         "type": "minecraft:mul",
         "argument1": {
           "type": "minecraft:add",
-          "argument1": "minecraft:overworld_amplified/depth",
+          "argument1": "vextrove:colossal/overworld_amplified/depth",
           "argument2": {
             "type": "minecraft:mul",
             "argument1": "minecraft:overworld_amplified/jaggedness",

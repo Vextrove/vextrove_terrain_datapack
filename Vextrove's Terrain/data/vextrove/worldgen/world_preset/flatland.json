@@ -3,7 +3,12 @@
     "minecraft:overworld": {
       "type": "minecraft:overworld",
       "generator": {
-        "type": "minecraft:multi_noise",
+        "type": "minecraft:noise",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:overworld"
+        },
+        "settings": "vextrove:flat/overworld"
       }
     },
     "minecraft:the_end": {
@@ -13,7 +18,7 @@
         "biome_source": {
           "type": "minecraft:the_end"
         },
-        "settings": "minecraft:end"
+        "settings": "vextrove:flat/end"
       }
     },
     "minecraft:the_nether": {
@@ -24,7 +29,7 @@
           "type": "minecraft:multi_noise",
           "preset": "minecraft:nether"
         },
-        "settings": "minecraft:nether"
+        "settings": "vextrove:flat/nether"
       }
     }
   }

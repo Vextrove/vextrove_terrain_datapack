@@ -15,8 +15,8 @@
       },
       {
         "target": {
-          "tag": "minecraft:logs",
-          "predicate_type": "minecraft:tag_match"
+          "block": "minecraft:oak_log",
+          "predicate_type": "minecraft:block_match"
         },
         "state": {
           "Name": "minecraft:polished_basalt",

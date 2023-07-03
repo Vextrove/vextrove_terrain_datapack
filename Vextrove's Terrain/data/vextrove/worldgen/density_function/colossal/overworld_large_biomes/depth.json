@@ -3,9 +3,9 @@
   "argument1": {
     "type": "minecraft:y_clamped_gradient",
     "from_value": 1.5,
-    "from_y": -64,
+    "from_y": -320,
     "to_value": -1.5,
-    "to_y": 320
+    "to_y": 1600
   },
   "argument2": "minecraft:overworld_large_biomes/offset"
 }

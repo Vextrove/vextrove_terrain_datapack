@@ -1,7 +1,5 @@
 {
-  "noodle_caves_enabled": true,
   "aquifers_enabled": false,
-  "noise_caves_enabled": true,
   "default_block": {
     "Name": "minecraft:netherrack"
   },
@@ -28,9 +26,9 @@
           "sequence": [
             {
               "if_true": {
-                "add_run_depth": true,
-                "surface_type": "ceiling",
-                "type": "minecraft:stone_depth"
+                "type": "minecraft:stone_depth",
+                "add_surface_depth": true,
+                "surface_type": "ceiling"
               },
               "then_run": {
                 "result_state": {

@@ -295,52 +295,52 @@
   },
   "spawn_target": [
     {
-      "temperature": [
-        -1,
-        1
-      ],
-      "humidity": [
-        -1,
-        1
-      ],
       "continentalness": [
         -0.11,
-        1
+        1.0
       ],
+      "depth": 0.0,
       "erosion": [
-        -1,
-        1
+        -1.0,
+        1.0
+      ],
+      "humidity": [
+        -1.0,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -1.0,
+        1.0
       ],
       "weirdness": [
-        -1,
+        -1.0,
         -0.16
-      ],
-      "depth": 0,
-      "offset": 0
+      ]
     },
     {
-      "temperature": [
-        -1,
-        1
-      ],
-      "humidity": [
-        -1,
-        1
-      ],
       "continentalness": [
         -0.11,
-        1
+        1.0
       ],
+      "depth": 0.0,
       "erosion": [
-        -1,
-        1
+        -1.0,
+        1.0
+      ],
+      "humidity": [
+        -1.0,
+        1.0
+      ],
+      "offset": 0.0,
+      "temperature": [
+        -1.0,
+        1.0
       ],
       "weirdness": [
         0.16,
-        1
-      ],
-      "depth": 0,
-      "offset": 0
+        1.0
+      ]
     }
   ],
   "surface_rule": {

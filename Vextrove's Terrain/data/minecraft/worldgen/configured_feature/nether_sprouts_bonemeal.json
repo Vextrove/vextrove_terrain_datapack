@@ -1,8 +1,8 @@
 {
   "type": "minecraft:nether_forest_vegetation",
   "config": {
-    "spread_height": 1,
-    "spread_width": 3,
+    "spread_height": 2,
+    "spread_width": 7,
     "state_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {

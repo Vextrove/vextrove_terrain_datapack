@@ -1,13 +1,11 @@
 {
   "type": "vextrove:beta",
   "generator": {
-    "biome_source": {
-      "seed": 0,
-      "large_biomes": false,
-      "type": "minecraft:vanilla_layered"
-    },
-    "seed": 0,
+    "type": "minecraft:noise",
     "settings": "vextrove:beta",
-    "type": "minecraft:noise"
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    }
   }
 }

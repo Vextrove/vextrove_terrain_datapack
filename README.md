@@ -189,60 +189,60 @@ Roughly ordered from best to worst, based on how good the concept is and how muc
 Some of the worse ideas are higher up in the list than they should be, due to being grouped together with other ideas
 These ideas are here so they may inspire me when adding features to this datapack.
 
-### ★★★★★ [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
+### [Chainstone - Suggested by gnembon/SciCraft](https://youtu.be/8UB0w8pbJ1Q)
  - Great steampunk vibes!
-### ★★★★★ Ignore tall grass when attacking entities
-### ★★★★★ An option to disable the warning when generating a world with custom settings
-### ★★★★★ Ghast charging fireball animation (Fix MC-165038)
-### ★★★★☆ Water on top of lava forms tuff rather than Cobblestone
-### ★★★★☆ Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
+### Ignore tall grass when attacking entities
+### An option to disable the warning when generating a world with custom settings
+### Ghast charging fireball animation (Fix MC-165038)
+### Water on top of lava forms tuff rather than Cobblestone
+### Dynamic cloud patterns (A moving random noise map, multiplied by a heightmap of the terrain)
  - This will make it so that clouds will not go through solid terrain
-### ★★★★☆ Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
-### ★★★★☆ Lava can create source blocks in the Nether
+### Stacked Dispenser crafting recipe (Bow recipe with a Dropper in the middle) - Suggested by [ilmango](https://www.youtube.com/c/ilmango)/SciCraft
+### Lava can create source blocks in the Nether
  - Renewable Lava
-### ★★★★★ Skin customization depending on environment
+### Skin customization depending on environment
 	e.g. miner outfit when under y: 0, diver outfit when submerged in water, warm outfit in cold biomes
 
 ### Inventory:
-#### ★★★★☆ Increase amount of inventory slots
+#### Increase amount of inventory slots
  - One or two additional rows would be great
-#### ★★★☆☆ Inventory sort button
-### ★★★☆☆ Enable datapacks to add custom blocks
-### ★★☆☆☆ Lava "melts" blocks it comes in contact with (like concrete powder)
+#### Inventory sort button
+### Enable datapacks to add custom blocks
+### Lava "melts" blocks it comes in contact with (like concrete powder)
  - Cobblestone -> Stone
  - Sand -> Sandstone/Glass
  - Red Sand -> Red Sandstone/Glass
 
 ### Tools:
 #### Tool animations:
-##### ★★★★★ Different animations for different tools
+##### Different animations for different tools
  - Shovel: Digging motion
  - Pickaxe: Swinging motion
  - Axe: Sideways chopping motion
  - Hoe: Tilling motion
  - Sword: Slashing motion
-#### ★★★☆☆ Different mining cracking patterns depending on what block is being broken and/or what tool is being used
+#### Different mining cracking patterns depending on what block is being broken and/or what tool is being used
  - Logs + Axe: cutting pattern
  - It does not make sense for some blocks to appear to break like they currently do
 ###### Different animations for different weapons
  - Their current one is good enough, but it would be nice if different weapons had different animations
 
 #### Hoes:
-##### ★★★★☆ Hoes take time to till soil
+##### Hoes take time to till soil
  - Higher tiers are faster, but tilling shouldn't take too long
  - Different blocks take different times to till
-##### ★★☆☆☆ Hoes break crops/tall grass/flowers in a 3x3 area
+##### Hoes break crops/tall grass/flowers in a 3x3 area
  - Range might be increased with enchantments
-##### ★★☆☆☆ Hoes only destroy fully grown crops
+##### Hoes only destroy fully grown crops
  - Like how wielding a sword in creative mode prevents you from breaking anything
  
-#### ★★★★☆ Random block picker
+#### Random block picker
  - Some builds use a palette of multiple blocks to create a textured surface - an example of this are the Nylium/Netherwart surfaces in Netherwart forests. This item would greatly help create such patterns.
-#### ★★★☆☆ Boomerang
+#### Boomerang
  - Makes a circular motion
  - With enchantments, it can hit more than one target without falling
  - Fits with Minecraft's "medieval" aesthetic
-#### ★☆☆☆☆ Infinity on water/lava buckets - Suggested by unknown
+#### Infinity on water/lava buckets - Suggested by unknown
  - Great for building
  - Great for grieving
  - Renewable Lava
@@ -269,73 +269,73 @@ These ideas are here so they may inspire me when adding features to this datapac
 #### Dual-type slabs
 
 ### Minecarts:
-#### ★★★★☆ Rails don't need a supporting block
+#### Rails don't need a supporting block
  - We would need to be able to stand on rails as well for this to be any good
-#### ★★★☆☆ Vertical rails
-#### ★★★☆☆ Vertical rails
+#### Vertical rails
+#### Vertical rails
  - A Minecart would require Powered Rails to go up
-#### ★★★☆☆ Increase Furnace Minecart tensile strength
+#### Increase Furnace Minecart tensile strength
  - Currently Minecarts split up when making a turn
 
 ### Terrain generation: 
  - Suggestions for Terrain generation
 #### Caves:
  - Suggestions for caves
-##### ★★★★★ Local stone types
- - ★★★★★ [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png)
- - ★★★★★ [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
- - ★★★★★ [Badlands caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mesa_cave.png)
- - ★★★★☆ Andesite/Diorite/Granite caves
- - ★★★☆☆ Marble caves
- - ★★★☆☆ Limestone caves 
-##### ★★★☆☆ Overhaul Slime chunks
+##### Local stone types
+ - [Frozen caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/frost_cavern.png)
+ - [Sandstone caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/desert_cave.png)
+ - [Badlands caves](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mesa_cave.png)
+ - Andesite/Diorite/Granite caves
+ - Marble caves
+ - Limestone caves 
+##### Overhaul Slime chunks
  - Needs a visual cue
  - Perhaps remove Slime chunks and replace them with a slime cave biome
 #### Autumn biome
  - Orange leaves for autumn builds
 #### Pink grass biome
  - Could be in a sky dimension
-#### ★★★☆☆ Dynamic biomes
+#### Dynamic biomes
  - e.g. plant a lot of Jungle trees to create artificial Jungle biome, snow to create a cold biome, etc.
  - Special variations depending on the dimension the biome is in, e.g Hot Jungle Biome (Red foliage? Special mobs?)
 #### The End:
-##### ★★★☆☆ Purpur wood
+##### Purpur wood
  - [Purple](https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1f/Nether_Portal_%28EW%29_BE.gif) wood
-##### ★★☆☆☆ Ender wood
+##### Ender wood
  - [Teal](https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Ender_Pearl_JE3_BE2.png) wood
  - Color might be too similar to Warped Planks. But then again, we have Crimson and Mangrove, Spruce and Oak, Jungle and Acacia
-##### ★★☆☆☆ Chorus moss block
+##### Chorus moss block
  -  Like Grass blocks, but the moss grows on the bottom face of Endstone instead of on the top
  -  Let's call it Chorus/Ender/Purpur Moss, just to differentiate it from grass
 
 ### Functional blocks:
  - Suggestions for blocks with special functionality
-#### ★★☆☆☆ Moving platform block
+#### Moving platform block
  - Moves horizontally or vertically
  - Entities can stand on them without falling off
-#### ★★☆☆☆ Eye block
+#### Eye block
  - Activates by entities looking at it
  - Looking at the center causes a stronger Redstone signal output (like the Target block)
-#### ★☆☆☆☆ Teleporters
+#### Teleporters
  - Have to be synced up with each other
-#### ★☆☆☆☆ Speaker block
+#### Speaker block
  - Plays sounds
 
 ### Entities
 #### Slimes:
- - ★★★★★ Slime size should scale linearly, not logarithmically
- - ★★★★★ Slimes should have an RGB data value
- - ★★★★☆ Slimes should occasionally spawn underground, especially in Lush Caves (not just in Slime chunks)
- - ★★★★☆ Slime in a Bucket (catch small slimes)
- - ★★★☆☆ Slimes should rarely spawn at a bigger size
+ - Slime size should scale linearly, not logarithmically
+ - Slimes should have an RGB data value
+ - Slimes should occasionally spawn underground, especially in Lush Caves (not just in Slime chunks)
+ - Slime in a Bucket (catch small slimes)
+ - Slimes should rarely spawn at a bigger size
 #### Brown Mooshrooms
  - Should spawn naturally
 
 ### Sound:
-#### ★★★★☆ Make block sounds .json dependent
-#### ★★★★☆ Sound filtering
+#### Make block sounds .json dependent
+#### Sound filtering
  - Underwater - and even more so "underlava" - higher frequencies are filtered out, muffling the sound
-#### ★★★☆☆ Echo sound filter
+#### Echo sound filter
  - Either do a rudimentary calculation of cave size, or enable when skylight level is zero and current altitude is below y: 24
  
 #### Block sounds:
@@ -343,25 +343,25 @@ These ideas are here so they may inspire me when adding features to this datapac
  - Unique sound for Cobblestone and Raw Metal blocks
  - Enchanting Table (magical sound)
  - Unique sound for Clay
-#### ★☆☆☆☆ Biome and altitude dependent ambient noises
+#### Biome and altitude dependent ambient noises
  - Birds in forests and especially jungles
  - Wind high up in the mountains and perhaps in deserts
  - Shore wave sounds coming from the direction of ocean biomes in beach biomes
  
 
-### ★★☆☆☆ Mob texture variations (should be distinguishable and recognizable, like red and brown Mooshrooms, but not like horses)
+### Mob texture variations (should be distinguishable and recognizable, like red and brown Mooshrooms, but not like horses)
  - Black and white cows
  - Fully brown cows
  - "Duck" Chickens
  
 ### Lighting:
-#### ★★★☆☆ Light emitting entities
-#### ★★☆☆☆ Colored light
+#### Light emitting entities
+#### Colored light
  - Calculate on a separate thread?
-### ★★☆☆☆ Seasons
- - ★★☆☆☆ Can be implemented by cycling through four grass/leave color palettes over time
- - ★★★☆☆ Could possibly affect mobs spawns, like how moon phases affect Slime spawns in Swamps
- - ★★★☆☆ Orange Autumn trees
- - ★☆☆☆☆ Unknown how this should interplay with biomes, e.g. snowy biomes
+### Seasons
+ - Can be implemented by cycling through four grass/leave color palettes over time
+ - Could possibly affect mobs spawns, like how moon phases affect Slime spawns in Swamps
+ - Orange Autumn trees
+ - Unknown how this should interplay with biomes, e.g. snowy biomes
 
 ![A Mongus](https://raw.githubusercontent.com/Vextrove/vextrove_terrain_datapack/main/img/mongus.png "A Mongus")

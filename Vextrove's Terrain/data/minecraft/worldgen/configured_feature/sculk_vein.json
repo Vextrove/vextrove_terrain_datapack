@@ -3,6 +3,20 @@
   "config": {
     "block": "minecraft:sculk_vein",
     "can_be_placed_on": [
+      "minecraft:stone",
+      "minecraft:smooth_basalt",
+      "minecraft:blackstone",
+      "minecraft:granite",
+      "minecraft:diorite",
+      "minecraft:andesite",
+      "minecraft:smooth_sandstone",
+      "minecraft:smooth_red_sandstone",
+      "minecraft:packed_ice",
+      "minecraft:prismarine",
+      "minecraft:dark_prismarine",
+      "minecraft:calcite",
+      "minecraft:tuff",
+      "minecraft:deepslate"
     ],
     "can_place_on_ceiling": true,
     "can_place_on_floor": true,

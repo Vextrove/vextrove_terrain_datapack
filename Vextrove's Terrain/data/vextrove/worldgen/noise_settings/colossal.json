@@ -62,10 +62,10 @@
       "shift_y": 0,
       "shift_z": "minecraft:shift_z"
     },
-    "continents": "vextrove:overworld/continents",
-    "erosion": "vextrove:overworld/erosion",
-    "depth": "vextrove:overworld/depth",
-    "ridges": "vextrove:overworld/ridges",
+    "continents": "vextrove:colossal/overworld/continents",
+    "erosion": "vextrove:colossal/overworld/erosion",
+    "depth": "vextrove:colossal/overworld/depth",
+    "ridges": "vextrove:colossal/overworld/ridges",
     "initial_density_without_jaggedness": {
       "type": "minecraft:add",
       "argument1": 0.1171875,
@@ -108,10 +108,10 @@
                         "type": "minecraft:quarter_negative",
                         "argument": {
                           "type": "minecraft:mul",
-                          "argument1": "vextrove:overworld/depth",
+                          "argument1": "vextrove:colossal/overworld/depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
-                            "argument": "vextrove:overworld/factor"
+                            "argument": "vextrove:colossal/overworld/factor"
                           }
                         }
                       }
@@ -169,16 +169,16 @@
                           "argument1": 0.078125,
                           "argument2": {
                             "type": "minecraft:range_choice",
-                            "input": "vextrove:overworld/sloped_cheese",
+                            "input": "vextrove:colossal/overworld/sloped_cheese",
                             "min_inclusive": -1000000,
                             "max_exclusive": 1.5625,
                             "when_in_range": {
                               "type": "minecraft:min",
-                              "argument1": "vextrove:overworld/sloped_cheese",
+                              "argument1": "vextrove:colossal/overworld/sloped_cheese",
                               "argument2": {
                                 "type": "minecraft:mul",
                                 "argument1": 5,
-                                "argument2": "vextrove:overworld/caves/entrances"
+                                "argument2": "vextrove:colossal/overworld/caves/entrances"
                               }
                             },
                             "when_out_of_range": {
@@ -227,7 +227,7 @@
                                           "argument2": {
                                             "type": "minecraft:mul",
                                             "argument1": -0.64,
-                                            "argument2": "vextrove:overworld/sloped_cheese"
+                                            "argument2": "vextrove:colossal/overworld/sloped_cheese"
                                           }
                                         },
                                         "min": 0,
@@ -235,21 +235,21 @@
                                       }
                                     }
                                   },
-                                  "argument2": "minecraft:overworld/caves/entrances"
+                                  "argument2": "vextrove:colossal/overworld/caves/entrances"
                                 },
                                 "argument2": {
                                   "type": "minecraft:add",
-                                  "argument1": "minecraft:overworld/caves/spaghetti_2d",
-                                  "argument2": "minecraft:overworld/caves/spaghetti_roughness_function"
+                                  "argument1": "vextrove:colossal/overworld/caves/spaghetti_2d",
+                                  "argument2": "vextrove:colossal/overworld/caves/spaghetti_roughness_function"
                                 }
                               },
                               "argument2": {
                                 "type": "minecraft:range_choice",
-                                "input": "minecraft:overworld/caves/pillars",
+                                "input": "vextrove:colossal/overworld/caves/pillars",
                                 "min_inclusive": -1000000,
                                 "max_exclusive": 0.03,
                                 "when_in_range": -1000000,
-                                "when_out_of_range": "minecraft:overworld/caves/pillars"
+                                "when_out_of_range": "vextrove:colossal/overworld/caves/pillars"
                               }
                             }
                           }
@@ -263,7 +263,7 @@
           }
         }
       },
-      "argument2": "minecraft:overworld/caves/noodle"
+      "argument2": "vextrove:colossal/overworld/caves/noodle"
     },
     "vein_toggle": {
       "type": "minecraft:interpolated",

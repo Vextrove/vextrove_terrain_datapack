@@ -227,7 +227,7 @@
                                           "argument2": {
                                             "type": "minecraft:mul",
                                             "argument1": -0.64,
-                                            "argument2": "minecraft:overworld/sloped_cheese"
+                                            "argument2": "vextrove:overworld/sloped_cheese"
                                           }
                                         },
                                         "min": 0,

@@ -2,8 +2,8 @@
   "type": "vextrove:the_skylands",
   "generator": {
     "type": "minecraft:noise",
-    "biome_source": {
     "settings": "minecraft:floating_islands",
+    "biome_source": {
       "type": "minecraft:multi_noise",
       "preset": "minecraft:overworld"
     }

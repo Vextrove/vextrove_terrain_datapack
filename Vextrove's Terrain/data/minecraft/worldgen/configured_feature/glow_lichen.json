@@ -1,63 +1,19 @@
 {
   "type": "minecraft:multiface_growth",
   "config": {
-                  },
-                  "type": "minecraft:glow_lichen"
-                },
-                "decorator": {
-                  "config": {
-                    "heightmap": "OCEAN_FLOOR_WG",
-                    "max_inclusive": -13
-                  },
-                  "type": "minecraft:surface_relative_threshold"
-                }
-              },
-              "type": "minecraft:decorated"
-            },
-            "decorator": {
-              "config": {},
-              "type": "minecraft:square"
-            }
-          },
-          "type": "minecraft:decorated"
-        },
-        "decorator": {
-          "config": {
-            "height": {
-              "min_inclusive": {
-                "above_bottom": 0
-              },
-              "max_inclusive": {
-                "absolute": 256
-              },
-              "type": "minecraft:uniform"
-            }
-          },
-          "type": "minecraft:range"
-        }
-      },
-      "type": "minecraft:decorated"
-    },
-    "decorator": {
-      "config": {
-        "count": {
-          "type": "minecraft:uniform",
-          "value": {
-            "min_inclusive": 104,
-            "max_inclusive": 157
-          }
-        }
-      },
-      "type": "minecraft:count"
-    }
-  },
     "block": "minecraft:glow_lichen",
     "can_be_placed_on": [
       "minecraft:stone",
-      "minecraft:andesite",
-      "minecraft:diorite",
+      "minecraft:smooth_basalt",
+      "minecraft:blackstone",
       "minecraft:granite",
-      "minecraft:dripstone_block",
+      "minecraft:diorite",
+      "minecraft:andesite",
+      "minecraft:smooth_sandstone",
+      "minecraft:smooth_red_sandstone",
+      "minecraft:packed_ice",
+      "minecraft:prismarine",
+      "minecraft:dark_prismarine",
       "minecraft:calcite",
       "minecraft:tuff",
       "minecraft:deepslate"

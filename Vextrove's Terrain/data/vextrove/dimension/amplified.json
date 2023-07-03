@@ -1,8 +1,8 @@
 {
-  "type": "vextrove:colossal",
+  "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "vextrove:colossal/overworld",
+    "settings": "minecraft:amplified",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "preset": "minecraft:overworld"

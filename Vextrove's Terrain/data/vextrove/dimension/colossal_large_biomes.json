@@ -2,7 +2,7 @@
   "type": "vextrove:colossal",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "vextrove:colossal/overworld",
+    "settings": "vextrove:colossal/large_biomes",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "preset": "minecraft:overworld"

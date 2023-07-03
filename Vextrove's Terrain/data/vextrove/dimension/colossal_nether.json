@@ -2,7 +2,7 @@
   "type": "vextrove:colossal_nether",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "vextrove:colossal_nether",
+    "settings": "vextrove:colossal/nether",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "preset": "minecraft:nether"

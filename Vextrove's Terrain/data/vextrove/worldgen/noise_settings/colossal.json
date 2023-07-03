@@ -62,10 +62,10 @@
       "shift_y": 0,
       "shift_z": "minecraft:shift_z"
     },
-    "continents": "minecraft:overworld/continents",
-    "erosion": "minecraft:overworld/erosion",
-    "depth": "minecraft:overworld/depth",
-    "ridges": "minecraft:overworld/ridges",
+    "continents": "vextrove:overworld/continents",
+    "erosion": "vextrove:overworld/erosion",
+    "depth": "vextrove:overworld/depth",
+    "ridges": "vextrove:overworld/ridges",
     "initial_density_without_jaggedness": {
       "type": "minecraft:add",
       "argument1": 0.1171875,
@@ -108,10 +108,10 @@
                         "type": "minecraft:quarter_negative",
                         "argument": {
                           "type": "minecraft:mul",
-                          "argument1": "minecraft:overworld/depth",
+                          "argument1": "vextrove:overworld/depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
-                            "argument": "minecraft:overworld/factor"
+                            "argument": "vextrove:overworld/factor"
                           }
                         }
                       }
@@ -169,16 +169,16 @@
                           "argument1": 0.078125,
                           "argument2": {
                             "type": "minecraft:range_choice",
-                            "input": "minecraft:overworld/sloped_cheese",
+                            "input": "vextrove:overworld/sloped_cheese",
                             "min_inclusive": -1000000,
                             "max_exclusive": 1.5625,
                             "when_in_range": {
                               "type": "minecraft:min",
-                              "argument1": "minecraft:overworld/sloped_cheese",
+                              "argument1": "vextrove:overworld/sloped_cheese",
                               "argument2": {
                                 "type": "minecraft:mul",
                                 "argument1": 5,
-                                "argument2": "minecraft:overworld/caves/entrances"
+                                "argument2": "vextrove:overworld/caves/entrances"
                               }
                             },
                             "when_out_of_range": {

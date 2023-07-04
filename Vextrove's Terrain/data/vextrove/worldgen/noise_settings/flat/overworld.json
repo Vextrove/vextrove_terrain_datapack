@@ -66,7 +66,7 @@
     "erosion": "minecraft:overworld/erosion",
     "depth": "minecraft:overworld/depth",
     "ridges": "minecraft:overworld/ridges",
-    "initial_density_without_jaggedness": {
+    "initial_density_without_jaggedness": 0.0,
     "final_density": {
       "type": "minecraft:y_clamped_gradient",
       "from_y": 63,

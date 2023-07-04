@@ -4,8 +4,7 @@
     "type": "minecraft:noise",
     "settings": "vextrove:flat/end",
     "biome_source": {
-      "type": "minecraft:multi_noise",
-      "preset": "minecraft:overworld"
+      "type": "minecraft:the_end"
     }
   }
 }

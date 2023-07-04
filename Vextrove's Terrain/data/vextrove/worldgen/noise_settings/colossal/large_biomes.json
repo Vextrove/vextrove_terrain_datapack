@@ -24,11 +24,6 @@
       "xz_scale": 1.0,
       "y_scale": 0.5
     },
-          "from_y": -320,
-          "to_y": -306,
-                "from_y": 1520,
-                "to_y": 1600,
-                  "min": -320,
     "continents": "minecraft:overworld_large_biomes/continents",
     "depth": "vextrove:colossal/overworld_large_biomes/depth",
     "erosion": "minecraft:overworld_large_biomes/erosion",
@@ -171,7 +166,6 @@
       },
       "argument2": "minecraft:overworld/caves/noodle"
     },
-        "min_inclusive": -316,
     "fluid_level_floodedness": {
       "type": "minecraft:noise",
       "noise": "minecraft:aquifer_fluid_level_floodedness",
@@ -192,7 +186,9 @@
         "argument1": {
           "type": "minecraft:y_clamped_gradient",
           "from_value": 0.0,
+          "from_y": -320,
           "to_value": 1.0,
+          "to_y": -296
         },
         "argument2": {
           "type": "minecraft:add",
@@ -205,7 +201,9 @@
               "argument1": {
                 "type": "minecraft:y_clamped_gradient",
                 "from_value": 1.0,
+                "from_y": 1520,
                 "to_value": 0.0,
+                "to_y": 1600
               },
               "argument2": {
                 "type": "minecraft:add",
@@ -232,6 +230,7 @@
                     }
                   },
                   "max": 64.0,
+                  "min": -320.0
                 }
               }
             }
